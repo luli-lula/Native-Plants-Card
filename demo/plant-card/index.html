@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plant Card — Review Template</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap');
+
+  :root {
+    --sage: #6b8f71;
+    --sage-light: #e9f0ea;
+    --cream: #f5f0e6;
+    --cream-light: #faf8f3;
+    --warm-gray: #8a8478;
+    --text: #2a2a2a;
+    --text-light: #666;
+    --border: #e0dbd0;
+    --badge-bg: #f4f1eb;
+    --card-w: 756px;
+    --card-h: 504px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #d6d1c8;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center;
+    padding: 40px 20px 60px;
+    color: var(--text);
+  }
+
+  .page-header { text-align: center; margin-bottom: 18px; }
+  .page-header h1 {
+    font-family: 'Oswald', sans-serif; font-size: 20px;
+    letter-spacing: 3px; text-transform: uppercase; color: #3d5a40;
+  }
+  .page-header p { font-size: 13px; color: var(--warm-gray); margin-top: 4px; }
+
+  .schema-notes {
+    width: min(900px, 92vw);
+    background: rgba(255,255,255,0.7);
+    border: 1px solid #e3ddd1;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin: 8px 0 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--text-light);
+  }
+  .schema-notes b { color: var(--text); }
+
+  /* ========== STAMP ========== */
+  .stamp-outer {
+    position: relative; padding: 14px; background: var(--cream);
+    -webkit-mask-image:
+      radial-gradient(circle at 7px 0, transparent 5px, black 5.5px),
+      radial-gradient(circle at 7px 100%, transparent 5px, black 5.5px),
+      radial-gradient(circle at 0 7px, transparent 5px, black 5.5px),
+      radial-gradient(circle at 100% 7px, transparent 5px, black 5.5px);
+    -webkit-mask-size: 14px 100%, 14px 100%, 100% 14px, 100% 14px;
+    -webkit-mask-position: top, bottom, left, right;
+    -webkit-mask-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    -webkit-mask-composite: source-in;
+    mask-composite: intersect;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.18), 0 2px 8px rgba(0,0,0,0.08);
+    user-select: none;
+  }
+
+  /* ========== CARD ========== */
+  .card {
+    width: var(--card-w); height: var(--card-h);
+    background: var(--cream-light);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+
+  /* ─── HEADER ─── */
+  .card-header {
+    padding: 10px 16px 8px 20px;
+    display: flex; align-items: center;
+    justify-content: space-between; gap: 10px;
+    position: relative;
+    border-bottom: 1px solid var(--border);
+  }
+  /* Solid color header */
+  .header-b { background: #3d5a40; }
+  .header-b::before { content: none; }
+
+  .header-left { display: flex; align-items: baseline; gap: 14px; }
+  .name-block { display: flex; flex-direction: column; }
+  .common-name {
+    font-family: 'Oswald', sans-serif; font-weight: 700;
+    font-size: 28px; letter-spacing: 1px; text-transform: uppercase;
+    line-height: 1.05; color: var(--text);
+  }
+  .scientific-name {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-style: italic; font-size: 12.5px;
+    margin-top: 2px; color: var(--text-light);
+  }
+  .header-b .common-name { color: #fff; }
+  .header-b .scientific-name { color: rgba(255,255,255,0.75); }
+
+  /* Header right: pollinator icons + native region */
+  .header-right {
+    display: flex; align-items: center; gap: 6px; flex-shrink: 0;
+  }
+  /* ========== ICON SYSTEM (PNG) ========== */
+  :root {
+    --icon-sm: 20px;
+    --icon-md: 24px;
+    --icon-lg: 30px;
+  }
+  .icon-img {
+    display: block;
+    width: var(--icon-md);
+    height: var(--icon-md);
+    object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;
+  }
+  .icon-img.sm { width: var(--icon-sm); height: var(--icon-sm); }
+  .icon-img.lg { width: var(--icon-lg); height: var(--icon-lg); }
+
+  .icon-slot {
+    width: 40px; height: 40px; border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.95);
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(255,255,255,0.98); /* white base for max contrast */
+    box-shadow: 0 1px 0 rgba(0,0,0,0.18);
+  }
+  /* Make top-right pollinator icons larger without affecting other icons */
+  .icon-slot .icon-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* Bottom attribute strip icons: keep transparent PNGs, make them more visible by size only */
+  .attr-strip .icon-img.lg {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Native badge: use provided PNG/JPG badge */
+  .native-badge {
+    flex-shrink: 0;
+    width: 50px; height: 50px;
+    margin-left: 4px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .native-badge img {
+    width: 50px; height: 50px;
+    object-fit: contain;
+    display: block;
+  }
+
+  /* ─── BODY ─── */
+  .card-body {
+    display: grid;
+    grid-template-columns: 42% 1fr;
+    padding: 12px 18px 12px 18px;
+    min-height: 0;
+  }
+  .photo-area {
+    border-radius: 6px;
+    overflow: hidden;
+    margin-right: 16px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    background: #fff;
+  }
+  .photo-area img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  /* Right info panel */
+  .info-panel {
+    display: flex; flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* (removed) sell-zone-label */
+
+  /* Selling points (uniform style) */
+  .badge-list { display: flex; flex-direction: column; gap: 7px; }
+  .sp-badge {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--badge-bg); border-radius: 8px;
+    padding: 9px 12px;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+  .sp-badge .sp-icon {
+    width: 32px; height: 32px; border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; flex-shrink: 0;
+  }
+  .sp-icon.nitrogen { background: #dcedc8; }
+  .sp-icon.drought  { background: #fff9c4; }
+  .sp-icon.deer     { background: #ffcdd2; }
+  .sp-icon.alert    { background: #ffe0b2; }
+
+  .sp-text { display: flex; flex-direction: column; gap: 1px; }
+  .sp-text .sp-title {
+    font-size: 13px; font-weight: 700; color: var(--text);
+    line-height: 1.15; letter-spacing: 0.2px;
+  }
+  .sp-text .sp-sub {
+    font-size: 10.5px; font-weight: 400; color: var(--text-light);
+    line-height: 1.25;
+  }
+
+  .tip-line {
+    margin-top: 6px;
+    font-size: 10.5px;
+    color: var(--text-light);
+    line-height: 1.35;
+  }
+  .tip-line b { color: var(--text); }
+
+  /* Branding row — bigger */
+  .branding-row {
+    display: flex; align-items: flex-end;
+    justify-content: flex-end; gap: 14px;
+    margin-top: auto; padding-top: 6px;
+  }
+  .qr-placeholder {
+    width: 56px; height: 56px;
+    border: 1.5px solid var(--border); border-radius: 4px;
+    background: white;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 8px; color: var(--warm-gray);
+    text-align: center; line-height: 1.2;
+  }
+  .logo-wrap {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.8);
+    border: 1px solid rgba(0,0,0,0.06);
+  }
+  .logo-img {
+    height: 54px;
+    width: auto;
+    object-fit: contain;
+    opacity: 1;
+  }
+
+  /* ─── BOTTOM STRIP — vertical icon+value ─── */
+  .attr-strip {
+    background: #f0ece4;
+    border-top: 1px solid var(--border);
+    padding: 10px 20px 12px;
+    display: flex; align-items: center;
+    justify-content: space-around;
+  }
+  .attr-item {
+    display: flex; flex-direction: column;
+    align-items: center; gap: 3px; flex: 1;
+  }
+  .attr-item .attr-icon { font-size: 20px; line-height: 1; }
+
+  /* ========== LEGEND (user-facing) ========== */
+  .legend {
+    width: min(900px, 92vw);
+    background: rgba(255,255,255,0.85);
+    border: 1px solid #e3ddd1;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-top: 24px;
+  }
+  .legend h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d5a40;
+    margin-bottom: 10px;
+  }
+  .legend-section { margin-top: 12px; }
+  .legend-section-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: var(--warm-gray);
+    margin: 10px 0 8px;
+  }
+  .legend-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px 14px;
+  }
+
+  /* Grouped legends (e.g., Sun/Water/Soil show all states) */
+  .legend-group {
+    grid-column: 1 / -1;
+    border: 1px solid rgba(61, 90, 64, 0.22);
+    background: rgba(233, 240, 234, 0.55);
+    border-radius: 12px;
+    padding: 10px;
+  }
+  .legend-group-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .legend-group-title {
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #3d5a40;
+  }
+  .legend-group-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px 14px;
+  }
+  @media (max-width: 720px) {
+    .legend-group-grid { grid-template-columns: 1fr; }
+  }
+  .legend-item {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 10px;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 10px;
+    background: #fff;
+  }
+  .legend-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    background: #faf8f3;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+  .legend-icon img {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+    display: block;
+  }
+  .legend-text { display: flex; flex-direction: column; gap: 2px; }
+  .legend-name { font-size: 13px; font-weight: 700; color: var(--text); line-height: 1.15; }
+  .legend-example { font-size: 12px; color: var(--text-light); line-height: 1.2; }
+
+  @media (max-width: 720px) {
+    .legend-grid { grid-template-columns: 1fr; }
+  }
+  .attr-item .attr-value {
+    font-size: 12px; font-weight: 500;
+    color: var(--text); text-align: center;
+    line-height: 1.25;
+  }
+  .attr-divider {
+    width: 1px; height: 36px; background: var(--border); flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Plant Card · Review Template</h1>
+  <p>4 × 6 inch · 信息结构说明 + 样例卡片（New Jersey Tea）</p>
+</div>
+
+<div class="schema-notes">
+  <div><b>Information hierarchy:</b></div>
+  <div>• <b>1 second</b>: What plant is this? (Common Name + Scientific Name)</div>
+  <div>• <b>3 seconds</b>: Can it grow here? (Sun / Water / Soil + Size + Bloom)</div>
+  <div>• <b>10 seconds</b>: Why buy it? (Selling Points + QR to learn more)</div>
+  <div style="margin-top:6px;"><b>Top-right:</b> variable pollinator icons + Native region badge (NY / Eastern US / US)</div>
+  <div style="margin-top:6px;"><b>Selling points area:</b> consistent style with “selling points + one caution/tip”</div>
+</div>
+
+<div class="stamp-outer">
+  <div class="card">
+
+    <!-- Header: 1-second layer (Solid color) -->
+    <div class="card-header header-b">
+      <div class="header-left">
+        <div class="name-block">
+          <span class="common-name">New Jersey Tea</span>
+          <span class="scientific-name">Ceanothus americanus</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <!-- Pollinator icons (variable count) -->
+        <div class="icon-slot" title="Bees">
+          <img class="icon-img" alt="Bees" src="../../icons/export/pollinator/poll_bee.png">
+        </div>
+        <div class="icon-slot" title="Butterflies">
+          <img class="icon-img" alt="Butterflies" src="../../icons/export/pollinator/poll_butterfly.png">
+        </div>
+        <div class="icon-slot" title="Hummingbirds">
+          <img class="icon-img" alt="Hummingbirds" src="../../icons/export/pollinator/poll_hummingbird.png">
+        </div>
+        <div class="icon-slot" title="Birds">
+          <img class="icon-img" alt="Birds" src="../../icons/export/pollinator/poll_bird.png">
+        </div>
+        <!-- Native region badge (provided by Lu) -->
+        <div class="native-badge" title="NY Native">
+          <img alt="NY Native" src="../../icons/export/badge/badge_native_ny.png">
+        </div>
+      </div>
+    </div>
+
+    <!-- Body: 10-second layer -->
+    <div class="card-body">
+      <div class="photo-area">
+        <img id="plantImg" alt="New Jersey Tea — Ceanothus americanus" src="newjeserytea_real.png">
+      </div>
+      <div class="info-panel">
+        <div>
+          <!-- Selling points + caution: show up to 4 items total. -->
+          <div class="badge-list">
+            <div class="sp-badge">
+              <div class="sp-icon nitrogen">
+                <img class="icon-img lg" alt="Nitrogen Fixing" src="../../icons/export/selling_point/sp_nitrogen.png">
+              </div>
+              <div class="sp-text">
+                <span class="sp-title">Nitrogen Fixing</span>
+                <span class="sp-sub">Enriches your soil naturally over time</span>
+              </div>
+            </div>
+            <div class="sp-badge">
+              <div class="sp-icon drought">
+                <img class="icon-img lg" alt="Drought Tolerant" src="../../icons/export/selling_point/sp_drought.png">
+              </div>
+              <div class="sp-text">
+                <span class="sp-title">Drought Tolerant</span>
+                <span class="sp-sub">Thrives with little water once established</span>
+              </div>
+            </div>
+            <div class="sp-badge">
+              <div class="sp-icon deer">
+                <img class="icon-img lg" alt="Deer Resistant" src="../../icons/export/selling_point/sp_deer.png">
+              </div>
+              <div class="sp-text">
+                <span class="sp-title">Deer Resistant</span>
+                <span class="sp-sub">Great for gardens without fencing</span>
+              </div>
+            </div>
+            <div class="sp-badge">
+              <div class="sp-icon alert">
+                <img class="icon-img lg" alt="Caution" src="../../icons/export/warning/warn_aggressive.png">
+              </div>
+              <div class="sp-text">
+                <span class="sp-title">Aggressive</span>
+                <span class="sp-sub">Deep roots — choose a spot carefully; hard to move later.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="branding-row">
+          <div class="qr-placeholder">QR<br>Code</div>
+          <div class="logo-wrap">
+            <img class="logo-img" alt="Wild Ones Capital Region NY" src="../../icons/export/LOGO.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom strip: 3-second layer -->
+    <div class="attr-strip">
+      <div class="attr-item">
+        <img class="icon-img lg" alt="Sun" src="../../icons/export/attribute/attr_sun_part.png">
+        <span class="attr-value">Sun – Part Shade</span>
+      </div>
+      <div class="attr-divider"></div>
+      <div class="attr-item">
+        <img class="icon-img lg" alt="Water" src="../../icons/export/attribute/attr_water_med.png">
+        <span class="attr-value">Dry – Moist</span>
+      </div>
+      <div class="attr-divider"></div>
+      <div class="attr-item">
+        <img class="icon-img lg" alt="Soil" src="../../icons/export/attribute/attr_soil_loam.png">
+        <span class="attr-value">Sandy, Loam</span>
+      </div>
+      <div class="attr-divider"></div>
+      <div class="attr-item">
+        <img class="icon-img lg" alt="Size" src="../../icons/export/attribute/attr_size.png">
+        <span class="attr-value">3ft × 3ft</span>
+      </div>
+      <div class="attr-divider"></div>
+      <div class="attr-item">
+        <img class="icon-img lg" alt="Bloom" src="../../icons/export/attribute/attr_bloom.png">
+        <span class="attr-value">White<br>Jul – Aug</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Icon legend (larger, readable) -->
+<div class="legend">
+  <h2>Icon legend</h2>
+
+  <div class="legend-section">
+    <div class="legend-section-title">Pollinators</div>
+    <div class="legend-grid">
+      <div class="legend-item"><div class="legend-icon"><img alt="Bee" src="../../icons/export/pollinator/poll_bee.png"></div><div class="legend-text"><div class="legend-name">Bee</div><div class="legend-example">Attracts bees</div></div></div>
+      <div class="legend-item"><div class="legend-icon"><img alt="Butterfly" src="../../icons/export/pollinator/poll_butterfly.png"></div><div class="legend-text"><div class="legend-name">Butterfly</div><div class="legend-example">Attracts butterflies</div></div></div>
+      <div class="legend-item"><div class="legend-icon"><img alt="Hummingbird" src="../../icons/export/pollinator/poll_hummingbird.png"></div><div class="legend-text"><div class="legend-name">Hummingbird</div><div class="legend-example">Attracts hummingbirds</div></div></div>
+      <div class="legend-item"><div class="legend-icon"><img alt="Bird" src="../../icons/export/pollinator/poll_bird.png"></div><div class="legend-text"><div class="legend-name">Bird</div><div class="legend-example">Bird-friendly</div></div></div>
+    </div>
+  </div>
+
+  <div class="legend-section">
+    <div class="legend-section-title">Native region badges</div>
+    <div class="legend-grid">
+      <div class="legend-item"><div class="legend-icon"><img alt="NY Native" src="../../icons/export/badge/badge_native_ny.png"></div><div class="legend-text"><div class="legend-name">NY Native</div><div class="legend-example">Native to New York</div></div></div>
+      <div class="legend-item"><div class="legend-icon"><img alt="Eastern US Native" src="../../icons/export/badge/badge_native_eastern.png"></div><div class="legend-text"><div class="legend-name">Eastern US Native</div><div class="legend-example">Native to Eastern US</div></div></div>
+      <div class="legend-item"><div class="legend-icon"><img alt="US Native" src="../../icons/export/badge/badge_native_us.png"></div><div class="legend-text"><div class="legend-name">US Native</div><div class="legend-example">Native to the US</div></div></div>
+    </div>
+  </div>
+
+  <div class="legend-section">
+    <div class="legend-section-title">Attributes</div>
+    <div class="legend-grid">
+
+      <div class="legend-group">
+        <div class="legend-group-head">
+          <div class="legend-group-title">Sun</div>
+        </div>
+        <div class="legend-group-grid">
+          <div class="legend-item"><div class="legend-icon"><img alt="Full Sun" src="../../icons/export/attribute/attr_sun_full.png"></div><div class="legend-text"><div class="legend-name">Full Sun</div><div class="legend-example">Sun all day</div></div></div>
+          <div class="legend-item"><div class="legend-icon"><img alt="Part Sun" src="../../icons/export/attribute/attr_sun_part.png"></div><div class="legend-text"><div class="legend-name">Part Sun</div><div class="legend-example">Some shade</div></div></div>
+          <div class="legend-item"><div class="legend-icon"><img alt="Shade" src="../../icons/export/attribute/attr_sun_shade.png"></div><div class="legend-text"><div class="legend-name">Shade</div><div class="legend-example">Low direct sun</div></div></div>
+        </div>
+      </div>
+
+      <div class="legend-group">
+        <div class="legend-group-head">
+          <div class="legend-group-title">Water</div>
+        </div>
+        <div class="legend-group-grid">
+          <div class="legend-item"><div class="legend-icon"><img alt="Low Water" src="../../icons/export/attribute/attr_water_low.png"></div><div class="legend-text"><div class="legend-name">Low</div><div class="legend-example">Dry</div></div></div>
+          <div class="legend-item"><div class="legend-icon"><img alt="Medium Water" src="../../icons/export/attribute/attr_water_med.png"></div><div class="legend-text"><div class="legend-name">Medium</div><div class="legend-example">Average</div></div></div>
+          <div class="legend-item"><div class="legend-icon"><img alt="High Water" src="../../icons/export/attribute/attr_water_high.png"></div><div class="legend-text"><div class="legend-name">High</div><div class="legend-example">Moist / Wet</div></div></div>
+        </div>
+      </div>
+
+      <div class="legend-group">
+        <div class="legend-group-head">
+          <div class="legend-group-title">Soil</div>
+        </div>
+        <div class="legend-group-grid">
+          <div class="legend-item"><div class="legend-icon"><img alt="Sandy Soil" src="../../icons/export/attribute/attr_soil_sand.png"></div><div class="legend-text"><div class="legend-name">Sand</div><div class="legend-example">Fast drainage</div></div></div>
+          <div class="legend-item"><div class="legend-icon"><img alt="Loam Soil" src="../../icons/export/attribute/attr_soil_loam.png"></div><div class="legend-text"><div class="legend-name">Loam</div><div class="legend-example">Balanced</div></div></div>
+          <div class="legend-item"><div class="legend-icon"><img alt="Clay Soil" src="../../icons/export/attribute/attr_soil_clay.png"></div><div class="legend-text"><div class="legend-name">Clay</div><div class="legend-example">Holds water</div></div></div>
+        </div>
+      </div>
+
+      <div class="legend-item"><div class="legend-icon"><img alt="Size" src="../../icons/export/attribute/attr_size.png"></div><div class="legend-text"><div class="legend-name">Size</div><div class="legend-example">Height × Width</div></div></div>
+      <div class="legend-item"><div class="legend-icon"><img alt="Bloom" src="../../icons/export/attribute/attr_bloom.png"></div><div class="legend-text"><div class="legend-name">Bloom</div><div class="legend-example">Color + months</div></div></div>
+
+    </div>
+  </div>
+
+  <div class="legend-section">
+    <div class="legend-section-title">Selling points</div>
+    <div class="legend-grid">
+      <div class="legend-item"><div class="legend-icon"><img alt="Nitrogen Fixing" src="../../icons/export/selling_point/sp_nitrogen.png"></div><div class="legend-text"><div class="legend-name">Nitrogen Fixing</div><div class="legend-example">Soil enrichment</div></div></div>
+      <div class="legend-item"><div class="legend-icon"><img alt="Drought Tolerant" src="../../icons/export/selling_point/sp_drought.png"></div><div class="legend-text"><div class="legend-name">Drought Tolerant</div><div class="legend-example">Low water once established</div></div></div>
+      <div class="legend-item"><div class="legend-icon"><img alt="Deer Resistant" src="../../icons/export/selling_point/sp_deer.png"></div><div class="legend-text"><div class="legend-name">Deer Resistant</div><div class="legend-example">Helps deter browsing</div></div></div>
+    </div>
+  </div>
+
+  <div class="legend-section">
+    <div class="legend-section-title">Caution</div>
+    <div class="legend-grid">
+      <div class="legend-item"><div class="legend-icon"><img alt="Aggressive" src="../../icons/export/warning/warn_aggressive.png"></div><div class="legend-text"><div class="legend-name">Aggressive</div><div class="legend-example">Aggressive / spreader</div></div></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
