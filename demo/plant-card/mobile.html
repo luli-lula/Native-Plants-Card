@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#c8c2b6">
+<title>New Jersey Tea — Wild Ones Capital Region NY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ========== TOKENS ========== */
+  :root {
+    --sage: #6b8f71;
+    --sage-dark: #4a6350;
+    --cream: #f8f5ef;
+    --cream-dark: #ebe6dc;
+    --warm-gray: #8a8478;
+    --text: #2a2a2a;
+    --text-light: #666;
+    --border: #e0dbd0;
+
+    --card-w: 340px;
+    --card-h: 520px;
+    --stamp-hole-r: 5px;
+    --stamp-hole-gap: 14px;
+    --stamp-pad: 14px;
+
+    --flip-dur: 0.8s;
+    --flip-ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+    --header-h: 56px;
+    --bottom-bar-h: 72px;
+  }
+
+  /* ========== RESET ========== */
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(145deg, #d4cfc4, #beb7aa);
+    color: var(--text);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* ========== HEADER ========== */
+  .app-header {
+    position: fixed; top: 0; left: 0; right: 0;
+    height: var(--header-h);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 16px;
+    background: rgba(248, 245, 239, 0.72);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    z-index: 100;
+  }
+  @supports not (backdrop-filter: blur(1px)) {
+    .app-header { background: rgba(248, 245, 239, 0.95); }
+  }
+
+  .header-btn {
+    border: none; cursor: pointer;
+    font-family: inherit; font-size: 13px; font-weight: 600;
+    background: none;
+  }
+  .back-btn {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: rgba(0,0,0,0.05);
+    display: flex; align-items: center; justify-content: center;
+    transition: background 0.2s;
+    text-decoration: none;
+  }
+  .back-btn:hover { background: rgba(0,0,0,0.1); }
+  .back-btn svg { width: 20px; height: 20px; stroke: var(--text); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+  .header-logo {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-logo img {
+    height: 28px; width: auto; display: block;
+  }
+
+  .plants-btn {
+    margin-left: auto;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: var(--sage);
+    color: #fff;
+    letter-spacing: 0.3px;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    font-size: 13px; font-weight: 600;
+  }
+  .plants-btn:hover { opacity: 0.85; }
+
+  /* ========== PAGE CONTENT — viewport-fit ========== */
+  .page-content {
+    position: fixed;
+    top: var(--header-h);
+    left: 0; right: 0;
+    bottom: var(--bottom-bar-h);
+    display: flex;
+    align-items: center; justify-content: center;
+    padding: 8px 20px;
+    overflow: hidden;
+  }
+
+  /* ========== FLIP HINT ========== */
+  .flip-hint {
+    position: absolute;
+    top: 8px; left: 0; right: 0;
+    text-align: center;
+    font-size: 13px; color: var(--warm-gray);
+    pointer-events: none;
+    z-index: 5;
+    animation: hint-pulse 2s ease-in-out infinite;
+  }
+  .flip-hint.fade-out {
+    animation: hint-fade 0.4s ease forwards;
+  }
+  @keyframes hint-pulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+  }
+  @keyframes hint-fade {
+    to { opacity: 0; transform: translateY(-6px); }
+  }
+
+  /* ========== 3D CARD SCENE ========== */
+  .card-scene {
+    perspective: 1200px;
+    width: calc(var(--card-w) + var(--stamp-pad) * 2);
+    max-width: 100%;
+    flex-shrink: 1;
+    /* Dynamic height: fill available space */
+    height: calc(var(--card-h) + var(--stamp-pad) * 2);
+    max-height: 100%;
+  }
+
+  .card-flipper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform var(--flip-dur) var(--flip-ease);
+    transform-style: preserve-3d;
+    will-change: transform;
+    cursor: pointer;
+  }
+  .card-flipper.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  .card-face {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    filter: drop-shadow(0 6px 28px rgba(0,0,0,0.14));
+  }
+
+  .card-back {
+    transform: rotateY(180deg);
+  }
+
+  /* ========== STAMP EDGE ========== */
+  .stamp-wrapper {
+    width: 100%; height: 100%;
+    padding: var(--stamp-pad);
+    background: var(--cream);
+    position: relative;
+    overflow: hidden;
+
+    -webkit-mask-image:
+      radial-gradient(circle at calc(var(--stamp-hole-gap) / 2) 0, transparent var(--stamp-hole-r), black calc(var(--stamp-hole-r) + 0.5px)),
+      radial-gradient(circle at calc(var(--stamp-hole-gap) / 2) 100%, transparent var(--stamp-hole-r), black calc(var(--stamp-hole-r) + 0.5px)),
+      radial-gradient(circle at 0 calc(var(--stamp-hole-gap) / 2), transparent var(--stamp-hole-r), black calc(var(--stamp-hole-r) + 0.5px)),
+      radial-gradient(circle at 100% calc(var(--stamp-hole-gap) / 2), transparent var(--stamp-hole-r), black calc(var(--stamp-hole-r) + 0.5px));
+    -webkit-mask-size:
+      var(--stamp-hole-gap) 100%,
+      var(--stamp-hole-gap) 100%,
+      100% var(--stamp-hole-gap),
+      100% var(--stamp-hole-gap);
+    -webkit-mask-position: top, bottom, left, right;
+    -webkit-mask-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    -webkit-mask-composite: source-in;
+    mask-composite: intersect;
+  }
+
+  /* ========== FRONT FACE ========== */
+  .front-inner {
+    width: 100%; height: 100%;
+    background: #f5f2ea;
+    display: flex; flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+
+  /* Collect heart button */
+  .collect-btn {
+    position: absolute; top: 12px; right: 12px;
+    width: 44px; height: 44px; border-radius: 50%;
+    background: rgba(255,255,255,0.92);
+    border: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    z-index: 10;
+    transition: transform 0.2s ease;
+  }
+  .collect-btn:hover { transform: scale(1.08); }
+  .collect-btn svg {
+    width: 22px; height: 22px;
+    stroke: #999; stroke-width: 2; fill: none;
+    transition: all 0.25s ease;
+  }
+  .collect-btn.is-saved svg {
+    stroke: #e74c3c; fill: #e74c3c;
+    animation: heartbeat 0.5s ease;
+  }
+  @keyframes heartbeat {
+    0%   { transform: scale(1); }
+    15%  { transform: scale(1.3); }
+    30%  { transform: scale(0.95); }
+    50%  { transform: scale(1.15); }
+    70%  { transform: scale(1); }
+  }
+
+  /* Plant image — negative margin to crop white border */
+  .plant-image-area {
+    flex: 1; position: relative;
+    overflow: hidden;
+    min-height: 0;
+    margin: -2px -2px 0 -2px;
+  }
+  .plant-image-area img {
+    width: calc(100% + 16px);
+    height: calc(100% + 16px);
+    margin: -8px;
+    object-fit: cover; object-position: center;
+    display: block;
+  }
+
+  /* Pollinator row — bottom left of image */
+  .pollinator-row {
+    position: absolute; bottom: 12px; left: 14px;
+    display: flex; gap: 6px;
+    z-index: 5;
+  }
+  .poll-badge {
+    width: 32px; height: 32px; border-radius: 50%;
+    background: rgba(255,255,255,0.95);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  }
+  .poll-badge img { width: 22px; height: 22px; object-fit: contain; }
+
+  /* Native badge — bottom right of image */
+  .native-badge-float {
+    position: absolute; bottom: 8px; right: 14px;
+    z-index: 5;
+  }
+  .native-badge-float img { width: 42px; height: 42px; object-fit: contain; }
+
+  /* Front name block */
+  .front-name-block {
+    padding: 12px 16px 14px;
+    background: var(--cream);
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .plant-common-name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700; font-size: 24px;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    line-height: 1.1; color: var(--text);
+  }
+  .plant-scientific-name {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-style: italic; font-size: 13px;
+    color: var(--text-light);
+    margin-top: 3px;
+  }
+  .plant-type-tag {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 3px 14px;
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.8px; text-transform: uppercase;
+    color: var(--sage-dark);
+    background: rgba(107, 143, 113, 0.12);
+    border-radius: 20px;
+  }
+
+  /* ========== BACK FACE ========== */
+  .back-inner {
+    width: 100%; height: 100%;
+    background: var(--cream);
+    display: flex; flex-direction: column;
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  /* Back header — compact, tappable to flip back */
+  .back-header {
+    padding: 12px 16px 8px;
+    text-align: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    position: relative;
+  }
+  .back-header .plant-common-name { font-size: 18px; letter-spacing: 1px; }
+  .back-header .plant-scientific-name { font-size: 11.5px; }
+  .back-header .flip-back-hint {
+    display: inline-flex; align-items: center; gap: 4px;
+    margin-top: 6px;
+    font-size: 10px; color: var(--warm-gray);
+    letter-spacing: 0.3px;
+  }
+  .back-header .flip-back-hint svg {
+    width: 12px; height: 12px;
+    stroke: var(--warm-gray); fill: none;
+    stroke-width: 2;
+  }
+  .back-header-divider {
+    height: 2px; background: var(--sage);
+    margin: 0 24px;
+    border-radius: 1px;
+    flex-shrink: 0;
+  }
+
+  /* Back scroll content */
+  .back-scroll {
+    flex: 1; overflow-y: auto;
+    padding: 12px 14px 16px;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    position: relative;
+  }
+  .back-scroll::-webkit-scrollbar { width: 3px; }
+  .back-scroll::-webkit-scrollbar-track { background: transparent; }
+  .back-scroll::-webkit-scrollbar-thumb { background: rgba(107,143,113,0.3); border-radius: 3px; }
+
+  /* Scroll fade hint at bottom */
+  .back-scroll-wrap {
+    flex: 1; position: relative; overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .scroll-fade {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    height: 32px;
+    background: linear-gradient(to bottom, transparent, var(--cream));
+    pointer-events: none;
+    z-index: 2;
+    transition: opacity 0.3s;
+  }
+  .scroll-fade.hidden { opacity: 0; }
+
+  /* Scroll indicator arrow */
+  .scroll-indicator {
+    position: absolute; bottom: 6px; left: 50%; transform: translateX(-50%);
+    z-index: 3; pointer-events: none;
+    animation: scroll-bounce 1.5s ease-in-out infinite;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+  .scroll-indicator.hidden { opacity: 0; }
+  .scroll-indicator svg {
+    width: 16px; height: 16px;
+    stroke: var(--sage-dark); fill: none; stroke-width: 2.5;
+  }
+  @keyframes scroll-bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(4px); }
+  }
+
+  /* Section spacing */
+  .back-section { margin-bottom: 16px; }
+  .back-section:last-child { margin-bottom: 0; }
+
+  .section-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px; font-weight: 600;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--sage-dark);
+    margin-bottom: 10px;
+  }
+
+  /* ─── Growing Conditions Grid ─── */
+  .conditions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+  .condition-item {
+    display: flex; flex-direction: column;
+    align-items: center; gap: 3px;
+    padding: 8px 4px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+  .condition-item img { width: 28px; height: 28px; object-fit: contain; }
+  .condition-label {
+    font-size: 9px; font-weight: 600;
+    letter-spacing: 0.8px; text-transform: uppercase;
+    color: var(--warm-gray);
+  }
+  .condition-value {
+    font-size: 11px; font-weight: 600;
+    color: var(--text); text-align: center;
+    line-height: 1.2;
+  }
+  .conditions-grid-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px; margin-top: 8px;
+  }
+
+  /* ─── Why Grow It ─── */
+  .features-list { display: flex; flex-direction: column; gap: 6px; }
+  .feature-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 8px 10px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+  .feature-icon {
+    width: 30px; height: 30px; border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .feature-icon img { width: 22px; height: 22px; object-fit: contain; }
+  .feature-icon.green  { background: #dcedc8; }
+  .feature-icon.yellow { background: #fff9c4; }
+  .feature-icon.pink   { background: #ffcdd2; }
+  .feature-icon.orange { background: #ffe0b2; }
+  .feature-icon.blue   { background: #bbdefb; }
+  .feature-icon.purple { background: #e1bee7; }
+  .feature-text { display: flex; flex-direction: column; gap: 1px; }
+  .feature-text strong { font-size: 12px; color: var(--text); line-height: 1.2; }
+  .feature-text span { font-size: 10px; color: var(--text-light); line-height: 1.25; }
+
+  /* ─── Wildlife Value ─── */
+  .wildlife-list { display: flex; flex-direction: column; gap: 6px; }
+  .wildlife-item {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 8px 10px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.04);
+  }
+  .wildlife-emoji {
+    font-size: 20px; line-height: 1;
+    flex-shrink: 0; width: 28px; text-align: center;
+    margin-top: 1px;
+  }
+  .wildlife-text { display: flex; flex-direction: column; gap: 1px; }
+  .wildlife-text strong { font-size: 12px; color: var(--text); line-height: 1.2; }
+  .wildlife-text span { font-size: 10px; color: var(--text-light); line-height: 1.3; }
+
+  /* ─── Fun Facts ─── */
+  .fun-facts { display: flex; flex-direction: column; gap: 8px; }
+  .fun-fact {
+    padding: 10px 12px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.04);
+    font-size: 11.5px; line-height: 1.45;
+    color: var(--text);
+    position: relative;
+    padding-left: 36px;
+  }
+  .fun-fact::before {
+    content: attr(data-icon);
+    position: absolute; left: 10px; top: 10px;
+    font-size: 16px;
+  }
+  .fun-fact strong { color: var(--sage-dark); }
+
+  /* ─── Photo Scroll ─── */
+  .photo-scroll {
+    display: flex; gap: 8px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 4px;
+  }
+  .photo-scroll::-webkit-scrollbar { height: 2px; }
+  .photo-scroll::-webkit-scrollbar-thumb { background: rgba(107,143,113,0.3); border-radius: 2px; }
+  .photo-thumb {
+    width: 72px; height: 72px;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    border: 1px solid var(--border);
+    background: #fff;
+  }
+  .photo-thumb img {
+    width: 100%; height: 100%;
+    object-fit: cover; display: block;
+  }
+
+  /* ─── Seasonal Tip ─── */
+  .tip-card {
+    background: linear-gradient(135deg, rgba(107,143,113,0.08), rgba(107,143,113,0.04));
+    border-left: 4px solid var(--sage);
+    border-radius: 0 8px 8px 0;
+    padding: 10px 12px;
+  }
+  .tip-card p {
+    font-size: 11.5px; line-height: 1.45;
+    color: var(--text);
+  }
+  .tip-card strong {
+    color: var(--sage-dark);
+  }
+
+  /* ─── Planting Guide ─── */
+  .planting-steps {
+    list-style: none; counter-reset: step;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .planting-steps li {
+    counter-increment: step;
+    display: flex; align-items: flex-start; gap: 10px;
+    font-size: 11.5px; line-height: 1.4;
+    color: var(--text);
+  }
+  .planting-steps li::before {
+    content: counter(step);
+    width: 22px; height: 22px; border-radius: 50%;
+    background: var(--sage);
+    color: #fff; font-size: 11px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* ─── Companion Plants ─── */
+  .companion-row {
+    display: flex; gap: 8px; flex-wrap: wrap;
+  }
+  .companion-tag {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 5px 12px;
+    background: rgba(255,255,255,0.6);
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 20px;
+    font-size: 11px; font-weight: 500;
+    color: var(--text);
+  }
+  .companion-tag .comp-emoji { font-size: 14px; }
+
+  /* ─── Credit ─── */
+  .back-credit {
+    text-align: center;
+    padding: 16px 0 8px;
+    font-size: 10px;
+    color: var(--warm-gray);
+    letter-spacing: 0.3px;
+    opacity: 0.6;
+  }
+
+  /* ========== BOTTOM ACTION BAR ========== */
+  .bottom-actions {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    height: var(--bottom-bar-h);
+    display: flex; gap: 12px;
+    padding: 12px 20px calc(12px + env(safe-area-inset-bottom, 0px));
+    background: rgba(248, 245, 239, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid rgba(0,0,0,0.06);
+    z-index: 100;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  @supports not (backdrop-filter: blur(1px)) {
+    .bottom-actions { background: rgba(248, 245, 239, 0.96); }
+  }
+
+  .action-btn {
+    flex: 1; max-width: 180px;
+    height: 48px; border-radius: 14px;
+    border: none; cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px; font-weight: 600;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    transition: opacity 0.2s, transform 0.15s;
+  }
+  .action-btn:active { transform: scale(0.97); }
+
+  .share-btn {
+    background: #fff;
+    color: var(--text);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .share-btn svg { width: 18px; height: 18px; stroke: var(--text); fill: none; stroke-width: 2; }
+
+  .save-btn {
+    background: var(--sage);
+    color: #fff;
+  }
+  .save-btn svg { width: 18px; height: 18px; stroke: #fff; fill: none; stroke-width: 2; }
+  .save-btn.is-saved svg { fill: #fff; }
+
+  /* ========== TOAST ========== */
+  .toast-container {
+    position: fixed;
+    bottom: 90px; left: 0; right: 0;
+    display: flex; flex-direction: column; align-items: center;
+    pointer-events: none;
+    z-index: 200;
+  }
+  .toast {
+    padding: 10px 20px;
+    background: rgba(42, 42, 42, 0.92);
+    color: #fff;
+    font-size: 13px; font-weight: 500;
+    border-radius: 24px;
+    margin-top: 8px;
+    opacity: 0;
+    transform: translateY(12px);
+    animation: toast-in 0.3s ease forwards;
+    backdrop-filter: blur(8px);
+  }
+  .toast.toast-exit {
+    animation: toast-out 0.3s ease forwards;
+  }
+  @keyframes toast-in {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes toast-out {
+    to { opacity: 0; transform: translateY(12px); }
+  }
+
+  /* ========== RESPONSIVE ========== */
+  @media (max-width: 374px) {
+    :root { --card-w: 300px; --card-h: 480px; }
+    .plant-common-name { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="app-header">
+  <a class="header-btn back-btn" href="all-plants.html" aria-label="All plants">
+    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+  </a>
+  <div class="header-logo"><img src="../../icons/export/LOGO.png" alt="Wild Ones Capital Region NY"></div>
+  <a class="header-btn plants-btn" href="collection.html">My Plants</a>
+</header>
+
+<!-- ========== MAIN ========== -->
+<main class="page-content">
+
+  <p class="flip-hint" id="flipHint">Tap card to flip</p>
+
+  <div class="card-scene" id="cardScene">
+    <div class="card-flipper" id="cardFlipper">
+
+      <!-- ===== FRONT ===== -->
+      <div class="card-face card-front">
+        <div class="stamp-wrapper">
+          <div class="front-inner">
+
+            <button class="collect-btn" id="collectBtn" aria-label="Save to collection" aria-pressed="false">
+              <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+
+            <div class="plant-image-area">
+              <img src="Newjerseytea_card.png" alt="New Jersey Tea — Ceanothus americanus">
+
+              <div class="pollinator-row">
+                <div class="poll-badge" title="Bees">
+                  <img src="../../icons/export/pollinator/poll_bee.png" alt="Bees">
+                </div>
+                <div class="poll-badge" title="Butterflies">
+                  <img src="../../icons/export/pollinator/poll_butterfly.png" alt="Butterflies">
+                </div>
+                <div class="poll-badge" title="Hummingbirds">
+                  <img src="../../icons/export/pollinator/poll_hummingbird.png" alt="Hummingbirds">
+                </div>
+                <div class="poll-badge" title="Birds">
+                  <img src="../../icons/export/pollinator/poll_bird.png" alt="Birds">
+                </div>
+              </div>
+
+              <div class="native-badge-float">
+                <img src="../../icons/export/badge/badge_native_ny.png" alt="NY Native">
+              </div>
+            </div>
+
+            <div class="front-name-block">
+              <h1 class="plant-common-name">New Jersey Tea</h1>
+              <p class="plant-scientific-name">Ceanothus americanus</p>
+              <span class="plant-type-tag">Perennial Shrub</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== BACK ===== -->
+      <div class="card-face card-back">
+        <div class="stamp-wrapper">
+          <div class="back-inner">
+
+            <!-- Back header — tappable to flip back -->
+            <div class="back-header" id="backHeader">
+              <h2 class="plant-common-name">New Jersey Tea</h2>
+              <p class="plant-scientific-name">Ceanothus americanus</p>
+              <span class="flip-back-hint"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg> Tap to flip back</span>
+            </div>
+            <div class="back-header-divider"></div>
+
+            <!-- Scroll wrapper with fade hint -->
+            <div class="back-scroll-wrap">
+              <div class="back-scroll" id="backScroll">
+
+                <!-- 1. Growing Conditions — "Can I grow it?" -->
+                <div class="back-section">
+                  <h3 class="section-title">Growing Conditions</h3>
+                  <div class="conditions-grid">
+                    <div class="condition-item">
+                      <img src="../../icons/export/attribute/attr_sun_part.png" alt="Sun">
+                      <span class="condition-label">Light</span>
+                      <span class="condition-value">Sun &ndash; Pt. Shade</span>
+                    </div>
+                    <div class="condition-item">
+                      <img src="../../icons/export/attribute/attr_water_med.png" alt="Water">
+                      <span class="condition-label">Water</span>
+                      <span class="condition-value">Dry &ndash; Moist</span>
+                    </div>
+                    <div class="condition-item">
+                      <img src="../../icons/export/attribute/attr_soil_loam.png" alt="Soil">
+                      <span class="condition-label">Soil</span>
+                      <span class="condition-value">Sandy, Loam</span>
+                    </div>
+                  </div>
+                  <div class="conditions-grid-bottom">
+                    <div class="condition-item">
+                      <img src="../../icons/export/attribute/attr_size.png" alt="Size">
+                      <span class="condition-label">Size</span>
+                      <span class="condition-value">3ft &times; 3ft</span>
+                    </div>
+                    <div class="condition-item">
+                      <img src="../../icons/export/attribute/attr_bloom.png" alt="Bloom">
+                      <span class="condition-label">Bloom</span>
+                      <span class="condition-value">White, Jul&ndash;Aug</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2. Seasonal Tip — timely, contextual -->
+                <div class="back-section">
+                  <div class="tip-card" id="seasonalTip">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- 3. Why Grow It — selling points -->
+                <div class="back-section">
+                  <h3 class="section-title">Why Grow It</h3>
+                  <div class="features-list">
+                    <div class="feature-item">
+                      <div class="feature-icon green">
+                        <img src="../../icons/export/selling_point/sp_nitrogen.png" alt="">
+                      </div>
+                      <div class="feature-text">
+                        <strong>Nitrogen Fixing</strong>
+                        <span>Enriches your soil naturally &mdash; no fertilizer needed</span>
+                      </div>
+                    </div>
+                    <div class="feature-item">
+                      <div class="feature-icon yellow">
+                        <img src="../../icons/export/selling_point/sp_drought.png" alt="">
+                      </div>
+                      <div class="feature-text">
+                        <strong>Drought Tolerant</strong>
+                        <span>Set it and forget it once established</span>
+                      </div>
+                    </div>
+                    <div class="feature-item">
+                      <div class="feature-icon pink">
+                        <img src="../../icons/export/selling_point/sp_deer.png" alt="">
+                      </div>
+                      <div class="feature-text">
+                        <strong>Deer Resistant</strong>
+                        <span>Deer walk right past it &mdash; no fencing needed</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4. Did You Know? — fun, memorable stories -->
+                <div class="back-section">
+                  <h3 class="section-title">Did You Know?</h3>
+                  <div class="fun-facts">
+                    <div class="fun-fact" data-icon="&#x1F375;">
+                      During the American Revolution, colonists brewed its dried leaves as a <strong>caffeine-free tea substitute</strong> when boycotting British tea. That's how it got its name!
+                    </div>
+                    <div class="fun-fact" data-icon="&#x1F525;">
+                      This plant actually <strong>thrives after fire</strong>. Its deep taproot can resprout from 6 feet underground, making it one of the toughest native shrubs.
+                    </div>
+                    <div class="fun-fact" data-icon="&#x1F9EC;">
+                      Native Americans used the root bark to make a <strong>red dye</strong> and the leaves as a remedy for respiratory ailments.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 5. Wildlife Value — ecological importance -->
+                <div class="back-section">
+                  <h3 class="section-title">Wildlife Value</h3>
+                  <div class="wildlife-list">
+                    <div class="wildlife-item">
+                      <span class="wildlife-emoji">&#x1F41D;</span>
+                      <div class="wildlife-text">
+                        <strong>Bee Magnet</strong>
+                        <span>Supports 40+ species of native bees, including bumblebees and mining bees</span>
+                      </div>
+                    </div>
+                    <div class="wildlife-item">
+                      <span class="wildlife-emoji">&#x1F98B;</span>
+                      <div class="wildlife-text">
+                        <strong>Butterfly Host Plant</strong>
+                        <span>Larval host for Spring Azure and Mottled Duskywing butterflies</span>
+                      </div>
+                    </div>
+                    <div class="wildlife-item">
+                      <span class="wildlife-emoji">&#x1F426;</span>
+                      <div class="wildlife-text">
+                        <strong>Bird Habitat</strong>
+                        <span>Dense branching offers nesting cover; seeds feed songbirds in fall</span>
+                      </div>
+                    </div>
+                    <div class="wildlife-item">
+                      <span class="wildlife-emoji">&#x1FAB2;</span>
+                      <div class="wildlife-text">
+                        <strong>Soil Life</strong>
+                        <span>Roots partner with Frankia bacteria, creating tiny nitrogen factories underground</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 6. Good Companions — planting ideas -->
+                <div class="back-section">
+                  <h3 class="section-title">Good Companions</h3>
+                  <div class="companion-row">
+                    <span class="companion-tag"><span class="comp-emoji">&#x1F33E;</span> Little Bluestem</span>
+                    <span class="companion-tag"><span class="comp-emoji">&#x1F33B;</span> Black-Eyed Susan</span>
+                    <span class="companion-tag"><span class="comp-emoji">&#x1F33C;</span> Wild Bergamot</span>
+                    <span class="companion-tag"><span class="comp-emoji">&#x2618;&#xFE0F;</span> Butterfly Milkweed</span>
+                  </div>
+                </div>
+
+                <!-- 7. Planting Guide — action steps -->
+                <div class="back-section">
+                  <h3 class="section-title">Planting Guide</h3>
+                  <ol class="planting-steps">
+                    <li>Choose a spot with good drainage &mdash; this plant hates wet feet</li>
+                    <li>Dig a hole twice the width of the root ball, same depth as the pot</li>
+                    <li>Backfill with native soil (no amendments needed), water deeply, and mulch 2&ndash;3&Prime; around the base</li>
+                  </ol>
+                </div>
+
+                <!-- 8. Heads Up — caution last -->
+                <div class="back-section">
+                  <h3 class="section-title">Heads Up</h3>
+                  <div class="features-list">
+                    <div class="feature-item">
+                      <div class="feature-icon orange">
+                        <img src="../../icons/export/warning/warn_aggressive.png" alt="">
+                      </div>
+                      <div class="feature-text">
+                        <strong>Deep Taproot</strong>
+                        <span>Pick your spot wisely &mdash; once established, it really doesn't want to move</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 9. Plant Details (Photos) — visual ending -->
+                <div class="back-section">
+                  <h3 class="section-title">Plant Details</h3>
+                  <div class="photo-scroll" id="photoScroll">
+                    <div class="photo-thumb"><img src="Newjerseytea_card.png" alt="Flower"></div>
+                    <div class="photo-thumb"><img src="Newjerseytea_card.png" alt="Leaf"></div>
+                    <div class="photo-thumb"><img src="Newjerseytea_card.png" alt="Seed"></div>
+                    <div class="photo-thumb"><img src="Newjerseytea_card.png" alt="Bark"></div>
+                    <div class="photo-thumb"><img src="Newjerseytea_card.png" alt="Root"></div>
+                  </div>
+                </div>
+
+                <div class="back-credit">Made with &hearts; by Lu Li for Wild Ones CRNY</div>
+
+              </div>
+
+              <!-- Scroll fade + indicator -->
+              <div class="scroll-fade" id="scrollFade"></div>
+              <div class="scroll-indicator" id="scrollIndicator">
+                <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- ========== BOTTOM ACTIONS ========== -->
+<div class="bottom-actions">
+  <button class="action-btn share-btn" id="shareBtn">
+    <svg viewBox="0 0 24 24"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" stroke-linecap="round" stroke-linejoin="round"/><polyline points="16 6 12 2 8 6" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="2" x2="12" y2="15" stroke-linecap="round"/></svg>
+    <span>Share</span>
+  </button>
+  <button class="action-btn save-btn" id="saveBtn">
+    <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>Save</span>
+  </button>
+</div>
+
+<!-- ========== TOAST ========== -->
+<div class="toast-container" id="toastContainer"></div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Elements ── */
+  var cardScene   = document.getElementById('cardScene');
+  var cardFlipper = document.getElementById('cardFlipper');
+  var collectBtn  = document.getElementById('collectBtn');
+  var saveBtn     = document.getElementById('saveBtn');
+  var shareBtn    = document.getElementById('shareBtn');
+  var flipHint    = document.getElementById('flipHint');
+  var backScroll  = document.getElementById('backScroll');
+  var backHeader  = document.getElementById('backHeader');
+  var photoScroll = document.getElementById('photoScroll');
+  var toastBox    = document.getElementById('toastContainer');
+  var scrollFade  = document.getElementById('scrollFade');
+  var scrollInd   = document.getElementById('scrollIndicator');
+
+  var PLANT_ID    = 'new-jersey-tea';
+  var STORAGE_KEY = 'wildones-saved-plants';
+
+  var isFlipped = false;
+
+  /* ── Dynamic card sizing to fit viewport ── */
+  function sizeCard() {
+    var vh = window.innerHeight;
+    var available = vh - 56 - 72 - 44; /* header - bottom bar - hint+padding */
+    var maxH = Math.min(548, available);  /* 520 + 28 stamp padding */
+    var scale = maxH / 548;
+    if (scale < 1) {
+      var newW = Math.floor(368 * scale); /* 340 + 28 stamp padding */
+      var newH = Math.floor(548 * scale);
+      cardScene.style.width = newW + 'px';
+      cardScene.style.height = newH + 'px';
+    } else {
+      cardScene.style.width = '';
+      cardScene.style.height = '';
+    }
+  }
+  sizeCard();
+  window.addEventListener('resize', sizeCard);
+
+  /* ── Flip logic ──
+     Core idea: track touch movement distance.
+     - If finger moved > 8px → it's a scroll, don't flip
+     - If finger barely moved (tap) → flip the card
+     This works everywhere: front face, back header, AND back scroll area.
+  */
+  var touchStartX = 0;
+  var touchStartY = 0;
+  var touchMoved  = false;
+  var TAP_THRESHOLD = 8; /* px — below this counts as a tap */
+
+  function shouldIgnoreFlip(target) {
+    return target.closest('.collect-btn, a, button:not(#backHeader)');
+  }
+
+  cardScene.addEventListener('touchstart', function (e) {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+    touchMoved  = false;
+  }, { passive: true });
+
+  cardScene.addEventListener('touchmove', function (e) {
+    var dx = Math.abs(e.touches[0].clientX - touchStartX);
+    var dy = Math.abs(e.touches[0].clientY - touchStartY);
+    if (dx > TAP_THRESHOLD || dy > TAP_THRESHOLD) {
+      touchMoved = true;
+    }
+  }, { passive: true });
+
+  cardScene.addEventListener('touchend', function (e) {
+    if (touchMoved) return; /* was a scroll/swipe */
+    if (shouldIgnoreFlip(e.target)) return;
+    flipCard();
+  });
+
+  /* Desktop click fallback */
+  cardScene.addEventListener('click', function (e) {
+    if ('ontouchend' in window) return;
+    if (shouldIgnoreFlip(e.target)) return;
+    flipCard();
+  });
+
+  /* Back header is also a flip-back trigger */
+  backHeader.addEventListener('click', function (e) {
+    e.stopPropagation();
+    flipCard();
+  });
+
+  function flipCard() {
+    isFlipped = !isFlipped;
+    cardFlipper.classList.toggle('is-flipped', isFlipped);
+    dismissHint();
+    /* Reset back-scroll to top when flipping to back */
+    if (isFlipped) {
+      backScroll.scrollTop = 0;
+    }
+  }
+
+  /* ── Flip hint ── */
+  var hintTimer = setTimeout(function () { dismissHint(); }, 5000);
+
+  function dismissHint() {
+    clearTimeout(hintTimer);
+    if (flipHint && flipHint.parentNode) {
+      flipHint.classList.add('fade-out');
+      flipHint.addEventListener('animationend', function () {
+        if (flipHint.parentNode) flipHint.parentNode.removeChild(flipHint);
+      });
+    }
+  }
+
+  /* ── Photo scroll: only stop horizontal swipe propagation ── */
+  photoScroll.addEventListener('touchmove', function (e) { e.stopPropagation(); }, { passive: true });
+
+  /* Update scroll fade indicator */
+  function updateScrollHint() {
+    var atBottom = backScroll.scrollTop + backScroll.clientHeight >= backScroll.scrollHeight - 8;
+    if (atBottom) {
+      scrollFade.classList.add('hidden');
+      scrollInd.classList.add('hidden');
+    } else {
+      scrollFade.classList.remove('hidden');
+      scrollInd.classList.remove('hidden');
+    }
+  }
+  backScroll.addEventListener('scroll', updateScrollHint, { passive: true });
+  /* Initialize after flip */
+  var observer = new MutationObserver(function () {
+    if (cardFlipper.classList.contains('is-flipped')) {
+      setTimeout(updateScrollHint, 100);
+    }
+  });
+  observer.observe(cardFlipper, { attributes: true, attributeFilter: ['class'] });
+
+  /* ── Save / Collect ── */
+  function getSaved() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
+    catch (_) { return []; }
+  }
+
+  function isSaved() { return getSaved().indexOf(PLANT_ID) !== -1; }
+
+  function toggleSave() {
+    var list = getSaved();
+    var was  = list.indexOf(PLANT_ID) !== -1;
+    if (was) {
+      list = list.filter(function (id) { return id !== PLANT_ID; });
+    } else {
+      list.push(PLANT_ID);
+    }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+    updateSaveUI(!was);
+    showToast(was ? 'Removed from My Plants' : 'Saved to My Plants!');
+  }
+
+  function updateSaveUI(saved) {
+    collectBtn.classList.toggle('is-saved', saved);
+    saveBtn.classList.toggle('is-saved', saved);
+    saveBtn.querySelector('span').textContent = saved ? 'Saved' : 'Save';
+    collectBtn.setAttribute('aria-pressed', String(saved));
+  }
+
+  collectBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    toggleSave();
+  });
+  saveBtn.addEventListener('click', function () { toggleSave(); });
+
+  updateSaveUI(isSaved());
+
+  /* ── Share ── */
+  shareBtn.addEventListener('click', async function () {
+    var data = {
+      title: 'New Jersey Tea — Wild Ones Capital Region NY',
+      text: 'Check out this native plant: New Jersey Tea (Ceanothus americanus)!',
+      url: window.location.href
+    };
+    try {
+      if (navigator.share) {
+        await navigator.share(data);
+      } else {
+        await navigator.clipboard.writeText(window.location.href);
+        showToast('Link copied!');
+      }
+    } catch (err) {
+      if (err.name !== 'AbortError') {
+        try { await navigator.clipboard.writeText(window.location.href); } catch (_) {}
+        showToast('Link copied!');
+      }
+    }
+  });
+
+  /* ── Toast ── */
+  function showToast(msg, ms) {
+    ms = ms || 2500;
+    var el = document.createElement('div');
+    el.className = 'toast';
+    el.textContent = msg;
+    toastBox.appendChild(el);
+    setTimeout(function () {
+      el.classList.add('toast-exit');
+      el.addEventListener('animationend', function () {
+        if (el.parentNode) el.parentNode.removeChild(el);
+      });
+    }, ms);
+  }
+
+  /* ── Seasonal Tip (month-based) ── */
+  var tips = {
+    0:  'January Tip: Plan your spring garden layout — New Jersey Tea pairs beautifully with Little Bluestem and Black-Eyed Susan.',
+    1:  'February Tip: Still dormant — perfect time to pick your planting spot. Remember: good drainage is key!',
+    2:  'March Tip: Watch for new growth. Prune dead branches before leaves emerge, but go easy — it blooms on old wood.',
+    3:  'April Tip: Prime planting time! Water deeply after planting and give it space to spread.',
+    4:  'May Tip: New growth is underway. Water weekly until established, then you can mostly leave it alone.',
+    5:  'June Tip: Buds are forming. Back off the watering — this plant actually prefers it on the dry side.',
+    6:  'July Tip: Bloom time! Watch for the parade of pollinators visiting those fluffy white flower clusters.',
+    7:  'August Tip: Still blooming. Leave spent flowers — they\'ll become seeds that songbirds love in fall.',
+    8:  'September Tip: Seeds are ripening. Cardinals and sparrows will thank you for leaving them on the plant.',
+    9:  'October Tip: Leaves turning golden yellow. Leave everything standing for winter interest and wildlife shelter.',
+    10: 'November Tip: Going dormant. A thin layer of leaf mulch around the base is all it needs for winter.',
+    11: 'December Tip: Resting underground. A great time to plan which native companions to add next spring!'
+  };
+  var tipEl = document.querySelector('#seasonalTip p');
+  var month = new Date().getMonth();
+  tipEl.innerHTML = '<strong>' + tips[month].split(':')[0] + ':</strong>' + tips[month].split(':').slice(1).join(':');
+
+})();
+</script>
+</body>
+</html>

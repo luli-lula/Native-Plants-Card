@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#c8c2b6">
+<title>My Plants — Wild Ones Capital Region NY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --sage: #6b8f71;
+    --sage-dark: #4a6350;
+    --cream: #f8f5ef;
+    --cream-dark: #ebe6dc;
+    --warm-gray: #8a8478;
+    --text: #2a2a2a;
+    --text-light: #666;
+    --border: #e0dbd0;
+    --header-h: 56px;
+    --tab-h: 56px;
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(145deg, #d4cfc4, #beb7aa);
+    min-height: 100vh;
+    color: var(--text);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* ========== HEADER ========== */
+  .app-header {
+    position: fixed; top: 0; left: 0; right: 0;
+    height: var(--header-h);
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 16px;
+    background: rgba(248, 245, 239, 0.72);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    z-index: 100;
+  }
+  @supports not (backdrop-filter: blur(1px)) {
+    .app-header { background: rgba(248, 245, 239, 0.95); }
+  }
+  .header-logo img {
+    height: 28px; width: auto; display: block;
+  }
+
+  /* ========== PAGE ========== */
+  .page {
+    padding: calc(var(--header-h) + 20px) 16px calc(var(--tab-h) + 20px + env(safe-area-inset-bottom, 0px));
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .page-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px; font-weight: 700;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .page-subtitle {
+    font-size: 13px; color: var(--warm-gray);
+    margin-bottom: 20px;
+  }
+
+  /* ========== EMPTY STATE ========== */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .empty-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+  }
+  .empty-state h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px; font-weight: 600;
+    letter-spacing: 1px; text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .empty-state p {
+    font-size: 14px; color: var(--text-light);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .empty-cta {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 10px 24px;
+    background: var(--sage);
+    color: #fff;
+    border-radius: 24px;
+    text-decoration: none;
+    font-size: 14px; font-weight: 600;
+    transition: opacity 0.2s;
+  }
+  .empty-cta:hover { opacity: 0.85; }
+
+  /* ========== CARD GRID ========== */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  /* Mini card — stamp edges + image + name */
+  .mini-card {
+    text-decoration: none;
+    color: var(--text);
+    display: block;
+    transition: transform 0.2s;
+  }
+  .mini-card:active { transform: scale(0.97); }
+
+  .mini-stamp {
+    padding: 8px;
+    background: var(--cream);
+    -webkit-mask-image:
+      radial-gradient(circle at 6px 0, transparent 4px, black 4.5px),
+      radial-gradient(circle at 6px 100%, transparent 4px, black 4.5px),
+      radial-gradient(circle at 0 6px, transparent 4px, black 4.5px),
+      radial-gradient(circle at 100% 6px, transparent 4px, black 4.5px);
+    -webkit-mask-size: 12px 100%, 12px 100%, 100% 12px, 100% 12px;
+    -webkit-mask-position: top, bottom, left, right;
+    -webkit-mask-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    -webkit-mask-composite: source-in;
+    mask-composite: intersect;
+    filter: drop-shadow(0 3px 12px rgba(0,0,0,0.12));
+  }
+
+  .mini-inner {
+    background: #f5f2ea;
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .mini-image {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+  }
+  .mini-image img {
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    margin: -4px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .mini-info {
+    padding: 8px 10px 10px;
+    background: var(--cream);
+    text-align: center;
+  }
+  .mini-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px; font-weight: 700;
+    letter-spacing: 0.8px; text-transform: uppercase;
+    line-height: 1.15;
+  }
+  .mini-scientific {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-style: italic; font-size: 10px;
+    color: var(--text-light);
+    margin-top: 2px;
+  }
+  .mini-type {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 2px 10px;
+    font-size: 9px; font-weight: 600;
+    letter-spacing: 0.6px; text-transform: uppercase;
+    color: var(--sage-dark);
+    background: rgba(107, 143, 113, 0.12);
+    border-radius: 12px;
+  }
+
+  /* Remove button */
+  .mini-remove {
+    display: flex; align-items: center; justify-content: center; gap: 4px;
+    width: 100%;
+    margin-top: 8px;
+    padding: 6px;
+    border: none; cursor: pointer;
+    background: rgba(0,0,0,0.04);
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 11px; font-weight: 500;
+    color: var(--warm-gray);
+    transition: background 0.2s, color 0.2s;
+  }
+  .mini-remove:hover { background: rgba(231, 76, 60, 0.08); color: #c0392b; }
+  .mini-remove svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2; }
+
+  .page-credit {
+    text-align: center;
+    padding: 24px 0 8px;
+    font-size: 10px;
+    color: var(--warm-gray);
+    letter-spacing: 0.3px;
+    opacity: 0.5;
+  }
+
+  /* ========== BOTTOM TAB BAR ========== */
+  .tab-bar {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    height: var(--tab-h);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    display: flex;
+    background: rgba(248, 245, 239, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid rgba(0,0,0,0.06);
+    z-index: 100;
+  }
+  @supports not (backdrop-filter: blur(1px)) {
+    .tab-bar { background: rgba(248, 245, 239, 0.96); }
+  }
+  .tab {
+    flex: 1;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 3px;
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.3px;
+    transition: color 0.2s;
+    position: relative;
+  }
+  .tab svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8; }
+  .tab.active { color: var(--sage-dark); }
+  .tab.active::after {
+    content: '';
+    position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 32px; height: 2px;
+    background: var(--sage); border-radius: 0 0 2px 2px;
+  }
+
+  /* ========== TOAST ========== */
+  .toast-container {
+    position: fixed;
+    bottom: calc(var(--tab-h) + 12px + env(safe-area-inset-bottom, 0px));
+    left: 0; right: 0;
+    display: flex; flex-direction: column; align-items: center;
+    pointer-events: none; z-index: 200;
+  }
+  .toast {
+    padding: 10px 20px;
+    background: rgba(42, 42, 42, 0.92);
+    color: #fff;
+    font-size: 13px; font-weight: 500;
+    border-radius: 24px;
+    opacity: 0; transform: translateY(12px);
+    animation: toast-in 0.3s ease forwards;
+  }
+  .toast.toast-exit { animation: toast-out 0.3s ease forwards; }
+  @keyframes toast-in { to { opacity: 1; transform: translateY(0); } }
+  @keyframes toast-out { to { opacity: 0; transform: translateY(12px); } }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="header-logo"><img src="../../icons/export/LOGO.png" alt="Wild Ones Capital Region NY"></div>
+</header>
+
+<div class="page">
+  <h1 class="page-title">My Plants</h1>
+  <p class="page-subtitle" id="subtitle"></p>
+
+  <!-- Empty state (hidden when there are saved plants) -->
+  <div class="empty-state" id="emptyState" style="display:none;">
+    <div class="empty-icon">&#x1F331;</div>
+    <h2>No plants saved yet</h2>
+    <p>Scan a plant card at the event or browse all plants to start building your collection.</p>
+    <a class="empty-cta" href="all-plants.html">Browse Plants</a>
+  </div>
+
+  <!-- Grid of saved plant cards -->
+  <div class="card-grid" id="cardGrid"></div>
+  <p class="page-credit">Made with &hearts; by Lu Li for Wild Ones CRNY</p>
+</div>
+
+<!-- Bottom tab bar -->
+<nav class="tab-bar">
+  <a class="tab" href="all-plants.html">
+    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+    All Plants
+  </a>
+  <a class="tab active" href="collection.html">
+    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+    My Plants
+  </a>
+</nav>
+
+<div class="toast-container" id="toastContainer"></div>
+
+<script src="plants-data.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var STORAGE_KEY = 'wildones-saved-plants';
+  var grid = document.getElementById('cardGrid');
+  var emptyState = document.getElementById('emptyState');
+  var subtitle = document.getElementById('subtitle');
+  var toastBox = document.getElementById('toastContainer');
+
+  function getSaved() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
+    catch (_) { return []; }
+  }
+
+  function setSaved(list) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+  }
+
+  function render() {
+    var saved = getSaved();
+    grid.innerHTML = '';
+
+    if (saved.length === 0) {
+      emptyState.style.display = '';
+      subtitle.textContent = '';
+      return;
+    }
+
+    emptyState.style.display = 'none';
+    subtitle.textContent = saved.length + (saved.length === 1 ? ' plant' : ' plants') + ' in your collection';
+
+    saved.forEach(function (plantId) {
+      var plant = PLANTS.find(function (p) { return p.id === plantId; });
+      if (!plant) return; /* saved id not in registry, skip */
+
+      var card = document.createElement('div');
+      card.className = 'mini-card-wrap';
+      card.innerHTML =
+        '<a class="mini-card" href="' + plant.url + '">' +
+          '<div class="mini-stamp">' +
+            '<div class="mini-inner">' +
+              '<div class="mini-image"><img src="' + plant.image + '" alt="' + plant.name + '"></div>' +
+              '<div class="mini-info">' +
+                '<div class="mini-name">' + plant.name + '</div>' +
+                '<div class="mini-scientific">' + plant.scientific + '</div>' +
+                '<span class="mini-type">' + plant.type + '</span>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
+        '</a>' +
+        '<button class="mini-remove" data-id="' + plant.id + '" data-name="' + plant.name + '">' +
+          '<svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>' +
+          'Remove' +
+        '</button>';
+
+      grid.appendChild(card);
+    });
+
+    /* Bind remove buttons */
+    grid.querySelectorAll('.mini-remove').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var id = btn.getAttribute('data-id');
+        var name = btn.getAttribute('data-name');
+        var list = getSaved().filter(function (pid) { return pid !== id; });
+        setSaved(list);
+        render();
+        showToast('Removed ' + name);
+      });
+    });
+  }
+
+  function showToast(msg) {
+    var el = document.createElement('div');
+    el.className = 'toast';
+    el.textContent = msg;
+    toastBox.appendChild(el);
+    setTimeout(function () {
+      el.classList.add('toast-exit');
+      el.addEventListener('animationend', function () {
+        if (el.parentNode) el.parentNode.removeChild(el);
+      });
+    }, 2500);
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>

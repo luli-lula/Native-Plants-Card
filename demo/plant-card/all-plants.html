@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#c8c2b6">
+<title>All Plants — Wild Ones Capital Region NY</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --sage: #6b8f71;
+    --sage-dark: #4a6350;
+    --cream: #f8f5ef;
+    --cream-dark: #ebe6dc;
+    --warm-gray: #8a8478;
+    --text: #2a2a2a;
+    --text-light: #666;
+    --border: #e0dbd0;
+    --header-h: 56px;
+    --tab-h: 56px;
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(145deg, #d4cfc4, #beb7aa);
+    min-height: 100vh;
+    color: var(--text);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* ========== HEADER ========== */
+  .app-header {
+    position: fixed; top: 0; left: 0; right: 0;
+    height: var(--header-h);
+    display: flex; align-items: center; justify-content: center;
+    padding: 0 16px;
+    background: rgba(248, 245, 239, 0.72);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    z-index: 100;
+  }
+  @supports not (backdrop-filter: blur(1px)) {
+    .app-header { background: rgba(248, 245, 239, 0.95); }
+  }
+  .header-logo img {
+    height: 28px; width: auto; display: block;
+  }
+
+  /* ========== PAGE ========== */
+  .page {
+    padding: calc(var(--header-h) + 16px) 16px calc(var(--tab-h) + 16px + env(safe-area-inset-bottom, 0px));
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  /* Search doubles as page header */
+  .search-wrap {
+    position: relative;
+    margin-bottom: 16px;
+  }
+  .search-wrap svg {
+    position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+    width: 18px; height: 18px;
+    stroke: var(--warm-gray); fill: none; stroke-width: 2;
+    pointer-events: none;
+  }
+  .search-input {
+    width: 100%;
+    padding: 12px 14px 12px 42px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: rgba(255,255,255,0.7);
+    font-family: inherit;
+    font-size: 14px;
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .search-input:focus {
+    border-color: var(--sage);
+    background: rgba(255,255,255,0.9);
+  }
+  .search-input::placeholder { color: var(--warm-gray); }
+
+  /* ========== PLANT LIST ========== */
+  .plant-list {
+    display: flex; flex-direction: column;
+    gap: 8px;
+  }
+
+  .plant-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 12px;
+    background: rgba(255,255,255,0.6);
+    border: 1px solid rgba(0,0,0,0.04);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text);
+    transition: background 0.2s, transform 0.15s;
+  }
+  .plant-row:active { transform: scale(0.98); }
+  .plant-row:hover { background: rgba(255,255,255,0.85); }
+
+  .plant-row-thumb {
+    width: 52px; height: 52px;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+    background: #f5f2ea;
+  }
+  .plant-row-thumb img {
+    width: calc(100% + 4px); height: calc(100% + 4px);
+    margin: -2px;
+    object-fit: cover; display: block;
+  }
+
+  .plant-row-info {
+    flex: 1; min-width: 0;
+    display: flex; flex-direction: column; gap: 2px;
+  }
+  .plant-row-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px; font-weight: 700;
+    letter-spacing: 0.5px; text-transform: uppercase;
+    line-height: 1.15;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .plant-row-scientific {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-style: italic; font-size: 11px;
+    color: var(--text-light);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .plant-row-type {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 1px 8px;
+    font-size: 9px; font-weight: 600;
+    letter-spacing: 0.5px; text-transform: uppercase;
+    color: var(--sage-dark);
+    background: rgba(107, 143, 113, 0.12);
+    border-radius: 10px;
+    width: fit-content;
+  }
+
+  .plant-row-saved {
+    flex-shrink: 0;
+    font-size: 14px;
+    opacity: 0.6;
+  }
+
+  .plant-row-arrow {
+    flex-shrink: 0;
+    width: 16px; height: 16px;
+    stroke: var(--warm-gray);
+    fill: none; stroke-width: 2;
+    opacity: 0.5;
+  }
+
+  /* No results */
+  .no-results {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--warm-gray);
+    font-size: 14px;
+    display: none;
+  }
+
+  .page-credit {
+    text-align: center;
+    padding: 24px 0 8px;
+    font-size: 10px;
+    color: var(--warm-gray);
+    letter-spacing: 0.3px;
+    opacity: 0.5;
+  }
+
+  /* ========== BOTTOM TAB BAR ========== */
+  .tab-bar {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    height: var(--tab-h);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    display: flex;
+    background: rgba(248, 245, 239, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid rgba(0,0,0,0.06);
+    z-index: 100;
+  }
+  @supports not (backdrop-filter: blur(1px)) {
+    .tab-bar { background: rgba(248, 245, 239, 0.96); }
+  }
+  .tab {
+    flex: 1;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 3px;
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-size: 11px; font-weight: 600;
+    letter-spacing: 0.3px;
+    transition: color 0.2s;
+    position: relative;
+  }
+  .tab svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.8; }
+  .tab.active { color: var(--sage-dark); }
+  .tab.active::after {
+    content: '';
+    position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: 32px; height: 2px;
+    background: var(--sage); border-radius: 0 0 2px 2px;
+  }
+  .tab-badge {
+    position: absolute; top: 4px; right: calc(50% - 24px);
+    min-width: 16px; height: 16px;
+    padding: 0 4px;
+    border-radius: 8px;
+    background: var(--sage);
+    color: #fff;
+    font-size: 10px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .tab-badge.hidden { display: none; }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="header-logo"><img src="../../icons/export/LOGO.png" alt="Wild Ones Capital Region NY"></div>
+</header>
+
+<div class="page">
+  <div class="search-wrap">
+    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    </svg>
+    <input class="search-input" id="searchInput" type="text" placeholder="Search by name&hellip;" autocomplete="off">
+  </div>
+
+  <div class="plant-list" id="plantList"></div>
+  <div class="no-results" id="noResults">No plants found</div>
+  <p class="page-credit">Made with &hearts; by Lu Li for Wild Ones CRNY</p>
+</div>
+
+<!-- Bottom tab bar -->
+<nav class="tab-bar">
+  <a class="tab active" href="all-plants.html">
+    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+    All Plants
+  </a>
+  <a class="tab" href="collection.html">
+    <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+    My Plants
+    <span class="tab-badge hidden" id="tabBadge">0</span>
+  </a>
+</nav>
+
+<script src="plants-data.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var STORAGE_KEY = 'wildones-saved-plants';
+  var plantList = document.getElementById('plantList');
+  var searchInput = document.getElementById('searchInput');
+  var noResults = document.getElementById('noResults');
+  var tabBadge = document.getElementById('tabBadge');
+
+  function getSaved() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
+    catch (_) { return []; }
+  }
+
+  function render(query) {
+    query = (query || '').trim().toLowerCase();
+    var saved = getSaved();
+    plantList.innerHTML = '';
+
+    /* Update badge */
+    if (saved.length > 0) {
+      tabBadge.textContent = saved.length;
+      tabBadge.classList.remove('hidden');
+    } else {
+      tabBadge.classList.add('hidden');
+    }
+
+    /* Filter */
+    var filtered = PLANTS.filter(function (p) {
+      if (!query) return true;
+      return p.name.toLowerCase().indexOf(query) !== -1 ||
+             p.scientific.toLowerCase().indexOf(query) !== -1 ||
+             p.type.toLowerCase().indexOf(query) !== -1;
+    });
+
+    if (filtered.length === 0) {
+      noResults.style.display = '';
+      return;
+    }
+    noResults.style.display = 'none';
+
+    /* Sort alphabetically */
+    filtered.sort(function (a, b) { return a.name.localeCompare(b.name); });
+
+    filtered.forEach(function (plant) {
+      var isSaved = saved.indexOf(plant.id) !== -1;
+      var row = document.createElement('a');
+      row.className = 'plant-row';
+      row.href = plant.url;
+      row.innerHTML =
+        '<div class="plant-row-thumb"><img src="' + plant.image + '" alt="' + plant.name + '"></div>' +
+        '<div class="plant-row-info">' +
+          '<span class="plant-row-name">' + plant.name + '</span>' +
+          '<span class="plant-row-scientific">' + plant.scientific + '</span>' +
+          '<span class="plant-row-type">' + plant.type + '</span>' +
+        '</div>' +
+        (isSaved ? '<span class="plant-row-saved">&#x2764;&#xFE0F;</span>' : '') +
+        '<svg class="plant-row-arrow" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>';
+      plantList.appendChild(row);
+    });
+  }
+
+  searchInput.addEventListener('input', function () {
+    render(searchInput.value);
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
