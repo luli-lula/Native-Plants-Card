@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Woodland Sunflower — Wild Ones Plant Card</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap');
+  :root {
+    --sage:#6b8f71;--sage-light:#e9f0ea;--cream:#f5f0e6;--cream-light:#faf8f3;
+    --warm-gray:#8a8478;--text:#2a2a2a;--text-light:#666;--border:#e0dbd0;
+    --badge-bg:#f4f1eb;--card-w:6in;--card-h:4in;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#d6d1c8;font-family:'DM Sans',system-ui,sans-serif;
+    min-height:100vh;display:flex;flex-direction:column;align-items:center;
+    padding:40px 20px 60px;color:var(--text)}
+
+  .stamp-outer{position:relative;padding:11px;background:var(--cream);
+    -webkit-mask-image:
+      radial-gradient(circle at 5.5px 0,transparent 4px,black 4.5px),
+      radial-gradient(circle at 5.5px 100%,transparent 4px,black 4.5px),
+      radial-gradient(circle at 0 5.5px,transparent 4px,black 4.5px),
+      radial-gradient(circle at 100% 5.5px,transparent 4px,black 4.5px);
+    -webkit-mask-size:11px 100%,11px 100%,100% 11px,100% 11px;
+    -webkit-mask-position:top,bottom,left,right;
+    -webkit-mask-repeat:repeat-x,repeat-x,repeat-y,repeat-y;
+    -webkit-mask-composite:source-in;mask-composite:intersect;
+    box-shadow:0 8px 40px rgba(0,0,0,.18),0 2px 8px rgba(0,0,0,.08);user-select:none}
+
+  .card{position:relative;width:var(--card-w);height:var(--card-h);
+    background:var(--cream-light);display:grid;grid-template-rows:auto 1fr auto;
+    overflow:hidden;border:1px solid var(--border)}
+
+  .card-header{padding:7px 12px 6px 15px;display:flex;align-items:center;
+    justify-content:space-between;gap:8px;border-bottom:1px solid var(--border);background:#3d5a40}
+  .header-left{display:flex;align-items:baseline;gap:10px}
+  .name-block{display:flex;flex-direction:column}
+  .common-name{font-family:'Oswald',sans-serif;font-weight:700;font-size:21px;
+    letter-spacing:1px;text-transform:uppercase;line-height:1.05;color:#fff}
+  .scientific-name{font-family:'Libre Baskerville',Georgia,serif;font-style:italic;
+    font-size:9.5px;margin-top:1px;color:rgba(255,255,255,.75)}
+  .header-right{display:flex;align-items:center;gap:4px;flex-shrink:0}
+  .icon-slot{width:30px;height:30px;border-radius:50%;border:1.5px solid rgba(255,255,255,.95);
+    display:flex;align-items:center;justify-content:center;
+    background:rgba(255,255,255,.98);box-shadow:0 1px 0 rgba(0,0,0,.18)}
+  .icon-slot .icon-img{width:24px;height:24px;object-fit:contain;image-rendering:-webkit-optimize-contrast}
+  .native-badge{flex-shrink:0;width:38px;height:38px;margin-left:2px;
+    display:flex;align-items:center;justify-content:center}
+  .native-badge img{width:38px;height:38px;object-fit:contain;display:block}
+
+  .card-body{display:grid;grid-template-columns:42% 1fr;gap:14px;padding:10px 16px;min-height:0}
+  .photo-area{border-radius:5px;overflow:hidden;height:100%;width:100%;background:#fff;
+    display:flex;align-items:center;justify-content:center}
+  .photo-area img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+  .photo-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;
+    width:100%;height:100%;background:#e8e4dc;color:#999;font-size:11px;text-align:center;gap:4px}
+  .photo-placeholder .ph-name{font-family:'Oswald',sans-serif;font-size:14px;color:#777;
+    text-transform:uppercase;letter-spacing:1px}
+
+  .info-panel{display:flex;flex-direction:column;justify-content:space-between}
+  .badge-list{display:flex;flex-direction:column;gap:5px}
+  .sp-badge{display:flex;align-items:center;gap:7px;background:var(--badge-bg);
+    border-radius:6px;padding:6px 8px;border:1px solid rgba(0,0,0,.04)}
+  .sp-badge .sp-icon{width:24px;height:24px;border-radius:5px;
+    display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .sp-icon .icon-img{width:24px;height:24px;object-fit:contain;image-rendering:-webkit-optimize-contrast}
+  .sp-text{display:flex;flex-direction:column}
+  .sp-text .sp-title{font-size:10px;font-weight:700;color:var(--text);line-height:1.15;letter-spacing:.2px}
+  .sp-text .sp-sub{font-size:7.5px;font-weight:400;color:var(--text-light);line-height:1.2}
+
+  .branding-row{display:flex;align-items:center;margin-top:auto;padding-top:6px;
+    border-top:1px solid var(--border);gap:12px}
+  .scan-section{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex:1}
+  .brand-cta{text-align:center}
+  .brand-cta-line{font-size:7px;font-weight:400;color:var(--warm-gray);line-height:1.3;display:block}
+  .brand-cta-line.main{font-weight:500;font-size:7.5px;letter-spacing:.3px}
+  .brand-divider{width:0;height:36px;border-left:1px dashed var(--border);flex-shrink:0}
+  .scan-panel{display:flex;align-items:center;gap:4px;flex-shrink:0}
+  .nfc-icon{height:38px;width:auto;object-fit:contain;opacity:.7}
+  .scan-label{font-size:7.5px;font-weight:700;color:#3d5a40;text-transform:uppercase;letter-spacing:.8px}
+  .scan-or{display:flex;flex-direction:column;align-items:center;gap:2px;padding:0 3px}
+  .scan-or-line{width:1px;height:10px;background:rgba(0,0,0,.12)}
+  .scan-or span{font-size:6.5px;color:var(--warm-gray);font-style:italic}
+  .scan-frame{position:relative;width:42px;height:42px;padding:3px;flex-shrink:0}
+  .corner{display:none}
+  .scan-frame .qr-img{width:100%;height:100%;border-radius:1px;display:block}
+  .logo-wrap{position:relative;display:flex;flex-direction:column;align-items:center;
+    justify-content:center;flex-shrink:0}
+  .logo-img{height:46px;width:auto;object-fit:contain}
+
+  .attr-strip{position:relative;background:#f0ece4;border-top:1px solid var(--border);
+    padding:6px 15px 8px;display:flex;align-items:center;justify-content:space-around}
+  .attr-item{display:flex;flex-direction:column;align-items:center;gap:1px;flex:1}
+  .attr-item .icon-img{width:36px;height:36px;object-fit:contain;image-rendering:-webkit-optimize-contrast}
+  .attr-item .attr-value{font-size:8.5px;font-weight:500;color:var(--text);text-align:center;line-height:1.2}
+  .attr-divider{width:1px;height:26px;background:var(--border);flex-shrink:0}
+</style>
+</head>
+<body>
+
+<div class="stamp-outer">
+  <div class="card">
+
+    <!-- Header -->
+    <div class="card-header">
+      <div class="header-left">
+        <div class="name-block">
+          <span class="common-name">Woodland Sunflower</span>
+          <span class="scientific-name">Helianthus divaricatus</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="icon-slot" title="Bees">
+          <img class="icon-img" alt="Bees" src="../../assets/icons/pollinator/poll_bee.png">
+        </div>
+        <div class="icon-slot" title="Butterflies">
+          <img class="icon-img" alt="Butterflies" src="../../assets/icons/pollinator/poll_butterfly.png">
+        </div>
+        <div class="icon-slot" title="Birds">
+          <img class="icon-img" alt="Birds" src="../../assets/icons/pollinator/poll_bird.png">
+        </div>
+        <div class="native-badge" title="New York Native">
+          <img alt="New York Native" src="../../assets/icons/badge/badge_native_ny.png">
+        </div>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="card-body">
+      <div class="photo-area">
+        <img src="../../assets/photos/woodland-sunflower.jpg" alt="Woodland Sunflower">
+      </div>
+
+      <div class="info-panel">
+        <div>
+          <div class="badge-list">
+            <div class="sp-badge">
+              <div class="sp-icon" style="background:#ffcdd2">
+                <img class="icon-img" alt="Deer Resistant" src="../../assets/icons/selling-point/sp_deer.png">
+              </div>
+              <div class="sp-text">
+                <span class="sp-title">Deer Resistant</span>
+                <span class="sp-sub">Great for gardens without fencing</span>
+              </div>
+            </div>
+            <div class="sp-badge">
+              <div class="sp-icon" style="background:#ffe0b2">
+                <img class="icon-img" alt="Spreads by Root" src="../../assets/icons/warning/warn_spreads_root.png">
+              </div>
+              <div class="sp-text">
+                <span class="sp-title">Spreads by Root</span>
+                <span class="sp-sub">Spreads quickly; may need containment</span>
+              </div>
+            </div>
+            <div class="sp-badge">
+              <div class="sp-icon" style="background:#e8eaf6">
+                <img class="icon-img" alt="Did You Know" src="../../assets/icons/ui/ui_didyouknow.png">
+              </div>
+              <div class="sp-text">
+                <span class="sp-title">Bird Food</span>
+                <span class="sp-sub">Seeds feed goldfinches & other birds in autumn</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="branding-row">
+          <div class="scan-section">
+            <div class="scan-panel">
+              <img class="nfc-icon" src="../../assets/icons/nfc-tap.png" alt="Tap NFC">
+              <span class="scan-label">Tap</span>
+              <div class="scan-or">
+                <div class="scan-or-line"></div>
+                <span>or</span>
+                <div class="scan-or-line"></div>
+              </div>
+              <div class="scan-frame">
+                <img class="qr-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAAAAklEQVR4AewaftIAAAi6SURBVO3B0QkcTa9F0e1i4hIoDsV34hAoMV+/NAjD1Nc9njL+L1rrx89fGOPLFmMcsBjjgMUYB7z4jYXzt5SSv8XC6UpJZ+F0peRTFk5XSk6xcLpS0lk4f0spuSzGOGAxxgGLMQ548R9KybdYOE9YOF0p+VQp2SklnYXzTinpLJwdC+euUtJZODul5IlS8i0WzjuLMQ5YjHHAYowDXjxk4TxRSu6ycJ6wcC6lpLNwdkpJZ+F0peSuUtJZOE+UkndKyY6F05WSuyycJ0rJXYsxDliMccBijANe/MNKSWfhdKXknVLSWTidhbNj4XSl5K5SsmPhdBbO/zeLMQ5YjHHAYowDXvwPs3AupaSzcLpS0lk4T1g4l1LSWTg7pWSnlFwsnK6U7Fg4/6LFGAcsxjhgMcYBLx4qJf8iC+ekUvItpaSzcC6lpLNwdkrJp0rJKYsxDliMccCL/2Dh/KtKycXC6UpJZ+F0paSzcLpS0lk4l1KyU0o6C6crJZ8qJZ2F05WSHQvnb1iMccBijAMWYxzw4+cv/CMsnK6UfMrCOaWUdBbOnygln7JwulLyL1iMccBijAMWYxzw4+cvNBZOV0o6C+dbSsmOhdOVks7CuZSSJyycnVLyjoXTlZLOwulKyV0Wzk4pecLC+ZZSctdijAMWYxywGOOAHz9/4QEL51OlpLNwTiklOxZOV0p2LJxLKeksnK6UdBZOV0o6C+edUrJj4XSlZMfCuZSSHQtnp5S8sxjjgMUYByzGOODHz19oLJwnSsmOhfMtpeRTFs4TpaSzcN4pJZ2Fs1NK3rFwniglOxbOO6Vkx8J5opRcFmMcsBjjgMUYB7z4D6Vkx8K5q5TsWDhdKdmxcL6llOyUkouF01k4f8LCuZSSzsLpSkln4TxRSu4qJTsWzjuLMQ5YjHHAi9+Ukh0LpyslnYXzjoXTlZKulHQWzl2lpLNwulLSWTg7Fk5XSt4pJZ2F80QpuVg4T5SSzsK5y8LpSkln4XxqMcYBizEOWIxxwIvfWDhdKdmxcLpS0lk4l1LSWTg7pWTHwvlUKeksnK6UfKqUdBZOZ+F0peRbSsmOhXMpJTul5FOLMQ5YjHHAYowDXvymlOyUks7CucvC6UrJjoXzqVLSWTh/wsK5lJLOwulKyU4p+ZSF80QpecfC2SklOxZOV0ouizEOWIxxwGKMA178xsLpSkln4XyqlHQWTldKulLSWThdKblYODulpLNwulKyU0ouFk5XSnZKyY6FcyklnYWzU0q+pZTsWDhdKXlnMcYBizEOWIxxwIvflJKdUvIpC6crJf8rLJxLKeksnG+xcP6EhbNTSi4Wzo6F05WSzsLpSsllMcYBizEOWIxxwI+fv9BYOF0pecLCeaeUdBbOE6Wks3AupaSzcLpS0lk4O6XkUxZOV0o+ZeF0paSzcLpSsmPhXErJExZOV0reWYxxwGKMAxZjHPDiN6Xkm0rJxcLZKSWdhXOXhdOVkp1SsmPhvFNKOgvnCQvnnVLSlZLOwvkTpeQuC2fHwulKyWUxxgGLMQ548R8snK6UdBZOV0o6C+dSSjoL5wkLpyslFwuns3B2Skln4XSlpLNw3iklnYXzRCn5FgvnU6WkKyU7Fs47izEOWIxxwGKMA378/IUvsnDuKiVPWDhdKbnLwulKyY6F05WSdyycrpR0Fs6nSkln4XSlpLNwdkrJxcJ5opTctRjjgMUYByzGOODHz1/YsHD+RCl5x8J5opR8ysLpSkln4ZxSSjoLpysln7JwulLyKQunKyWdhdOVkncWYxywGOOAxRgHvPiNhbNTSnYsnM7CuauUdBZOZ+F0peRi4eyUks7C6UpJZ+F0peQuC2enlHQWzqdKSWfh/C0WTldKLosxDliMccBijAN+/PyFxsL5plLyKQunKyWdhXMpJZ2F05WSzsL5VCnpLJwnSsldFs4TpaSzcO4qJU9YOF0puSzGOGAxxgGLMQ548ZtSsmPhdKWks3A6C+edUrJTSnZKyV0WTldKOgunKyV3lZLOwulKyY6Fc1cp6SycJ0rJxcLZsXA+tRjjgMUYB7z4jYXTlZIdC+euUrJj4fwtFk5XSnYsnEsp6SycrpR0Fk5XSu4qJX+ilHQWzqWUPFFK7lqMccBijAMWYxzw4stKyTsWTldK/pZS0lk4nYXTlZKulFwsnK6UdBbOE6XkYuF0Fs4TFk5XSrpS8ikLZ6eUXBZjHLAY44DFGAe8OMzCuZSSzsLpSkln4XSlpLNw7rJwdkrJjoXzjoWzU0o6C6crJZdS0lk4XSl5wsJ5p5TslJIdC+edxRgHLMY4YDHGAS8OKyUXC2fHwulKyV2lZMfCecLC+VQp6Sycb7FwvsXCeaKU3LUY44DFGAcsxjjgxW9KyU4p+VQp2bFwOgunKyXfUko6C6crJZ2F86lS0lk4d5WSzsLZKSV3WTg7paSzcLpS8s5ijAMWYxywGOOAF7+xcP6WUtKVkh0L5x0LZ6eUdBZOV0ruKiVPWDhdKbnLwulKSWfh7Fg4XSl5p5R0Fs6OhdOVkstijAMWYxywGOOAF/+hlHyLhbNj4XSl5K5S0lk4nYXzJ0rJxcLZKSVdKdmxcC6l5JtKyV0WTldKPrUY44DFGAe8eMjCeaKUfMrC+VQp2bFwnrBw7rJwdkrJOxbOjoWzY+F8qpR0Fs5OKXlnMcYBizEOWIxxwIt/WCnZsXDesXCesHB2SsldFk5XSjoL51OlZMfC2SklFwvniVLSWThdKbksxjhgMcYBizEOePE/xML5llKyY+HcZeE8UUo6C+eUUvJOKXnCwrlrMcYBizEOWIxxwIuHSskppWSnlLxj4XSl5AkLpysld5WSzsLpLJy7SskTFs6nLJyulHSlZMfCeWcxxgGLMQ5YjHHAi/9g4fwtFs5OKflbLJyulNxVSjoLpyslnYVzsXB2SklXSjoLp7NwulLyjoXzLYsxDliMccBijAN+/PyFMb5sMcYBizEO+D+DUdkgXkNZxgAAAABJRU5ErkJggg==" alt="QR code">
+              </div>
+              <span class="scan-label">Scan</span>
+            </div>
+            <div class="brand-cta">
+              <span class="brand-cta-line main">Plant guide &middot; wildlife value &middot; companions</span>
+            </div>
+          </div>
+          <div class="brand-divider"></div>
+          <div class="logo-wrap">
+            <img class="logo-img" alt="Wild Ones Capital Region NY" src="../../assets/icons/LOGO.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom strip -->
+    <div class="attr-strip">
+      <div class="attr-item">
+        <img class="icon-img" alt="Light" src="../../assets/icons/attribute/attr_sun_part.png">
+        <span class="attr-value">Sun – Part Shade</span>
+      </div>
+      <div class="attr-divider"></div>
+      <div class="attr-item">
+        <img class="icon-img" alt="Water" src="../../assets/icons/attribute/attr_water_med.png">
+        <span class="attr-value">Dry – Moist</span>
+      </div>
+      <div class="attr-divider"></div>
+      <div class="attr-item">
+        <img class="icon-img" alt="Soil" src="../../assets/icons/attribute/attr_soil_loam.png">
+        <span class="attr-value">Any</span>
+      </div>
+      <div class="attr-divider"></div>
+      <div class="attr-item">
+        <img class="icon-img" alt="Size" src="../../assets/icons/attribute/attr_size.png">
+        <span class="attr-value">2-5'</span>
+      </div>
+      <div class="attr-divider"></div>
+      <div class="attr-item">
+        <img class="icon-img" alt="Bloom" src="../../assets/icons/attribute/attr_bloom.png">
+        <span class="attr-value">Yellow<br>Jul - Sep</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
