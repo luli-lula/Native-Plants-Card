@@ -122,35 +122,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
-    flex-wrap: wrap;
+    gap: 28px;
     margin-bottom: 40px;
   }
   .flow-item {
     text-align: center;
   }
-  .flow-visual {
-    width: 200px;
-    height: 260px;
-    border-radius: 8px;
+  .flow-card {
+    width: 240px;
+    border-radius: 6px;
     overflow: hidden;
     box-shadow: 0 6px 24px rgba(0,0,0,0.15);
     margin: 0 auto 12px;
     background: #fff;
   }
-  .flow-visual img {
+  .flow-card img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
+    height: auto;
     display: block;
   }
-  .flow-visual.phone {
+  .flow-phone {
     width: 160px;
-    height: 280px;
     border-radius: 20px;
+    overflow: hidden;
     border: 3px solid #333;
     box-shadow: 0 6px 24px rgba(0,0,0,0.2);
+    margin: 0 auto 12px;
+    background: #d6d1c8;
+  }
+  .flow-phone img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
   .flow-label {
     font-family: 'Oswald', sans-serif;
@@ -164,6 +167,14 @@
     font-size: 28px;
     color: var(--sage);
     flex-shrink: 0;
+    align-self: center;
+  }
+
+  @media (max-width: 600px) {
+    .flow { gap: 16px; }
+    .flow-card { width: 160px; }
+    .flow-phone { width: 120px; }
+    .flow-arrow { font-size: 20px; }
   }
 
   /* ─── Info Layers ─── */
@@ -271,17 +282,24 @@
 
   <div class="flow">
     <div class="flow-item">
-      <div class="flow-visual">
+      <div class="flow-card">
         <img src="card-print-example.png" alt="Print card">
       </div>
       <div class="flow-label">Print Card</div>
     </div>
     <div class="flow-arrow">&rarr;</div>
     <div class="flow-item">
-      <div class="flow-visual phone">
-        <img src="../../assets/photos/columbine.jpg" alt="Phone screen">
+      <div class="flow-phone">
+        <img src="phone-front.png" alt="Mobile plant card front">
       </div>
-      <div class="flow-label">Phone Guide</div>
+      <div class="flow-label">Card Front</div>
+    </div>
+    <div class="flow-arrow">&rarr;</div>
+    <div class="flow-item">
+      <div class="flow-phone">
+        <img src="phone-back.png" alt="Mobile plant card back with details">
+      </div>
+      <div class="flow-label">Tap to Flip</div>
     </div>
   </div>
 </div>
