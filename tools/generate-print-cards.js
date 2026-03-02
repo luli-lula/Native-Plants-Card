@@ -19,8 +19,11 @@ const {
 } = require('./icon-map');
 
 // ─── CONFIG ───
+const PERSONAL = process.argv.includes('--personal');
 const DATA_FILE = path.join(__dirname, '../data/plants.json');
-const CARDS_DIR = path.join(__dirname, '../print/html');
+const CARDS_DIR = PERSONAL
+  ? path.join(__dirname, '../print/html-personal')
+  : path.join(__dirname, '../print/html');
 const ICONS_BASE = '../../assets/icons';  // relative from print/html/ → ../../ = repo root
 const ASSETS_DIR = '../../assets/icons';  // nfc-tap.png and LOGO.png live here too
 const GITHUB_PAGES_BASE = 'https://ailula.top/Native-Plants-Card/plants';
@@ -112,7 +115,7 @@ function generateCard(plant, qrDataUri) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${plant.common} — Wild Ones Plant Card</title>
+<title>${plant.common}${PERSONAL ? '' : ' — Wild Ones'} Plant Card</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap');
   :root {
@@ -197,6 +200,8 @@ function generateCard(plant, qrDataUri) {
   .logo-wrap{position:relative;display:flex;flex-direction:column;align-items:center;
     justify-content:center;flex-shrink:0}
   .logo-img{height:46px;width:auto;object-fit:contain}
+  .branding-row.no-logo{justify-content:center}
+  .branding-row.no-logo .scan-section{align-items:center}
 
   .attr-strip{position:relative;background:#f0ece4;border-top:1px solid var(--border);
     padding:6px 15px 8px;display:flex;align-items:center;justify-content:space-around}
@@ -240,7 +245,7 @@ ${badges}
           </div>
         </div>
 
-        <div class="branding-row">
+        <div class="branding-row${PERSONAL ? ' no-logo' : ''}">
           <div class="scan-section">
             <div class="scan-panel">
               <img class="nfc-icon" src="${ASSETS_DIR}/nfc-tap.png" alt="Tap NFC">
@@ -258,11 +263,11 @@ ${badges}
             <div class="brand-cta">
               <span class="brand-cta-line main">Plant guide &middot; wildlife value &middot; companions</span>
             </div>
-          </div>
+          </div>${PERSONAL ? '' : `
           <div class="brand-divider"></div>
           <div class="logo-wrap">
             <img class="logo-img" alt="Wild Ones Capital Region NY" src="${ASSETS_DIR}/LOGO.png">
-          </div>
+          </div>`}
         </div>
       </div>
     </div>
@@ -325,7 +330,7 @@ async function main() {
   const indexHtml = `<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wild Ones — All Plant Cards</title>
+<title>${PERSONAL ? 'Native' : 'Wild Ones —'} Plant Cards</title>
 <style>
   body{font-family:'DM Sans',system-ui,sans-serif;max-width:600px;margin:40px auto;padding:0 20px;color:#2a2a2a}
   h1{font-size:20px;color:#3d5a40;letter-spacing:2px;text-transform:uppercase;margin-bottom:20px}

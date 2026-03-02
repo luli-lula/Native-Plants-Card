@@ -12,8 +12,9 @@ const fs = require('fs');
 const path = require('path');
 const { chromium } = require('playwright');
 
-const CARDS_DIR = path.join(__dirname, '../print/html');
-const PNG_DIR = path.join(__dirname, '../print/png');
+const PERSONAL = process.argv.includes('--personal');
+const CARDS_DIR = path.join(__dirname, PERSONAL ? '../print/html-personal' : '../print/html');
+const PNG_DIR   = path.join(__dirname, PERSONAL ? '../print/png-personal' : '../print/png');
 
 const SCALE = 4;  // 4x CSS resolution → ~400 DPI at 6×4 inch print
 

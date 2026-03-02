@@ -547,26 +547,38 @@ const CSS = `
 
   /* ─── Photo Scroll ─── */
   .photo-scroll {
-    display: flex; gap: 8px;
+    display: flex; gap: 10px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
   }
   .photo-scroll::-webkit-scrollbar { height: 2px; }
   .photo-scroll::-webkit-scrollbar-thumb { background: rgba(107,143,113,0.3); border-radius: 2px; }
   .photo-thumb {
-    width: 72px; height: 72px;
-    border-radius: 8px;
+    width: 140px; height: 140px;
+    border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
     scroll-snap-align: start;
     border: 1px solid var(--border);
     background: #fff;
+    position: relative;
   }
   .photo-thumb img {
     width: 100%; height: 100%;
     object-fit: cover; display: block;
+  }
+  .photo-credit {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    padding: 2px 6px;
+    background: rgba(0,0,0,0.45);
+    color: rgba(255,255,255,0.85);
+    font-size: 8px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   /* ─── Seasonal Tip ─── */
@@ -923,12 +935,24 @@ function buildCautions(plant) {
 }
 
 function buildPhotoGallery(plant) {
-  var photoSrc = `${PHOTO_BASE}${plant.id}.jpg`;
+  // Build list of photos: main photo first, then detail photos from iNaturalist
+  var thumbs = '';
+  var mainSrc = `${PHOTO_BASE}${plant.id}.jpg`;
+  thumbs += `<div class="photo-thumb"><img src="${mainSrc}" alt="${esc(plant.common)}" loading="lazy"></div>`;
+
+  // Add detail photos if available
+  if (plant.detail_photos && plant.detail_photos.length > 0) {
+    plant.detail_photos.forEach(function (filename) {
+      var src = `${PHOTO_BASE}details/${filename}`;
+      thumbs += `<div class="photo-thumb"><img src="${src}" alt="${esc(plant.common)} detail" loading="lazy"></div>`;
+    });
+  }
+
   return `
                 <div class="back-section">
                   <h3 class="section-title">Plant Details</h3>
                   <div class="photo-scroll" id="photoScroll">
-                    <div class="photo-thumb"><img src="${photoSrc}" alt="${esc(plant.common)}"></div>
+                    ${thumbs}
                   </div>
                 </div>`;
 }
@@ -1126,7 +1150,7 @@ function buildJS(plant) {
   /* ── Share ── */
   shareBtn.addEventListener('click', async function () {
     var data = {
-      title: PLANT_COMMON + ' \\u2014 Wild Ones Capital Region NY',
+      title: PLANT_COMMON + ' \\u2014 Native Plant Cards',
       text: 'Check out this native plant: ' + PLANT_COMMON + ' (' + PLANT_SPECIES + ')!',
       url: window.location.href
     };
@@ -1167,7 +1191,7 @@ ${tipsBlock}
 
 function generatePage(plant) {
   var photoSrc = `${PHOTO_BASE}${plant.id}.jpg`;
-  var title = `${esc(plant.common)} &mdash; Wild Ones Capital Region NY`;
+  var title = `${esc(plant.common)} &mdash; Native Plant Cards`;
 
   // Build back sections conditionally
   var backSections = [
@@ -1201,7 +1225,7 @@ function generatePage(plant) {
   <a class="header-btn back-btn" href="../index.html" aria-label="All plants">
     <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
   </a>
-  <div class="header-logo"><img src="${ICON_BASE}LOGO.png" alt="Wild Ones Capital Region NY"></div>
+  <div class="header-logo"><span style="font-family:'Oswald',sans-serif;font-size:13px;font-weight:600;color:var(--sage);letter-spacing:1.5px;text-transform:uppercase">Native Plants</span></div>
   <a class="header-btn plants-btn" href="../index.html">All Plants</a>
 </header>
 
@@ -1259,7 +1283,7 @@ ${buildNativeBadge(plant)}
 
 ${backSections}
 
-                <div class="back-credit">Made with &hearts; by Lu Li for Wild Ones CRNY</div>
+                <div class="back-credit">Made with &hearts; by Lu Li</div>
 
               </div>
 
@@ -1322,7 +1346,7 @@ function generateAllPlantsPage() {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="theme-color" content="#c8c2b6">
-<title>All Plants &mdash; Wild Ones Capital Region NY</title>
+<title>All Plants &mdash; Native Plant Cards</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -1534,7 +1558,7 @@ function generateAllPlantsPage() {
 <body>
 
 <header class="app-header">
-  <span class="header-title">Wild Ones &middot; Capital Region NY</span>
+  <span class="header-title">Native Plant Cards</span>
 </header>
 
 <div class="page">
@@ -1641,7 +1665,7 @@ function generateCollectionPage() {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="theme-color" content="#c8c2b6">
-<title>My Plants &mdash; Wild Ones Capital Region NY</title>
+<title>My Plants &mdash; Native Plant Cards</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -1889,7 +1913,7 @@ function generateCollectionPage() {
 <body>
 
 <header class="app-header">
-  <span class="header-title">Wild Ones &middot; Capital Region NY</span>
+  <span class="header-title">Native Plant Cards</span>
 </header>
 
 <div class="page">
