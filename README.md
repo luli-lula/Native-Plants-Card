@@ -1,4 +1,4 @@
-# Native Plant Cards — Wild Ones Capital Region NY
+# Native Plant Cards
 
 36 Keystone native plant cards for the Capital Region of New York.
 
@@ -23,10 +23,12 @@ npm run serve              # Start local server at localhost:8000
 ├── assets/
 │   ├── icons/                 ← All icon assets
 │   └── photos/                ← Plant photos ({id}.jpg)
+│       └── details/           ← Detail photos from iNaturalist
 ├── tools/                     ← Build scripts
 │   ├── generate-print-cards.js
 │   ├── generate-pages.js
-│   └── screenshot-cards.js    ← PNG export (Playwright)
+│   ├── screenshot-cards.js    ← PNG export (Playwright)
+│   └── fetch-detail-photos.js ← Download detail photos from iNaturalist
 ├── plants/                    ← Mobile web pages (GitHub Pages)
 │   ├── index.html             ← All Plants catalog
 │   ├── collection.html        ← My Plants (saved)
@@ -37,7 +39,3 @@ npm run serve              # Start local server at localhost:8000
 ```
 
 See [WORKFLOW.md](WORKFLOW.md) for detailed documentation.
-
-## License
-
-Icons and content created for Wild Ones Capital Region NY.
