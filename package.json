@@ -6,7 +6,14 @@
     "print": "node tools/generate-print-cards.js",
     "pages": "node tools/generate-pages.js",
     "build": "npm run print && npm run pages",
-    "serve": "python3 -m http.server 8000"
+    "serve": "python3 -m http.server 8000",
+    "personal-cards": "node tools/generate-print-cards.js --personal && node tools/screenshot-cards.js --personal",
+    "fb-post": "node social/facebook-post.js",
+    "fb-dry-run": "node social/facebook-post.js --dry-run",
+    "fb-setup": "node social/setup-token.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1"
   },
   "devDependencies": {
     "playwright": "^1.58.2",

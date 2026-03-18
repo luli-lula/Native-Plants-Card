@@ -1,5 +1,8 @@
 node_modules/
 print/png/
+print/png-personal/
 print/html-personal/
 .DS_Store
 *.csv
+.env
+social/post-state.json

@@ -870,7 +870,7 @@ function buildWildlife(plant) {
                       <span class="wildlife-emoji">${w.emoji || '&#x1F33F;'}</span>
                       <div class="wildlife-text">
                         <strong>${esc(w.title)}</strong>
-                        <span>${esc(w.description)}</span>
+                        <span>${esc(w.desc || w.description || '')}</span>
                       </div>
                     </div>`;
   }).join('');
