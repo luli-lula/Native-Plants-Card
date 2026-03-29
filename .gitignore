@@ -2,7 +2,14 @@ node_modules/
 print/png/
 print/png-personal/
 print/html-personal/
+print/review/
+print/WildOnes_*
+print/All_*
 .DS_Store
 *.csv
 .env
-social/post-state.json
+reviewer-assignments.json
+
+# 内部工具和社交脚本不发布到仓库
+social/
+tools/

@@ -492,6 +492,8 @@
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     padding-bottom: 6px;
+    touch-action: pan-x;
+    overscroll-behavior: contain;
   }
   .photo-scroll::-webkit-scrollbar { height: 2px; }
   .photo-scroll::-webkit-scrollbar-thumb { background: rgba(107,143,113,0.3); border-radius: 2px; }
@@ -862,7 +864,7 @@
                 <div class="back-section">
                   <h3 class="section-title">Plant Details</h3>
                   <div class="photo-scroll" id="photoScroll">
-                    <div class="photo-thumb"><img src="../../assets/photos/prairie-dropseed.jpg" alt="Prairie Dropseed" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-1.jpg" alt="Prairie Dropseed detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-2.jpg" alt="Prairie Dropseed detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-3.jpg" alt="Prairie Dropseed detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-4.jpg" alt="Prairie Dropseed detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-5.jpeg" alt="Prairie Dropseed detail" loading="lazy"></div>
+                    <div class="photo-thumb"><img src="../../assets/photos/prairie-dropseed.jpg" alt="Prairie Dropseed" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-1.jpg" alt="Prairie Dropseed detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-2.jpg" alt="Prairie Dropseed detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-3.jpg" alt="Prairie Dropseed detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-4.jpg" alt="Prairie Dropseed detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/prairie-dropseed-5.jpg" alt="Prairie Dropseed detail" loading="lazy"></div>
                   </div>
                 </div>
 
@@ -958,7 +960,10 @@
   var TAP_THRESHOLD = 8;
 
   function shouldIgnoreFlip(target) {
-    return target.closest('.collect-btn, a, button:not(#backHeader)');
+    // When card is flipped (back showing), only the back-header should flip back
+    // Anything inside backScroll (sections, photos, text) must NOT trigger flip
+    if (isFlipped && !target.closest('#backHeader')) return true;
+    return target.closest('.collect-btn, a, button:not(#backHeader), .photo-scroll');
   }
 
   cardScene.addEventListener('touchstart', function (e) {
@@ -977,6 +982,7 @@
 
   cardScene.addEventListener('touchend', function (e) {
     if (touchMoved) return;
+    if (photoScrolling) return;
     if (shouldIgnoreFlip(e.target)) return;
     flipCard();
   });
@@ -1016,9 +1022,15 @@
     }
   }
 
-  /* ── Photo scroll: stop horizontal swipe propagation ── */
+  /* ── Photo scroll: block all touch/pointer propagation so swiping photos never flips ── */
+  var photoScrolling = false;
   if (photoScroll) {
-    photoScroll.addEventListener('touchmove', function (e) { e.stopPropagation(); }, { passive: true });
+    ['touchstart','touchmove','touchend','pointerdown','pointermove','pointerup','click'].forEach(function(evt) {
+      photoScroll.addEventListener(evt, function (e) {
+        e.stopPropagation();
+      }, evt.indexOf('move') > -1 ? { passive: true } : undefined);
+    });
+    photoScroll.addEventListener('scroll', function () { photoScrolling = true; setTimeout(function(){ photoScrolling = false; }, 300); }, { passive: true });
   }
 
   /* ── Update scroll fade indicator ── */

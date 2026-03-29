@@ -1,0 +1,6618 @@
+[
+  {
+    "id": "canada-anemone",
+    "species": "Anemone canadensis",
+    "common": "Canada Anemone",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Wet",
+    "soil": "Clay, Loam",
+    "bloom_color": "White",
+    "bloom_months": "Apr - Jun",
+    "height": "1-2'",
+    "selling_points": [
+      "Ground Cover",
+      "Erosion Control",
+      "Pollinator Magnet"
+    ],
+    "cautions": [
+      "Spreads by Root"
+    ],
+    "notes": "Can overwhelm smaller plants; spreads by rhizomes",
+    "facts": [
+      {
+        "title": "Beneficial Insects",
+        "sub": "Attracts predatory insects that eat garden pests"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F41E;",
+        "text": "Attracts <strong>predatory insects</strong> like lacewings and hoverflies that eat garden pests like aphids."
+      },
+      {
+        "icon": "&#x1F4A8;",
+        "text": "Spreads by underground rhizomes to form dense colonies &mdash; nature's own <strong>weed suppressor</strong>."
+      },
+      {
+        "icon": "&#x1F33F;",
+        "text": "The name \"Anemone\" comes from Greek <em>anemos</em> (wind) &mdash; these are the <strong>windflowers</strong>."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollen Specialist",
+        "desc": "Visited by small native bees that specialize in collecting anemone pollen"
+      },
+      {
+        "emoji": "&#x1F41E;",
+        "title": "Beneficial Insects",
+        "desc": "Flowers attract predatory insects that provide natural pest control"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Geranium"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Maidenhair Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in moist soil with partial shade for best results",
+      "Space 12&ndash;18&Prime; apart &mdash; it will fill in quickly via rhizomes",
+      "Use a root barrier if you need to contain its spread in small gardens"
+    ],
+    "detail_photos": [
+      "canada-anemone-1.jpg",
+      "canada-anemone-2.jpg",
+      "canada-anemone-3.jpg",
+      "canada-anemone-4.jpg",
+      "canada-anemone-5.jpeg"
+    ]
+  },
+  {
+    "id": "columbine",
+    "species": "Aquilegia canadensis",
+    "common": "Wild Red Columbine",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Dry to Moist",
+    "soil": "Any",
+    "bloom_color": "Red & Yellow",
+    "bloom_months": "Apr - Jul",
+    "height": "1-3'",
+    "selling_points": [
+      "Deer Resistant",
+      "Rock Garden",
+      "Self-Seeding"
+    ],
+    "cautions": [],
+    "notes": "Short-lived (3-5 years) but self-seeds readily",
+    "fun_facts": [
+      {
+        "icon": "&#x1F3A8;",
+        "text": "The red and yellow flowers are perfectly shaped for <strong>hummingbird bills</strong> &mdash; each spur holds a drop of nectar."
+      },
+      {
+        "icon": "&#x1F4AB;",
+        "text": "Self-seeds freely in the garden, and seedlings may produce <strong>new color variations</strong>."
+      },
+      {
+        "icon": "&#x1F48A;",
+        "text": "Native Americans used tiny amounts of crushed seeds as a <strong>love charm</strong> and perfume."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Hummingbird Favorite",
+        "desc": "One of the first nectar sources for Ruby-throated Hummingbirds in spring"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Long-Tongued Bees",
+        "desc": "Bumblebees and mason bees visit for nectar and pollen"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Nectar",
+        "desc": "Swallowtails and skippers feed from the tubular flowers"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Foam Flower"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Maidenhair Fern"
+      },
+      {
+        "emoji": "&#x1F33C;",
+        "name": "Wild Blue Phlox"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade with well-drained soil &mdash; it likes woodland edges",
+      "Scatter seeds in fall for spring germination, or transplant in early spring",
+      "Let spent flowers go to seed for natural self-sowing each year"
+    ],
+    "detail_photos": [
+      "columbine-1.jpg",
+      "columbine-2.jpg",
+      "columbine-3.jpg",
+      "columbine-4.jpg",
+      "columbine-5.jpeg"
+    ]
+  },
+  {
+    "id": "wild-ginger",
+    "species": "Asarum canadense",
+    "common": "Wild Ginger",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [],
+    "light": "Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "Maroon",
+    "bloom_months": "Apr - Jun",
+    "height": "6-8\"",
+    "selling_points": [
+      "Deer Resistant",
+      "Ground Cover",
+      "Shade Tolerant",
+      "Fragrant Foliage"
+    ],
+    "cautions": [],
+    "notes": "Pollinated by flies; host plant for Pipevine Swallowtail (Battus philenor)",
+    "facts": [
+      {
+        "title": "Butterfly Host",
+        "sub": "Larval food for Pipevine Swallowtail"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "The only larval host for the <strong>Pipevine Swallowtail butterfly</strong> in our region."
+      },
+      {
+        "icon": "&#x1F443;",
+        "text": "Crush a leaf or root to release a <strong>spicy ginger scent</strong> &mdash; though it's not related to culinary ginger."
+      },
+      {
+        "icon": "&#x1F33A;",
+        "text": "Flowers bloom at <strong>ground level</strong>, hidden under the leaves, and are pollinated by ground-crawling beetles."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Pipevine Swallowtail Host",
+        "desc": "Critical larval food source for this declining butterfly species"
+      },
+      {
+        "emoji": "&#x1FAB2;",
+        "title": "Beetle Pollinated",
+        "desc": "Ground-level flowers attract small beetles and flies as pollinators"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Red Columbine"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Maidenhair Fern"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Foam Flower"
+      },
+      {
+        "emoji": "&#x1F33C;",
+        "name": "Wild Blue Phlox"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full to part shade in rich, moist soil",
+      "Space rhizomes 12&Prime; apart &mdash; they'll slowly spread to form a lush carpet",
+      "Mulch with leaf litter to mimic its natural woodland habitat"
+    ],
+    "detail_photos": [
+      "wild-ginger-1.jpeg",
+      "wild-ginger-2.jpeg",
+      "wild-ginger-3.jpeg",
+      "wild-ginger-4.jpeg",
+      "wild-ginger-5.jpeg"
+    ]
+  },
+  {
+    "id": "tall-bell-flower",
+    "species": "Campanulastrum americanum",
+    "common": "Tall Bellflower",
+    "type": "Biennial",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "Blue-Purple",
+    "bloom_months": "Jun - Oct",
+    "height": "3-6'",
+    "selling_points": [
+      "Deer Resistant",
+      "Self-Seeding",
+      "Shade Tolerant",
+      "Pollinator Magnet"
+    ],
+    "cautions": [],
+    "notes": "First year forms rosette, flowers second year then dies. Self-seeds.",
+    "fun_facts": [
+      {
+        "icon": "&#x1F31F;",
+        "text": "Despite its name, this is actually a <strong>biennial</strong> &mdash; it grows leaves the first year and flowers the second."
+      },
+      {
+        "icon": "&#x1F4A7;",
+        "text": "The star-shaped blue flowers only last <strong>one day each</strong>, but new ones open continuously for weeks."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Native Bee Favorite",
+        "desc": "Especially attractive to small sweat bees and leaf-cutter bees"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Nectar",
+        "desc": "Visited by various butterfly species for its abundant nectar"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Christmas Fern"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Cardinal Flower"
+      }
+    ],
+    "planting_steps": [
+      "Sow seeds directly in moist, partly shaded soil in fall",
+      "Thin seedlings to 12&Prime; apart in spring",
+      "Let plants self-seed freely to maintain a continuous colony year after year"
+    ],
+    "detail_photos": [
+      "tall-bell-flower-1.jpg",
+      "tall-bell-flower-2.jpg",
+      "tall-bell-flower-3.jpg",
+      "tall-bell-flower-4.jpg",
+      "tall-bell-flower-5.jpg"
+    ]
+  },
+  {
+    "id": "turtlehead",
+    "species": "Chelone glabra",
+    "common": "White Turtlehead",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Wet",
+    "soil": "Clay, Loam, Sand",
+    "bloom_color": "White",
+    "bloom_months": "Jul - Sep",
+    "height": "2-3'",
+    "selling_points": [
+      "Rain Garden",
+      "Cut Flower",
+      "Butterfly Magnet",
+      "Shade Tolerant"
+    ],
+    "cautions": [],
+    "notes": "Host plant for Baltimore Checkerspot butterfly",
+    "facts": [
+      {
+        "title": "Butterfly Host",
+        "sub": "Larval food for Baltimore Checkerspot"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "The <strong>only</strong> larval host plant for the <strong>Baltimore Checkerspot butterfly</strong>, a species of conservation concern."
+      },
+      {
+        "icon": "&#x1F422;",
+        "text": "Named because the flower looks exactly like a <strong>turtle's head</strong> with its mouth open."
+      },
+      {
+        "icon": "&#x1F41D;",
+        "text": "Only <strong>strong bumblebees</strong> can force open the closed flowers to reach the nectar inside."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Baltimore Checkerspot Host",
+        "desc": "Essential breeding habitat for this rare and beautiful butterfly"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bumblebee Specialist",
+        "desc": "Flowers require the strength of bumblebees to pry open for pollination"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F4A7;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Lady Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in consistently moist to wet soil &mdash; perfect near streams or rain gardens",
+      "Part shade to full shade works best; it tolerates sun only if soil stays moist",
+      "Pinch stems in early June to encourage bushier growth and more blooms"
+    ],
+    "detail_photos": [
+      "turtlehead-1.jpg",
+      "turtlehead-2.jpeg",
+      "turtlehead-3.jpg",
+      "turtlehead-4.jpg",
+      "turtlehead-5.jpg"
+    ]
+  },
+  {
+    "id": "black-cohosh",
+    "species": "Actaea racemosa",
+    "common": "Black Cohosh",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "White",
+    "bloom_months": "Jun - Sep",
+    "height": "3-5'",
+    "selling_points": [
+      "Deer Resistant",
+      "Cut Flower",
+      "Shade Tolerant",
+      "Caterpillar Host"
+    ],
+    "cautions": [],
+    "notes": "Dramatic tall white flower spikes; formerly Cimicifuga racemosa",
+    "facts": [
+      {
+        "title": "Architectural Plant",
+        "sub": "Dramatic 3-5’ tall white flower spires"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F3F0;",
+        "text": "Dramatic flower spires reach <strong>3&ndash;5 feet tall</strong>, earning it the nickname \"fairy candles.\""
+      },
+      {
+        "icon": "&#x1F48A;",
+        "text": "Used for centuries by Native Americans and now widely studied for <strong>menopausal symptom relief</strong>."
+      },
+      {
+        "icon": "&#x1F4A8;",
+        "text": "The flowers have a musky scent that attracts <strong>specialized flies and beetles</strong> as pollinators."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1FAB0;",
+        "title": "Fly & Beetle Pollinated",
+        "desc": "Unusual musky fragrance attracts specialized fly and beetle pollinators"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bumble Bee Resource",
+        "desc": "Bumblebees also visit for pollen, especially in shadier sites"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F343;",
+        "name": "Maidenhair Fern"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Foam Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in rich, moist soil in part to full shade &mdash; woodland edges are ideal",
+      "Space 2&ndash;3 feet apart; it forms impressive clumps over time",
+      "Mulch generously with composted leaves to keep roots cool and moist"
+    ],
+    "detail_photos": [
+      "black-cohosh-1.jpg",
+      "black-cohosh-2.jpg",
+      "black-cohosh-3.jpg",
+      "black-cohosh-4.jpg",
+      "black-cohosh-5.jpg"
+    ]
+  },
+  {
+    "id": "bottle-gentian",
+    "species": "Gentiana andrewsii",
+    "common": "Bottle Gentian",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Wet",
+    "soil": "Clay, Loam, Sandy",
+    "bloom_color": "Deep Blue",
+    "bloom_months": "Aug - Oct",
+    "height": "1-2'",
+    "selling_points": [
+      "Rain Garden",
+      "Late Bloomer",
+      "Pollinator Magnet",
+      "Easy to Grow"
+    ],
+    "cautions": [],
+    "notes": "Pollinated exclusively by bumblebees which can pry open the closed flowers",
+    "facts": [
+      {
+        "title": "Bumblebee Exclusive",
+        "sub": "Only bumblebees can pry open the closed flowers"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F41D;",
+        "text": "The flowers <strong>never fully open</strong> &mdash; only bumblebees are strong enough to pry them apart for nectar."
+      },
+      {
+        "icon": "&#x1F499;",
+        "text": "One of the <strong>most intensely blue</strong> wildflowers in North America, blooming when little else does in late fall."
+      },
+      {
+        "icon": "&#x1F3C6;",
+        "text": "Named \"gentian\" after King Gentius of ancient Illyria, who reputedly discovered the plant's medicinal properties."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bumblebee Exclusive",
+        "desc": "Only bumblebees have the strength and technique to force open the closed petals"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Late Season Nectar",
+        "desc": "Provides critical fuel for migrating butterflies in autumn"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Woodland Sunflower"
+      },
+      {
+        "emoji": "&#x1F33C;",
+        "name": "Aromatic Aster"
+      }
+    ],
+    "planting_steps": [
+      "Plant in moist, rich soil in partial shade &mdash; meadow edges work well",
+      "Do not let soil dry out during the first growing season",
+      "Patience is key &mdash; plants are slow to establish but long-lived once settled"
+    ],
+    "detail_photos": [
+      "bottle-gentian-1.jpg",
+      "bottle-gentian-2.jpg",
+      "bottle-gentian-3.jpg",
+      "bottle-gentian-4.jpg",
+      "bottle-gentian-5.jpg"
+    ]
+  },
+  {
+    "id": "prairie-smoke",
+    "species": "Geum triflorum",
+    "common": "Prairie Smoke",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry",
+    "soil": "Sandy, Loam",
+    "bloom_color": "Pink",
+    "bloom_months": "May - Jun",
+    "height": "6-12\"",
+    "selling_points": [
+      "Drought Tolerant",
+      "Ground Cover",
+      "Rock Garden",
+      "Early Bloomer"
+    ],
+    "cautions": [],
+    "notes": "Pollinated exclusively by bumblebees; feathery seed heads are ornamental",
+    "facts": [
+      {
+        "title": "Ornamental Seeds",
+        "sub": "Feathery pink seed heads extend the show"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F32C;",
+        "text": "Named for its <strong>feathery pink seed heads</strong> that look like wisps of smoke drifting across the prairie."
+      },
+      {
+        "icon": "&#x2744;&#xFE0F;",
+        "text": "One of the <strong>earliest spring bloomers</strong> &mdash; its nodding pink flowers appear before most other wildflowers."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "The fernlike foliage turns brilliant <strong>red and orange</strong> in fall, providing a second season of interest."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Early Bee Food",
+        "desc": "One of the first nectar sources for emerging queen bumblebees in spring"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Nectar",
+        "desc": "Early spring butterflies visit the nodding pink flowers"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Yellow Star Grass"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Brown-eyed Susan"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun with dry, well-drained or rocky soil",
+      "Seeds need cold stratification &mdash; sow outdoors in fall for best results",
+      "Space 8&ndash;12&Prime; apart in rock gardens or dry meadow areas"
+    ],
+    "detail_photos": [
+      "prairie-smoke-1.jpeg",
+      "prairie-smoke-2.jpg",
+      "prairie-smoke-3.jpg",
+      "prairie-smoke-4.jpg",
+      "prairie-smoke-5.jpg"
+    ]
+  },
+  {
+    "id": "woodland-sunflower",
+    "species": "Helianthus divaricatus",
+    "common": "Woodland Sunflower",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "birds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry to Moist",
+    "soil": "Any",
+    "bloom_color": "Yellow",
+    "bloom_months": "Jul - Sep",
+    "height": "2-5'",
+    "selling_points": [
+      "Deer Resistant",
+      "Pollinator Magnet",
+      "Shade Tolerant",
+      "Self-Seeding"
+    ],
+    "cautions": [
+      "Spreads by Root"
+    ],
+    "notes": "Spreads by rhizomes to form colonies",
+    "facts": [
+      {
+        "title": "Bird Food",
+        "sub": "Seeds feed goldfinches & other birds in autumn"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F426;",
+        "text": "Seeds feed <strong>goldfinches, chickadees, and other songbirds</strong> throughout autumn and winter."
+      },
+      {
+        "icon": "&#x2600;&#xFE0F;",
+        "text": "Unlike most sunflowers, this species thrives in <strong>partial shade</strong> at woodland edges."
+      },
+      {
+        "icon": "&#x1F33B;",
+        "text": "Spreads by underground rhizomes to form cheerful <strong>golden colonies</strong> in late summer."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Bird Food",
+        "desc": "Seeds are a key fall food source for goldfinches, sparrows, and juncos"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollinator Hub",
+        "desc": "Attracts bees, butterflies, and beneficial wasps to its broad flower heads"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F33C;",
+        "name": "Aromatic Aster"
+      },
+      {
+        "emoji": "&#x1F490;",
+        "name": "Wild Geranium"
+      }
+    ],
+    "planting_steps": [
+      "Plant in partial shade to full sun with average to moist soil",
+      "Space 18&ndash;24&Prime; apart &mdash; rhizomes will fill in gaps over time",
+      "Cut back by half in early June if you want shorter, bushier plants"
+    ],
+    "detail_photos": [
+      "woodland-sunflower-1.jpg",
+      "woodland-sunflower-2.jpg",
+      "woodland-sunflower-3.jpg",
+      "woodland-sunflower-4.jpg",
+      "woodland-sunflower-5.jpeg"
+    ]
+  },
+  {
+    "id": "cardinal-flower",
+    "species": "Lobelia cardinalis",
+    "common": "Cardinal Flower",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Wet",
+    "soil": "Any",
+    "bloom_color": "Red",
+    "bloom_months": "Jul - Sep",
+    "height": "2-4'",
+    "selling_points": [
+      "Rain Garden",
+      "Pollinator Magnet",
+      "Hummingbird Plant",
+      "Butterfly Magnet"
+    ],
+    "cautions": [],
+    "notes": "Primary pollinator is ruby-throated hummingbird",
+    "facts": [
+      {
+        "title": "Short-Lived Perennial",
+        "sub": "Parent plant fades but readily self-seeds"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F426;",
+        "text": "The <strong>brilliant red</strong> color is perfectly tuned to attract hummingbirds, which are its primary pollinator."
+      },
+      {
+        "icon": "&#x1F331;",
+        "text": "A <strong>short-lived perennial</strong> &mdash; the parent plant fades after 2&ndash;3 years but readily self-seeds nearby."
+      },
+      {
+        "icon": "&#x1F451;",
+        "text": "Named after the <strong>red robes</strong> worn by Roman Catholic cardinals."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Hummingbird Magnet",
+        "desc": "Primary pollinator is the Ruby-throated Hummingbird, drawn to its vivid red"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Swallowtail Nectar",
+        "desc": "Swallowtail butterflies also visit the tubular flowers for nectar"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F4A7;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x1F422;",
+        "name": "White Turtlehead"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Lady Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in moist to wet soil along stream banks or in rain gardens",
+      "Part shade is ideal; full sun works only if soil stays consistently moist",
+      "Allow plants to self-seed by leaving spent stalks standing through winter"
+    ],
+    "detail_photos": [
+      "cardinal-flower-1.jpg",
+      "cardinal-flower-2.jpg",
+      "cardinal-flower-3.jpg",
+      "cardinal-flower-4.jpg",
+      "cardinal-flower-5.jpg"
+    ]
+  },
+  {
+    "id": "wild-lupine",
+    "species": "Lupinus perennis",
+    "common": "Wild Lupine",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry",
+    "soil": "Sandy",
+    "bloom_color": "Blue-Purple",
+    "bloom_months": "May - Jul",
+    "height": "1-2'",
+    "selling_points": [
+      "Drought Tolerant",
+      "Nitrogen Fixing",
+      "Butterfly Magnet",
+      "Caterpillar Host"
+    ],
+    "cautions": [
+      "Deep Roots"
+    ],
+    "notes": "Host plant for endangered Karner Blue butterfly; nitrogen fixer",
+    "facts": [
+      {
+        "title": "Endangered Species Host",
+        "sub": "Only host for the rare Karner Blue butterfly"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "The <strong>only</strong> host plant for the federally endangered <strong>Karner Blue butterfly</strong>."
+      },
+      {
+        "icon": "&#x1F331;",
+        "text": "Like other legumes, it <strong>fixes nitrogen</strong> in the soil, enriching the ground for neighboring plants."
+      },
+      {
+        "icon": "&#x1F525;",
+        "text": "Historically dependent on <strong>periodic fire</strong> to keep competing vegetation at bay."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Karner Blue Host",
+        "desc": "Critical and sole food source for the rare Karner Blue butterfly larvae"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bumble Bee Visited",
+        "desc": "Bumblebees work the pea-like flowers, tripping the pollination mechanism"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Brown-eyed Susan"
+      },
+      {
+        "emoji": "&#x1F32C;",
+        "name": "Prairie Smoke"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun with sandy, well-drained soil &mdash; it hates wet feet",
+      "Nick or scarify seeds before planting to improve germination",
+      "Do not fertilize &mdash; it makes its own nitrogen and prefers lean soil"
+    ],
+    "detail_photos": [
+      "wild-lupine-1.jpg",
+      "wild-lupine-2.jpg",
+      "wild-lupine-3.jpg",
+      "wild-lupine-4.jpeg",
+      "wild-lupine-5.jpeg"
+    ]
+  },
+  {
+    "id": "brown-eyed-susan",
+    "species": "Rudbeckia triloba",
+    "common": "Brown-eyed Susan",
+    "type": "Biennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "birds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry to Moist",
+    "soil": "Sandy, Loam",
+    "bloom_color": "Yellow",
+    "bloom_months": "Aug - Oct",
+    "height": "2-5'",
+    "selling_points": [
+      "Deer Resistant",
+      "Pollinator Magnet",
+      "Self-Seeding",
+      "Wildlife Food"
+    ],
+    "cautions": [
+      "Spreads by Seed"
+    ],
+    "notes": "Profuse self-seeder; short-lived biennial/perennial",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33B;",
+        "text": "Unlike its cousin Black-Eyed Susan, this species has a <strong>dark brown-purple center cone</strong>."
+      },
+      {
+        "icon": "&#x1F9F1;",
+        "text": "One of the <strong>toughest native wildflowers</strong> &mdash; thrives in poor soils where others struggle."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bee & Butterfly Buffet",
+        "desc": "Flat flower heads provide easy landing pads for all pollinators"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Winter Bird Food",
+        "desc": "Seed heads feed goldfinches and sparrows through the cold months"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x2618;&#xFE0F;",
+        "name": "New Jersey Tea"
+      },
+      {
+        "emoji": "&#x1F33C;",
+        "name": "Wild Lupine"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun with any well-drained soil &mdash; even poor, dry clay",
+      "Direct sow seeds in fall for natural cold stratification",
+      "Leave seed heads standing all winter for birds and self-seeding"
+    ],
+    "detail_photos": [
+      "brown-eyed-susan-1.jpg",
+      "brown-eyed-susan-2.jpeg",
+      "brown-eyed-susan-3.jpeg",
+      "brown-eyed-susan-4.jpeg",
+      "brown-eyed-susan-5.jpeg"
+    ]
+  },
+  {
+    "id": "false-solomons-seal",
+    "species": "Maianthemum racemosum",
+    "common": "False Solomon's Seal",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "White",
+    "bloom_months": "May - Jun",
+    "height": "1-3'",
+    "selling_points": [
+      "Deer Resistant",
+      "Winter Interest",
+      "Shade Tolerant",
+      "Wildlife Food",
+      "Fragrant"
+    ],
+    "cautions": [],
+    "notes": "Red berries in fall attract birds (ruffed grouse)",
+    "facts": [
+      {
+        "title": "Bird Food",
+        "sub": "Red berries attract birds in fall"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F426;",
+        "text": "Produces clusters of <strong>bright red berries</strong> in fall that attract thrushes, catbirds, and other songbirds."
+      },
+      {
+        "icon": "&#x1F4AB;",
+        "text": "Distinguished from true Solomon's Seal by its <strong>fluffy white flower clusters</strong> at the stem tip."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "The arching stems and graceful form make it an elegant <strong>shade garden focal point</strong>."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Bird Berry Bush",
+        "desc": "Red fall berries are eagerly eaten by thrushes, catbirds, and grouse"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollinator Friendly",
+        "desc": "Tiny fragrant flowers attract small bees and flower flies"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Christmas Fern"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Foam Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in rich, moist woodland soil in part to full shade",
+      "Space 18&Prime; apart; rhizomes slowly form graceful colonies",
+      "Top-dress with composted leaves annually to maintain rich soil"
+    ],
+    "detail_photos": [
+      "false-solomons-seal-1.jpeg",
+      "false-solomons-seal-2.jpeg",
+      "false-solomons-seal-3.jpeg",
+      "false-solomons-seal-4.jpg",
+      "false-solomons-seal-5.jpg"
+    ]
+  },
+  {
+    "id": "culvers-root",
+    "species": "Veronicastrum virginicum",
+    "common": "Culver's Root",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "birds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist",
+    "soil": "Sandy, Loam",
+    "bloom_color": "White",
+    "bloom_months": "Jun - Aug",
+    "height": "3-5'",
+    "selling_points": [
+      "Cut Flower",
+      "Pollinator Magnet",
+      "Deer Resistant",
+      "Late Bloomer"
+    ],
+    "cautions": [],
+    "notes": "Host plant for Buckeye butterfly larvae; elegant spire-like flower stalks",
+    "facts": [
+      {
+        "title": "Butterfly Host",
+        "sub": "Larval food for Buckeye butterfly"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "Larval host for the <strong>Common Buckeye butterfly</strong>, which feeds on its leaves."
+      },
+      {
+        "icon": "&#x1F3F0;",
+        "text": "Elegant white flower spires can reach <strong>4&ndash;6 feet</strong>, making it a dramatic back-of-border plant."
+      },
+      {
+        "icon": "&#x1F48A;",
+        "text": "Named after Dr. Culver, a colonial physician who used the root as a powerful <strong>medicinal purgative</strong>."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Buckeye Host Plant",
+        "desc": "Caterpillars of the Common Buckeye butterfly feed on the foliage"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollinator Beacon",
+        "desc": "White spires attract a wide variety of bees, wasps, and butterflies"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F4A7;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Woodland Sunflower"
+      },
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Blue Vervain"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in moist, rich soil",
+      "Space 2&ndash;3 feet apart; it gets large and impressive",
+      "Stake in windy locations or plant behind shorter perennials for support"
+    ],
+    "detail_photos": [
+      "culvers-root-1.jpg",
+      "culvers-root-2.jpg",
+      "culvers-root-3.jpg",
+      "culvers-root-4.jpg",
+      "culvers-root-5.jpeg"
+    ]
+  },
+  {
+    "id": "little-bluestem",
+    "species": "Schizachyrium scoparium",
+    "common": "Little Bluestem",
+    "type": "Perennial Grass",
+    "native": "New York",
+    "pollinators": [
+      "butterflies",
+      "birds"
+    ],
+    "light": "Sun",
+    "moisture": "Dry to Moist",
+    "soil": "Loam, Sandy",
+    "bloom_color": "Blue-Green",
+    "bloom_months": "Jul - Oct",
+    "height": "2-4'",
+    "selling_points": [
+      "Drought Tolerant",
+      "Deer Resistant",
+      "Winter Interest"
+    ],
+    "cautions": [],
+    "notes": "Stunning copper-orange fall/winter color; host plant for skipper butterflies",
+    "fun_facts": [
+      {
+        "icon": "&#x1F525;",
+        "text": "Fall foliage turns stunning <strong>copper-orange to burgundy</strong>, with fluffy white seed heads that glow in winter light."
+      },
+      {
+        "icon": "&#x1F33E;",
+        "text": "Once the <strong>dominant grass</strong> of the tallgrass prairie, supporting vast ecosystems of wildlife."
+      },
+      {
+        "icon": "&#x1F98B;",
+        "text": "Host plant for several <strong>skipper butterflies</strong>, including the Dusted Skipper and Cobweb Skipper."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Skipper Host",
+        "desc": "Larval food plant for multiple skipper butterfly species"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Bird Nesting Cover",
+        "desc": "Dense clumps provide sheltered nest sites for ground-nesting birds"
+      },
+      {
+        "emoji": "&#x2744;&#xFE0F;",
+        "title": "Winter Shelter",
+        "desc": "Standing dried stems provide crucial winter cover for small mammals"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x2618;&#xFE0F;",
+        "name": "New Jersey Tea"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Brown-eyed Susan"
+      },
+      {
+        "emoji": "&#x1F33C;",
+        "name": "Aromatic Aster"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun with dry to average, well-drained soil",
+      "Space 18&ndash;24&Prime; apart in groups for a natural prairie look",
+      "Cut back to 4&ndash;6&Prime; in late winter before new growth emerges"
+    ],
+    "detail_photos": [
+      "little-bluestem-1.jpeg",
+      "little-bluestem-2.jpeg",
+      "little-bluestem-3.jpeg",
+      "little-bluestem-4.jpeg",
+      "little-bluestem-5.jpeg"
+    ]
+  },
+  {
+    "id": "wood-sedge",
+    "species": "Carex blanda",
+    "common": "Common Wood Sedge",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "birds"
+    ],
+    "light": "Sun to Shade",
+    "moisture": "Dry to Moist",
+    "soil": "Any",
+    "bloom_color": "Green",
+    "bloom_months": "Mar - Jul",
+    "height": "6-12\"",
+    "selling_points": [
+      "Deer Resistant",
+      "Rabbit Resistant",
+      "Ground Cover"
+    ],
+    "cautions": [],
+    "notes": "Wind-pollinated; extremely adaptable native sedge",
+    "fun_facts": [
+      {
+        "icon": "&#x1F343;",
+        "text": "One of the best <strong>native lawn alternatives</strong> for shady areas &mdash; stays green and needs no mowing."
+      },
+      {
+        "icon": "&#x1F331;",
+        "text": "Forms soft, flowing mounds of <strong>evergreen foliage</strong> that look good year-round."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Host",
+        "desc": "Larval food for several sedge-feeding skipper butterflies"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Ground Cover Habitat",
+        "desc": "Dense low growth provides shelter for ground-nesting birds and toads"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Foam Flower"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Christmas Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part to full shade in moist, well-drained soil",
+      "Space 8&ndash;12&Prime; apart for a flowing groundcover effect",
+      "No mowing needed &mdash; just comb out dead foliage in early spring"
+    ],
+    "detail_photos": [
+      "wood-sedge-1.jpg",
+      "wood-sedge-2.jpg",
+      "wood-sedge-3.jpeg",
+      "wood-sedge-4.jpeg",
+      "wood-sedge-5.jpg"
+    ]
+  },
+  {
+    "id": "new-jersey-tea",
+    "species": "Ceanothus americanus",
+    "common": "New Jersey Tea",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds",
+      "birds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry to Moist",
+    "soil": "Loam, Sandy",
+    "bloom_color": "White",
+    "bloom_months": "Jul - Aug",
+    "height": "2-3'",
+    "selling_points": [
+      "Drought Tolerant",
+      "Deer Resistant",
+      "Nitrogen Fixing"
+    ],
+    "cautions": [],
+    "notes": "Nitrogen fixer; deep taproot makes it hard to transplant",
+    "fun_facts": [
+      {
+        "icon": "&#x1F375;",
+        "text": "During the American Revolution, colonists brewed its dried leaves as a <strong>caffeine-free tea substitute</strong> when boycotting British tea."
+      },
+      {
+        "icon": "&#x1F525;",
+        "text": "This plant <strong>thrives after fire</strong>. Its deep taproot can resprout from 6 feet underground."
+      },
+      {
+        "icon": "&#x1F9EC;",
+        "text": "Native Americans used the root bark to make a <strong>red dye</strong> and the leaves as a remedy for respiratory ailments."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bee Magnet",
+        "desc": "Supports 40+ species of native bees, including bumblebees and mining bees"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Host Plant",
+        "desc": "Larval host for Spring Azure and Mottled Duskywing butterflies"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Bird Habitat",
+        "desc": "Dense branching offers nesting cover; seeds feed songbirds in fall"
+      },
+      {
+        "emoji": "&#x1FAB2;",
+        "title": "Soil Life",
+        "desc": "Roots partner with Frankia bacteria, creating tiny nitrogen factories underground"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Black-Eyed Susan"
+      },
+      {
+        "emoji": "&#x1F33C;",
+        "name": "Wild Bergamot"
+      },
+      {
+        "emoji": "&#x2618;&#xFE0F;",
+        "name": "Butterfly Milkweed"
+      }
+    ],
+    "planting_steps": [
+      "Choose a spot with good drainage &mdash; this plant hates wet feet",
+      "Dig a hole twice the width of the root ball, same depth as the pot",
+      "Backfill with native soil (no amendments needed), water deeply, and mulch 2&ndash;3&Prime; around the base"
+    ],
+    "seasonal_tips": {
+      "0": "January: Plan your spring garden layout &mdash; New Jersey Tea pairs beautifully with Little Bluestem and Black-Eyed Susan.",
+      "1": "February: Still dormant &mdash; perfect time to pick your planting spot. Remember: good drainage is key!",
+      "2": "March: Watch for new growth. Prune dead branches before leaves emerge, but go easy &mdash; it blooms on old wood.",
+      "3": "April: Prime planting time! Water deeply after planting and give it space to spread.",
+      "4": "May: New growth is underway. Water weekly until established, then you can mostly leave it alone.",
+      "5": "June: Buds are forming. Back off the watering &mdash; this plant actually prefers it on the dry side.",
+      "6": "July: Bloom time! Watch for the parade of pollinators visiting those fluffy white flower clusters.",
+      "7": "August: Still blooming. Leave spent flowers &mdash; they'll become seeds that songbirds love in fall.",
+      "8": "September: Seeds are ripening. Cardinals and sparrows will thank you for leaving them on the plant.",
+      "9": "October: Leaves turning golden yellow. Leave everything standing for winter interest and wildlife shelter.",
+      "10": "November: Going dormant. A thin layer of leaf mulch around the base is all it needs for winter.",
+      "11": "December: Resting underground. A great time to plan which native companions to add next spring!"
+    },
+    "detail_photos": [
+      "new-jersey-tea-1.jpg",
+      "new-jersey-tea-2.jpg",
+      "new-jersey-tea-3.jpg",
+      "new-jersey-tea-4.jpg",
+      "new-jersey-tea-5.jpg"
+    ]
+  },
+  {
+    "id": "witch-hazel",
+    "species": "Hamamelis virginiana",
+    "common": "Witch Hazel",
+    "type": "Deciduous Shrub",
+    "native": "New York",
+    "pollinators": [],
+    "light": "Sun to Shade",
+    "moisture": "Moist",
+    "soil": "Any",
+    "bloom_color": "Yellow",
+    "bloom_months": "Oct - Nov",
+    "height": "15-20'",
+    "selling_points": [
+      "Deer Resistant",
+      "Winter Interest",
+      "Fragrant",
+      "Caterpillar Host"
+    ],
+    "cautions": [],
+    "notes": "One of few plants blooming in late fall; pollinated by owlet moths active in cold weather",
+    "facts": [
+      {
+        "title": "Moth-Pollinated",
+        "sub": "Owlet moths pollinate in cold late-fall weather"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F319;",
+        "text": "Blooms in <strong>late October&ndash;November</strong> when almost nothing else is flowering &mdash; a true garden surprise."
+      },
+      {
+        "icon": "&#x1FAB0;",
+        "text": "Pollinated by <strong>owlet moths</strong> that fly in cold late-fall weather when other insects are dormant."
+      },
+      {
+        "icon": "&#x1F4A5;",
+        "text": "Seed capsules <strong>explode</strong> when ripe, shooting seeds up to 30 feet from the parent plant!"
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1FAB0;",
+        "title": "Moth Pollinated",
+        "desc": "Owlet moths brave the cold to pollinate these late-season flowers"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Bird Shelter",
+        "desc": "Large spreading form provides excellent year-round bird habitat"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F343;",
+        "name": "Christmas Fern"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Black Cohosh"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade to shade in moist, acidic to neutral soil",
+      "Give it room &mdash; mature specimens spread 15&ndash;20 feet wide",
+      "Prune only right after flowering if needed; blooms form on old wood"
+    ],
+    "detail_photos": [
+      "witch-hazel-1.jpeg",
+      "witch-hazel-2.jpeg",
+      "witch-hazel-3.jpeg",
+      "witch-hazel-4.jpeg",
+      "witch-hazel-5.jpg"
+    ]
+  },
+  {
+    "id": "coral-honeysuckle",
+    "species": "Lonicera sempervirens",
+    "common": "Coral Honeysuckle",
+    "type": "Vine",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds",
+      "birds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist",
+    "soil": "Any",
+    "bloom_color": "Red",
+    "bloom_months": "Apr - Jun",
+    "height": "10-20'",
+    "selling_points": [
+      "Deer Resistant",
+      "Pollinator Magnet",
+      "Hummingbird Plant",
+      "Wildlife Food"
+    ],
+    "cautions": [],
+    "notes": "NOT invasive like Japanese honeysuckle; excellent hummingbird plant",
+    "facts": [
+      {
+        "title": "Native Alternative",
+        "sub": "Non-invasive replacement for Japanese honeysuckle"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F426;",
+        "text": "A <strong>non-invasive native</strong> alternative to the destructive Japanese honeysuckle."
+      },
+      {
+        "icon": "&#x2764;&#xFE0F;",
+        "text": "Tubular red flowers are perfectly designed for <strong>hummingbird bills</strong> &mdash; a top hummingbird plant."
+      },
+      {
+        "icon": "&#x1F352;",
+        "text": "Produces clusters of <strong>bright red berries</strong> in fall that feed migrating songbirds."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Hummingbird Magnet",
+        "desc": "One of the most reliable plants for attracting Ruby-throated Hummingbirds"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Clearwing Moth Host",
+        "desc": "Larval food for the Snowberry Clearwing and Hummingbird Clearwing moths"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Berry Feast",
+        "desc": "Red berries are devoured by thrushes, waxwings, and other songbirds in fall"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Red Columbine"
+      },
+      {
+        "emoji": "&#x1F4A7;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      }
+    ],
+    "planting_steps": [
+      "Plant near a fence, trellis, or arbor &mdash; this vine needs something to climb",
+      "Full sun to part shade; more sun means more flowers",
+      "Water regularly the first year, then it's quite drought tolerant once established"
+    ],
+    "detail_photos": [
+      "coral-honeysuckle-1.jpg",
+      "coral-honeysuckle-2.jpg",
+      "coral-honeysuckle-3.jpg",
+      "coral-honeysuckle-4.jpg",
+      "coral-honeysuckle-5.jpeg"
+    ]
+  },
+  {
+    "id": "virgins-bower",
+    "species": "Clematis virginiana",
+    "common": "Virgin's Bower",
+    "type": "Vine",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist",
+    "soil": "Clay, Loam, Sand",
+    "bloom_color": "White",
+    "bloom_months": "Jul - Sep",
+    "height": "10-20'",
+    "selling_points": [
+      "Winter Interest",
+      "Pollinator Magnet",
+      "Caterpillar Host",
+      "Native Alternative"
+    ],
+    "cautions": [
+      "Spreads by Seed"
+    ],
+    "notes": "Host plant for Clematis Clearwing moth; fluffy seed heads in fall",
+    "facts": [
+      {
+        "title": "Moth Host",
+        "sub": "Larval food for Clematis Clearwing moth"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1FAB0;",
+        "text": "Larval food for the <strong>Clematis Clearwing moth</strong>, a beautiful day-flying moth."
+      },
+      {
+        "icon": "&#x2728;",
+        "text": "The fluffy, silvery seed heads in fall are as ornamental as the flowers &mdash; great for <strong>winter arrangements</strong>."
+      },
+      {
+        "icon": "&#x1F33F;",
+        "text": "This is the <strong>native clematis</strong> &mdash; a vigorous vine that covers fences and dead trees with white flowers."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1FAB0;",
+        "title": "Moth Host",
+        "desc": "Larval food for the Clematis Clearwing moth and Virgin Tiger moth"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollinator Haven",
+        "desc": "Masses of small white flowers attract dozens of bee and butterfly species"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33A;",
+        "name": "Coral Honeysuckle"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Woodland Sunflower"
+      },
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      }
+    ],
+    "planting_steps": [
+      "Plant at the base of a fence, trellis, or shrub it can climb",
+      "Full sun to part shade in moist, well-drained soil",
+      "Prune hard in late winter if it gets too vigorous"
+    ],
+    "detail_photos": [
+      "virgins-bower-1.jpg",
+      "virgins-bower-2.jpg",
+      "virgins-bower-3.jpg",
+      "virgins-bower-4.jpg",
+      "virgins-bower-5.jpeg"
+    ]
+  },
+  {
+    "id": "aromatic-aster",
+    "species": "Symphyotrichum oblongifolium",
+    "common": "Aromatic Aster",
+    "type": "Perennial",
+    "native": "USA",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun",
+    "moisture": "Dry to Moist",
+    "soil": "Sandy, Loam",
+    "bloom_color": "Purple",
+    "bloom_months": "Sep - Nov",
+    "height": "1-3'",
+    "selling_points": [
+      "Drought Tolerant",
+      "Deer Resistant",
+      "Fragrant"
+    ],
+    "cautions": [],
+    "notes": "Late-season bloomer, extremely important for fall pollinators; aromatic foliage",
+    "fun_facts": [
+      {
+        "icon": "&#x1F4A8;",
+        "text": "Crush a leaf to enjoy the <strong>pleasant spicy scent</strong> &mdash; rare among asters."
+      },
+      {
+        "icon": "&#x1F3C6;",
+        "text": "One of the <strong>last flowers blooming</strong> in fall, providing crucial late-season nectar for migrating monarchs."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Monarch Fuel Stop",
+        "desc": "Critical late-season nectar for migrating Monarch butterflies"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Native Bee Favorite",
+        "desc": "Attracts a wide diversity of native bees in fall when little else blooms"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Brown-eyed Susan"
+      },
+      {
+        "emoji": "&#x2618;&#xFE0F;",
+        "name": "New Jersey Tea"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun with dry to average, well-drained soil",
+      "Space 18&ndash;24&Prime; apart; it mounds to about 3 feet wide",
+      "Cut back by half in early June for a more compact shape and more blooms"
+    ],
+    "detail_photos": [
+      "aromatic-aster-1.jpeg",
+      "aromatic-aster-2.jpeg",
+      "aromatic-aster-3.jpeg",
+      "aromatic-aster-4.jpg",
+      "aromatic-aster-5.jpg"
+    ]
+  },
+  {
+    "id": "wild-geranium",
+    "species": "Geranium maculatum",
+    "common": "Wild Geranium",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "Lavender-Pink",
+    "bloom_months": "Apr - Jun",
+    "height": "1-2'",
+    "selling_points": [
+      "Deer Resistant",
+      "Rabbit Resistant",
+      "Shade Tolerant",
+      "Self-Seeding"
+    ],
+    "cautions": [],
+    "notes": "Tolerates dry shade once established; excellent woodland ground cover",
+    "fun_facts": [
+      {
+        "icon": "&#x1F3A8;",
+        "text": "Flowers range from <strong>pale pink to deep lavender</strong> &mdash; every plant is slightly different."
+      },
+      {
+        "icon": "&#x1F4A5;",
+        "text": "Seed pods have a spring-loaded mechanism that <strong>catapults seeds</strong> several feet from the parent plant."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Spring Bee Resource",
+        "desc": "Important early nectar and pollen source for emerging native bees"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Visited",
+        "desc": "Swallowtails and blues visit the open-faced flowers in spring"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Red Columbine"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Maidenhair Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade in average to rich, well-drained soil",
+      "Space 12&ndash;18&Prime; apart for a natural woodland carpet",
+      "Let seed pods mature and fling seeds for natural spreading"
+    ],
+    "detail_photos": [
+      "wild-geranium-1.jpeg",
+      "wild-geranium-2.jpeg",
+      "wild-geranium-3.jpeg",
+      "wild-geranium-4.jpeg",
+      "wild-geranium-5.jpg"
+    ]
+  },
+  {
+    "id": "prairie-phlox",
+    "species": "Phlox pilosa",
+    "common": "Prairie Phlox",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry to Moist",
+    "soil": "Sandy, Loam",
+    "bloom_color": "Pink-Lavender",
+    "bloom_months": "May - Jun",
+    "height": "1-2'",
+    "selling_points": [
+      "Fragrant",
+      "Drought Tolerant",
+      "Butterfly Magnet",
+      "Early Bloomer"
+    ],
+    "cautions": [],
+    "notes": "Deep-throated flowers attract long-tongued bees and butterflies",
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "A <strong>butterfly magnet</strong> &mdash; swallowtails hover around the fragrant flower clusters all day."
+      },
+      {
+        "icon": "&#x1F4AB;",
+        "text": "The ancestor of many popular <strong>garden phlox cultivars</strong>, but this wild form is more disease-resistant."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Swallowtail Favorite",
+        "desc": "Long-tongued butterflies especially love the tubular fragrant flowers"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bee Nectar Source",
+        "desc": "Bumblebees and long-tongued native bees visit for nectar"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33C;",
+        "name": "Wild Lupine"
+      },
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Brown-eyed Susan"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to light shade with average, well-drained soil",
+      "Space 12&ndash;18&Prime; apart; good air circulation prevents powdery mildew",
+      "Deadhead spent flowers to encourage reblooming"
+    ],
+    "detail_photos": [
+      "prairie-phlox-1.jpg",
+      "prairie-phlox-2.jpg",
+      "prairie-phlox-3.jpg",
+      "prairie-phlox-4.jpg",
+      "prairie-phlox-5.jpeg"
+    ]
+  },
+  {
+    "id": "foam-flower",
+    "species": "Tiarella cordifolia",
+    "common": "Foam Flower",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "White",
+    "bloom_months": "Apr - Jun",
+    "height": "6-12\"",
+    "selling_points": [
+      "Deer Resistant",
+      "Ground Cover",
+      "Shade Tolerant",
+      "Early Bloomer"
+    ],
+    "cautions": [],
+    "notes": "Spreads by stolons to form attractive colonies; semi-evergreen foliage",
+    "facts": [
+      {
+        "title": "Semi-Evergreen",
+        "sub": "Foliage persists through mild winters"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x2744;&#xFE0F;",
+        "text": "The foliage is <strong>semi-evergreen</strong>, persisting through mild winters for year-round groundcover."
+      },
+      {
+        "icon": "&#x1F52C;",
+        "text": "Named for the frothy, <strong>foam-like</strong> appearance of its white flower clusters in spring."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "Maple-shaped leaves often develop <strong>burgundy markings</strong> along the veins in fall."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Native Bee Visited",
+        "desc": "Small native bees and sweat bees visit the delicate spring flowers"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Red Columbine"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Christmas Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part to full shade in moist, rich, acidic soil",
+      "Space 12&Prime; apart; stolons spread to form a lush carpet",
+      "Mulch with shredded leaves to mimic the forest floor"
+    ],
+    "detail_photos": [
+      "foam-flower-1.jpg",
+      "foam-flower-2.jpg",
+      "foam-flower-3.jpg",
+      "foam-flower-4.jpg",
+      "foam-flower-5.jpg"
+    ]
+  },
+  {
+    "id": "blue-vervain",
+    "species": "Verbena hastata",
+    "common": "Blue Vervain",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "birds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Wet",
+    "soil": "Clay, Loam",
+    "bloom_color": "Blue-Purple",
+    "bloom_months": "Jul - Sep",
+    "height": "3-5'",
+    "selling_points": [
+      "Deer Resistant",
+      "Rain Garden",
+      "Pollinator Magnet",
+      "Wildlife Food"
+    ],
+    "cautions": [],
+    "notes": "Flowers open sequentially from bottom to top; tolerates wet soil",
+    "fun_facts": [
+      {
+        "icon": "&#x1F41D;",
+        "text": "A <strong>pollinator powerhouse</strong> &mdash; attracts dozens of bee and butterfly species to its purple flower spikes."
+      },
+      {
+        "icon": "&#x1F48A;",
+        "text": "Used in traditional herbalism for <strong>calming and digestive</strong> remedies for centuries."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bee & Wasp Magnet",
+        "desc": "Flower spikes are covered with native bees, wasps, and flies all summer"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Nectar",
+        "desc": "Skippers, hairstreaks, and small butterflies visit the tiny flowers"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Seed Food",
+        "desc": "Small birds feed on the abundant seeds in late summer"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F4A7;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x1F422;",
+        "name": "White Turtlehead"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Woodland Sunflower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in moist to wet soil",
+      "Perfect for rain gardens, pond edges, and low wet spots",
+      "Self-seeds readily &mdash; remove spent stalks if you want to limit spread"
+    ],
+    "detail_photos": [
+      "blue-vervain-1.jpg",
+      "blue-vervain-2.jpg",
+      "blue-vervain-3.jpeg",
+      "blue-vervain-4.jpg",
+      "blue-vervain-5.jpg"
+    ]
+  },
+  {
+    "id": "maidenhair-fern",
+    "species": "Adiantum pedatum",
+    "common": "Maidenhair Fern",
+    "type": "Perennial Fern",
+    "native": "New York",
+    "pollinators": [],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "",
+    "bloom_months": "",
+    "foliage": "Deciduous",
+    "height": "1-2'",
+    "selling_points": [
+      "Deer Resistant",
+      "Shade Garden",
+      "Shade Tolerant",
+      "Easy to Grow"
+    ],
+    "cautions": [],
+    "notes": "Elegant fan-shaped fronds on dark wiry stems; no flowers (fern reproduces by spores)",
+    "fun_facts": [
+      {
+        "icon": "&#x1F343;",
+        "text": "The delicate, fan-shaped fronds on <strong>jet-black stems</strong> make this one of the most elegant native ferns."
+      },
+      {
+        "icon": "&#x1F4A7;",
+        "text": "The name \"maidenhair\" refers to the fine, <strong>hair-like black stems</strong> (stipes) of the fronds."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F438;",
+        "title": "Habitat Provider",
+        "desc": "Dense fronds create cool, moist microclimates for salamanders and frogs"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Red Columbine"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Foam Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part to full shade in moist, rich, neutral to alkaline soil",
+      "Keep soil consistently moist &mdash; this fern will not tolerate drought",
+      "Shelter from wind, which can damage the delicate fronds"
+    ],
+    "detail_photos": [
+      "maidenhair-fern-1.jpg",
+      "maidenhair-fern-2.jpg",
+      "maidenhair-fern-3.jpg",
+      "maidenhair-fern-4.jpg",
+      "maidenhair-fern-5.jpg"
+    ]
+  },
+  {
+    "id": "pasture-rose",
+    "species": "Rosa carolina",
+    "common": "Pasture Rose",
+    "type": "Deciduous Shrub",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "birds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry to Moist",
+    "soil": "Sandy, Loam",
+    "bloom_color": "Pink",
+    "bloom_months": "Jun - Jul",
+    "height": "1-3'",
+    "selling_points": [
+      "Fragrant",
+      "Wildlife Food",
+      "Erosion Control",
+      "Pollinator Magnet"
+    ],
+    "cautions": [
+      "Thorns"
+    ],
+    "notes": "Rose hips provide winter food for birds; host plant for several moth species",
+    "facts": [
+      {
+        "title": "Bird Food",
+        "sub": "Rose hips feed birds through winter"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F426;",
+        "text": "<strong>Rose hips</strong> persist through winter, feeding birds when other food is scarce."
+      },
+      {
+        "icon": "&#x1F33A;",
+        "text": "Unlike invasive multiflora rose, this native rose is <strong>well-behaved</strong> and only mildly thorny."
+      },
+      {
+        "icon": "&#x1F36F;",
+        "text": "Rose hips are rich in <strong>vitamin C</strong> &mdash; historically used to make teas and jams."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Native Bee Haven",
+        "desc": "Simple open flowers provide easy access to pollen for native bees"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Winter Bird Food",
+        "desc": "Rose hips feed cedar waxwings, robins, and mockingbirds all winter"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Nectar",
+        "desc": "Fragrant pink flowers attract a variety of butterflies"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x2618;&#xFE0F;",
+        "name": "New Jersey Tea"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Brown-eyed Susan"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in average, well-drained soil",
+      "Give it 3&ndash;4 feet of space; it forms a low, arching shrub",
+      "Prune out dead canes in late winter; leave rose hips for birds"
+    ],
+    "detail_photos": [
+      "pasture-rose-1.jpg",
+      "pasture-rose-2.jpg",
+      "pasture-rose-3.jpg",
+      "pasture-rose-4.jpg",
+      "pasture-rose-5.jpg"
+    ]
+  },
+  {
+    "id": "great-st-johns-wort",
+    "species": "Hypericum ascyron",
+    "common": "Great St. John's Wort",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist",
+    "soil": "Clay, Loam",
+    "bloom_color": "Yellow",
+    "bloom_months": "Jul - Aug",
+    "height": "2-5'",
+    "selling_points": [
+      "Deer Resistant",
+      "Cut Flower",
+      "Pollinator Magnet",
+      "Rain Garden"
+    ],
+    "cautions": [],
+    "notes": "Largest native St. John's Wort; showy 2-inch yellow flowers",
+    "facts": [
+      {
+        "title": "Showy Blooms",
+        "sub": "Largest native St. John’s Wort; 2-inch flowers"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F31F;",
+        "text": "The <strong>largest native St. John's Wort</strong> &mdash; flowers reach a showy 2 inches across."
+      },
+      {
+        "icon": "&#x1F4A1;",
+        "text": "Historically associated with <strong>St. John's Day</strong> (June 24) when it typically begins blooming."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollen Source",
+        "desc": "Abundant stamens produce copious pollen for native bees and flower beetles"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Visited",
+        "desc": "Various butterflies visit the large, open golden flowers"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x1F4A7;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x1F33C;",
+        "name": "Aromatic Aster"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in moist to average soil",
+      "Space 2&ndash;3 feet apart; it forms a rounded shrubby mound",
+      "Prune lightly in early spring to encourage dense growth"
+    ],
+    "detail_photos": [
+      "great-st-johns-wort-1.jpg",
+      "great-st-johns-wort-2.jpg",
+      "great-st-johns-wort-3.jpg",
+      "great-st-johns-wort-4.jpg",
+      "great-st-johns-wort-5.jpg"
+    ]
+  },
+  {
+    "id": "yellow-star-grass",
+    "species": "Hypoxis hirsuta",
+    "common": "Yellow Star Grass",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry to Moist",
+    "soil": "Loam, Sandy",
+    "bloom_color": "Yellow",
+    "bloom_months": "Apr - Jun",
+    "height": "3-7\"",
+    "selling_points": [
+      "Rock Garden",
+      "Drought Tolerant",
+      "Early Bloomer",
+      "Easy to Grow"
+    ],
+    "cautions": [],
+    "notes": "Tiny star-shaped flowers; good for rock gardens and front of borders",
+    "fun_facts": [
+      {
+        "icon": "&#x2B50;",
+        "text": "Despite its name, it's not a grass at all &mdash; it's in the <strong>iris family</strong>."
+      },
+      {
+        "icon": "&#x1F31E;",
+        "text": "Bright yellow <strong>star-shaped flowers</strong> open only on sunny days and close by evening."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Small Bee Pollinated",
+        "desc": "Tiny sweat bees and halictid bees visit the cheerful yellow flowers"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F32C;",
+        "name": "Prairie Smoke"
+      },
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Brown-eyed Susan"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun with dry to average, well-drained soil",
+      "Space 6&ndash;8&Prime; apart in rock gardens or meadow edges",
+      "Avoid rich soils and overwatering &mdash; it prefers lean conditions"
+    ],
+    "detail_photos": [
+      "yellow-star-grass-1.jpeg",
+      "yellow-star-grass-2.jpeg",
+      "yellow-star-grass-3.jpeg",
+      "yellow-star-grass-4.jpeg",
+      "yellow-star-grass-5.jpeg"
+    ]
+  },
+  {
+    "id": "partridge-berry",
+    "species": "Mitchella repens",
+    "common": "Partridge Berry",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Sandy",
+    "bloom_color": "White",
+    "bloom_months": "May - Jul",
+    "height": "1-2\"",
+    "selling_points": [
+      "Ground Cover",
+      "Deer Resistant",
+      "Winter Interest"
+    ],
+    "cautions": [],
+    "notes": "Prostrate evergreen ground cover; bright red berries persist through winter",
+    "fun_facts": [
+      {
+        "icon": "&#x1F534;",
+        "text": "Each red berry requires <strong>two flowers</strong> to form &mdash; you can see the two \"eyes\" on each fruit."
+      },
+      {
+        "icon": "&#x2744;&#xFE0F;",
+        "text": "A beautiful <strong>evergreen groundcover</strong> that stays green even under snow."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "Traditionally used to make <strong>terrarium plantings</strong> &mdash; thrives in enclosed, moist conditions."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Winter Bird Food",
+        "desc": "Bright red berries persist all winter, feeding grouse, quail, and thrushes"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bumblebee Pollinated",
+        "desc": "Fragrant white flowers attract bumblebees in early summer"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F343;",
+        "name": "Christmas Fern"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Foam Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part to full shade in moist, acidic soil",
+      "Perfect under evergreens or in woodland paths",
+      "Do not disturb once established &mdash; it spreads slowly on its own"
+    ],
+    "detail_photos": [
+      "partridge-berry-1.jpeg",
+      "partridge-berry-2.jpeg",
+      "partridge-berry-3.jpg",
+      "partridge-berry-4.jpg",
+      "partridge-berry-5.jpg"
+    ]
+  },
+  {
+    "id": "sweet-cicely",
+    "species": "Osmorhiza claytonii",
+    "common": "Sweet Cicely",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "White",
+    "bloom_months": "May - Jun",
+    "height": "1-2'",
+    "selling_points": [
+      "Fragrant",
+      "Shade Garden",
+      "Edible",
+      "Early Bloomer"
+    ],
+    "cautions": [],
+    "notes": "Host plant for Black Swallowtail butterfly; anise-scented roots",
+    "facts": [
+      {
+        "title": "Butterfly Host",
+        "sub": "Larval food for Black Swallowtail"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "Larval food for the <strong>Black Swallowtail butterfly</strong>, which feeds on plants in the carrot family."
+      },
+      {
+        "icon": "&#x1F36C;",
+        "text": "Crush the leaves or roots for a sweet <strong>anise/licorice scent</strong> &mdash; historically used as a flavoring."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Swallowtail Host",
+        "desc": "Black Swallowtail butterfly larvae feed on the foliage"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Early Pollinator Food",
+        "desc": "White umbel flowers provide spring nectar for small bees and flies"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Maidenhair Fern"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Blue Phlox"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part to full shade in rich, moist woodland soil",
+      "Space 12&ndash;18&Prime; apart; it self-seeds gently in good conditions",
+      "Leave foliage standing to support swallowtail caterpillars"
+    ],
+    "detail_photos": [
+      "sweet-cicely-1.png",
+      "sweet-cicely-2.jpg",
+      "sweet-cicely-3.jpeg",
+      "sweet-cicely-4.jpg",
+      "sweet-cicely-5.jpg"
+    ]
+  },
+  {
+    "id": "wild-blue-phlox",
+    "species": "Phlox divaricata",
+    "common": "Wild Blue Phlox",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "Blue-Lavender",
+    "bloom_months": "Apr - May",
+    "height": "10-15\"",
+    "selling_points": [
+      "Deer Resistant",
+      "Fragrant",
+      "Ground Cover"
+    ],
+    "cautions": [],
+    "notes": "Fragrant spring flowers; excellent woodland ground cover; drought tolerant once established",
+    "fun_facts": [
+      {
+        "icon": "&#x1F4A8;",
+        "text": "Flowers emit a <strong>sweet, light fragrance</strong> especially noticeable on warm spring evenings."
+      },
+      {
+        "icon": "&#x1F3A8;",
+        "text": "Flower color varies from <strong>sky blue to lavender to pale violet</strong> depending on soil conditions."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Swallowtail Nectar",
+        "desc": "Long-tongued butterflies like swallowtails favor the tubular flowers"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Spring Bee Resource",
+        "desc": "Bumblebees and mason bees visit for early spring nectar"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Red Columbine"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Maidenhair Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade in rich, moist, well-drained soil",
+      "Space 12&Prime; apart for a solid carpet of spring blooms",
+      "Let it self-seed to naturalize through the woodland garden"
+    ],
+    "detail_photos": [
+      "wild-blue-phlox-1.jpg",
+      "wild-blue-phlox-2.jpeg",
+      "wild-blue-phlox-3.jpeg",
+      "wild-blue-phlox-4.jpeg",
+      "wild-blue-phlox-5.jpeg"
+    ]
+  },
+  {
+    "id": "tall-ironweed",
+    "species": "Vernonia gigantea",
+    "common": "Tall Ironweed",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Wet",
+    "soil": "Clay, Loam",
+    "bloom_color": "Magenta-Purple",
+    "bloom_months": "Aug - Sep",
+    "height": "5-8'",
+    "selling_points": [
+      "Pollinator Magnet",
+      "Rain Garden",
+      "Deer Resistant",
+      "Butterfly Magnet"
+    ],
+    "cautions": [],
+    "notes": "Late-season nectar source; dramatic height makes it a great back-of-border plant",
+    "fun_facts": [
+      {
+        "icon": "&#x1F4AA;",
+        "text": "Named \"ironweed\" for its <strong>incredibly tough stems</strong> that resist breaking even in strong winds."
+      },
+      {
+        "icon": "&#x1F3F0;",
+        "text": "Can reach <strong>6&ndash;8 feet tall</strong> &mdash; a towering presence in late-summer gardens."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Monarch Fuel",
+        "desc": "Rich nectar source for migrating Monarch butterflies in late summer"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bee Magnet",
+        "desc": "Bumblebees swarm the vivid purple flower clusters"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33B;",
+        "name": "Woodland Sunflower"
+      },
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x1F4A7;",
+        "name": "Cardinal Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in moist to average soil &mdash; great at pond or stream edges",
+      "Space 2&ndash;3 feet apart; it gets very tall",
+      "Pinch stems in late May to reduce height and encourage branching"
+    ],
+    "detail_photos": [
+      "tall-ironweed-1.jpeg",
+      "tall-ironweed-2.jpeg",
+      "tall-ironweed-3.jpeg",
+      "tall-ironweed-4.jpeg",
+      "tall-ironweed-5.jpeg"
+    ]
+  },
+  {
+    "id": "smooth-yellow-violet",
+    "species": "Viola eriocarpa",
+    "common": "Smooth Yellow Violet",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "Yellow",
+    "bloom_months": "Apr - May",
+    "height": "4-12\"",
+    "selling_points": [
+      "Ground Cover",
+      "Shade Garden",
+      "Early Bloomer",
+      "Self-Seeding"
+    ],
+    "cautions": [],
+    "notes": "Does not spread aggressively like some violets; smooth leaves distinguish it from Downy Yellow Violet",
+    "facts": [
+      {
+        "title": "Well-Behaved",
+        "sub": "Does not spread aggressively like other violets"
+      }
+    ],
+    "fun_facts": [
+      {
+        "icon": "&#x2705;",
+        "text": "Unlike many violets, this one is <strong>well-behaved</strong> &mdash; it does not spread aggressively."
+      },
+      {
+        "icon": "&#x1F33C;",
+        "text": "One of the few native violets with <strong>yellow flowers</strong> &mdash; a cheerful spring groundcover."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Spring Bee Food",
+        "desc": "Early flowers provide pollen for bees emerging from winter hibernation"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Fritillary Host",
+        "desc": "Violets are the larval food plant for Greater Spangled Fritillary butterflies"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Blue Phlox"
+      },
+      {
+        "emoji": "&#x1F343;",
+        "name": "Christmas Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade in moist, rich woodland soil",
+      "Space 8&ndash;12&Prime; apart for a gentle groundcover",
+      "Pairs beautifully with spring ephemerals under deciduous trees"
+    ],
+    "detail_photos": [
+      "smooth-yellow-violet-1.jpg",
+      "smooth-yellow-violet-2.jpg",
+      "smooth-yellow-violet-3.jpeg",
+      "smooth-yellow-violet-4.jpeg",
+      "smooth-yellow-violet-5.jpg"
+    ]
+  },
+  {
+    "id": "lady-fern",
+    "species": "Athyrium filix-femina",
+    "common": "Lady Fern",
+    "type": "Perennial Fern",
+    "native": "New York",
+    "pollinators": [],
+    "light": "Part to Shade",
+    "moisture": "Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "",
+    "bloom_months": "",
+    "foliage": "Deciduous",
+    "height": "2-3'",
+    "selling_points": [
+      "Deer Resistant",
+      "Shade Garden",
+      "Erosion Control",
+      "Easy to Grow"
+    ],
+    "cautions": [],
+    "notes": "Graceful feathery fronds; tolerates drier conditions in shade; fern reproduces by spores",
+    "fun_facts": [
+      {
+        "icon": "&#x1F343;",
+        "text": "The lacy, <strong>finely-divided fronds</strong> give this fern an exceptionally delicate, graceful appearance."
+      },
+      {
+        "icon": "&#x1F4A7;",
+        "text": "Deciduous &mdash; fronds emerge as tight <strong>fiddleheads</strong> in spring, unfurling in elegant spirals."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F438;",
+        "title": "Amphibian Habitat",
+        "desc": "Dense fronds create cool, moist shelter for frogs, toads, and salamanders"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Nesting Cover",
+        "desc": "Low fern thickets provide hiding spots for ground-nesting birds"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Foam Flower"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "False Solomon's Seal"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part to full shade in rich, moist, acidic soil",
+      "Space 18&ndash;24&Prime; apart; fronds arch gracefully to 2&ndash;3 feet",
+      "Keep soil consistently moist; mulch with shredded leaves annually"
+    ],
+    "detail_photos": [
+      "lady-fern-1.jpeg",
+      "lady-fern-2.jpeg",
+      "lady-fern-3.jpeg",
+      "lady-fern-4.jpeg",
+      "lady-fern-5.jpeg"
+    ]
+  },
+  {
+    "id": "christmas-fern",
+    "species": "Polystichum acrostichoides",
+    "common": "Christmas Fern",
+    "type": "Evergreen Fern",
+    "native": "New York",
+    "pollinators": [],
+    "light": "Part to Shade",
+    "moisture": "Dry to Moist",
+    "soil": "Rich, Loam",
+    "bloom_color": "",
+    "bloom_months": "",
+    "foliage": "Evergreen",
+    "height": "1-2'",
+    "selling_points": [
+      "Deer Resistant",
+      "Rabbit Resistant",
+      "Winter Interest"
+    ],
+    "cautions": [],
+    "notes": "Evergreen - stays green through winter; tolerates dry shade once established",
+    "fun_facts": [
+      {
+        "icon": "&#x1F384;",
+        "text": "Named because its fronds stay <strong>green through Christmas</strong> &mdash; one of very few evergreen ferns."
+      },
+      {
+        "icon": "&#x1F9E6;",
+        "text": "Each leaflet is shaped like a tiny <strong>Christmas stocking</strong>, complete with a little \"toe\" at the base."
+      },
+      {
+        "icon": "&#x2744;&#xFE0F;",
+        "text": "Colonists used the fronds as <strong>holiday decorations</strong> when fresh greenery was scarce in winter."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Winter Cover",
+        "desc": "Evergreen fronds shelter small birds and amphibians even in deep winter"
+      },
+      {
+        "emoji": "&#x1F438;",
+        "title": "Salamander Habitat",
+        "desc": "Dense root crowns and moist conditions attract woodland salamanders"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Foam Flower"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Blue Phlox"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part to full shade in moist, well-drained, slightly acidic soil",
+      "Space 18&Prime; apart; clumps expand slowly over the years",
+      "Leave old fronds in place &mdash; they protect new fiddleheads emerging in spring"
+    ],
+    "detail_photos": [
+      "christmas-fern-1.jpeg",
+      "christmas-fern-2.jpg",
+      "christmas-fern-3.jpeg",
+      "christmas-fern-4.jpeg",
+      "christmas-fern-5.jpg"
+    ]
+  },
+  {
+    "id": "bear-oak",
+    "species": "Quercus ilicifolia",
+    "common": "Bear Oak",
+    "type": "Shrub/Tree",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Full Sun",
+    "moisture": "Dry",
+    "soil": "Sandy, Well-drained",
+    "bloom_color": "Green (catkins)",
+    "bloom_months": "Apr - May",
+    "height": "8-15'",
+    "selling_points": [
+      "Wildlife Food",
+      "Erosion Control",
+      "Caterpillar Host",
+      "Drought Tolerant"
+    ],
+    "cautions": [
+      "Slow Growing"
+    ],
+    "notes": "Scrub oak ideal for sandy, nutrient-poor soils; acorns feed bears, deer, and turkey",
+    "fun_facts": [
+      {
+        "icon": "&#x1F43B;",
+        "text": "Called <strong>Bear Oak</strong> because black bears rely heavily on its small, abundant acorns."
+      },
+      {
+        "icon": "&#x1F525;",
+        "text": "Adapted to <strong>fire-prone</strong> habitats &mdash; resprouts vigorously from roots after wildfire."
+      },
+      {
+        "icon": "&#x1F333;",
+        "text": "One of the <strong>smallest oaks</strong> in North America, rarely exceeding 15 feet tall."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F983;",
+        "title": "Turkey & Game Birds",
+        "desc": "Acorns are a critical fall food source for wild turkey and ruffed grouse"
+      },
+      {
+        "emoji": "&#x1F43B;",
+        "title": "Bear Food",
+        "desc": "Black bears seek out bear oak stands for their prolific acorn crops"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Lupine"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Prairie Smoke"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in well-drained, sandy or rocky soil",
+      "Space 8&ndash;10&Prime; apart; grows slowly but forms dense thickets",
+      "No fertilizer needed &mdash; thrives in nutrient-poor soil"
+    ],
+    "detail_photos": [
+      "bear-oak-1.jpg",
+      "bear-oak-2.jpeg",
+      "bear-oak-3.jpeg",
+      "bear-oak-4.jpeg",
+      "bear-oak-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Bear Oak",
+        "sub": "Called Bear Oak because black bears rely heavily on its small, abundant acorns."
+      }
+    ]
+  },
+  {
+    "id": "prairie-willow",
+    "species": "Salix humilis",
+    "common": "Prairie Willow",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Dry",
+    "soil": "Sandy, Loam",
+    "bloom_color": "Yellow (catkins)",
+    "bloom_months": "Mar - Apr",
+    "height": "3-8'",
+    "selling_points": [
+      "Early Bloomer",
+      "Pollinator Magnet",
+      "Erosion Control",
+      "Caterpillar Host"
+    ],
+    "cautions": [],
+    "notes": "One of the earliest spring bloomers; catkins provide critical early-season pollen for native bees",
+    "fun_facts": [
+      {
+        "icon": "&#x1F41D;",
+        "text": "One of the <strong>first spring pollen sources</strong> &mdash; essential for early-emerging native bees."
+      },
+      {
+        "icon": "&#x1F33E;",
+        "text": "Unlike most willows, this species thrives in <strong>dry, upland</strong> prairies and barrens."
+      },
+      {
+        "icon": "&#x1F98B;",
+        "text": "Host plant for the <strong>Viceroy butterfly</strong> and mourning cloak caterpillars."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Early Bee Food",
+        "desc": "Catkins are among the first spring pollen sources for mining bees and bumblebees"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Host",
+        "desc": "Larval host for Viceroy and mourning cloak butterflies"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "New Jersey Tea"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Lupine"
+      }
+    ],
+    "planting_steps": [
+      "Plant in sun to light shade in well-drained soil",
+      "Space 4&ndash;6&Prime; apart; tolerates dry sandy conditions",
+      "Prune lightly after flowering to maintain compact shape"
+    ],
+    "detail_photos": [
+      "prairie-willow-1.jpeg",
+      "prairie-willow-2.jpeg",
+      "prairie-willow-3.jpeg",
+      "prairie-willow-4.jpeg",
+      "prairie-willow-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Prairie Willow",
+        "sub": "One of the first spring pollen sources — essential for early-emerging native bee"
+      }
+    ]
+  },
+  {
+    "id": "swamp-milkweed",
+    "species": "Asclepias incarnata",
+    "common": "Swamp Milkweed",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Wet",
+    "soil": "Clay, Loam",
+    "bloom_color": "Pink",
+    "bloom_months": "Jun - Aug",
+    "height": "4'",
+    "selling_points": [
+      "Monarch Host",
+      "Rain Garden",
+      "Pollinator Magnet",
+      "Butterfly Magnet"
+    ],
+    "cautions": [],
+    "notes": "Essential Monarch butterfly host plant; thrives in wet areas and rain gardens",
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "Monarch caterpillars <strong>feed exclusively</strong> on milkweed &mdash; no milkweed means no Monarchs."
+      },
+      {
+        "icon": "&#x1F4A7;",
+        "text": "Unlike common milkweed, this species is <strong>well-behaved</strong> in gardens &mdash; clump-forming, not aggressive."
+      },
+      {
+        "icon": "&#x1F48A;",
+        "text": "The milky sap contains <strong>cardiac glycosides</strong> that make Monarch butterflies toxic to predators."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Monarch Nursery",
+        "desc": "One of the most important Monarch butterfly host plants in eastern North America"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollinator Magnet",
+        "desc": "Flowers attract dozens of bee and butterfly species with abundant nectar"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Joe Pye Weed"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in moist to wet soil; ideal for rain gardens",
+      "Space 18&ndash;24&Prime; apart; grows in clumps without spreading aggressively",
+      "Leave seed pods in fall &mdash; they provide winter interest and self-sow gently"
+    ],
+    "detail_photos": [
+      "swamp-milkweed-1.jpg",
+      "swamp-milkweed-2.jpg",
+      "swamp-milkweed-3.jpg",
+      "swamp-milkweed-4.jpeg",
+      "swamp-milkweed-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Swamp Milkweed",
+        "sub": "Monarch caterpillars feed exclusively on milkweed — no milkweed means no Monarch"
+      }
+    ]
+  },
+  {
+    "id": "butterfly-milkweed",
+    "species": "Asclepias tuberosa",
+    "common": "Butterfly Milkweed",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry",
+    "soil": "Sandy, Well-drained",
+    "bloom_color": "Orange",
+    "bloom_months": "Jun - Aug",
+    "height": "1-2'",
+    "selling_points": [
+      "Monarch Host",
+      "Drought Tolerant",
+      "Pollinator Magnet",
+      "Butterfly Magnet"
+    ],
+    "cautions": [
+      "Slow to Establish"
+    ],
+    "notes": "Brilliant orange flowers; deep taproot makes it very drought tolerant but hard to transplant",
+    "fun_facts": [
+      {
+        "icon": "&#x1F536;",
+        "text": "The only milkweed with <strong>bright orange</strong> flowers &mdash; a beacon for butterflies and gardeners alike."
+      },
+      {
+        "icon": "&#x1FAB4;",
+        "text": "Has a deep <strong>taproot</strong> instead of rhizomes &mdash; stays put and never spreads aggressively."
+      },
+      {
+        "icon": "&#x1F4A7;",
+        "text": "Unlike other milkweeds, its sap is <strong>clear, not milky</strong> &mdash; a unique trait in the genus."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Monarch Host",
+        "desc": "Caterpillars feed on the foliage; adults nectar heavily on the bright orange flowers"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Native Bee Favorite",
+        "desc": "Visited by specialist bees and many generalist pollinators"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Lupine"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Prairie Smoke"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in sandy, well-drained soil; do not overwater",
+      "Space 12&ndash;18&Prime; apart; emerges late in spring &mdash; mark its location",
+      "Do not transplant once established &mdash; the deep taproot resents disturbance"
+    ],
+    "detail_photos": [
+      "butterfly-milkweed-1.jpg",
+      "butterfly-milkweed-2.jpg",
+      "butterfly-milkweed-3.jpeg",
+      "butterfly-milkweed-4.jpg",
+      "butterfly-milkweed-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Butterfly Milkweed",
+        "sub": "The only milkweed with bright orange flowers — a beacon for butterflies and gard"
+      }
+    ]
+  },
+  {
+    "id": "whorled-milkweed",
+    "species": "Asclepias verticillata",
+    "common": "Whorled Milkweed",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Sandy, Loam",
+    "bloom_color": "White",
+    "bloom_months": "Jul - Sep",
+    "height": "1-3'",
+    "selling_points": [
+      "Late Bloomer",
+      "Monarch Host",
+      "Drought Tolerant"
+    ],
+    "cautions": [
+      "Spreads by Root"
+    ],
+    "notes": "Late-blooming milkweed; valuable late-season food source for Monarch butterflies and caterpillars",
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "Blooms <strong>late summer</strong> when other milkweeds have finished &mdash; critical late-season Monarch fuel."
+      },
+      {
+        "icon": "&#x1F33F;",
+        "text": "Needle-like leaves arranged in <strong>whorls</strong> give this milkweed a delicate, airy appearance."
+      },
+      {
+        "icon": "&#x1FAB4;",
+        "text": "Thrives in <strong>poor, dry soils</strong> where other milkweeds struggle to grow."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Late Monarch Food",
+        "desc": "Provides critical late-season nectar and host plant for migrating Monarchs"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bee Diversity",
+        "desc": "Small flowers attract tiny specialist bees and beneficial wasps"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Aromatic Aster"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Showy Goldenrod"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in dry to medium, well-drained soil",
+      "Space 12&ndash;18&Prime; apart; spreads by rhizomes to form colonies",
+      "Avoid rich soils &mdash; performs best in lean, sandy conditions"
+    ],
+    "detail_photos": [
+      "whorled-milkweed-1.jpg",
+      "whorled-milkweed-2.jpg",
+      "whorled-milkweed-3.jpg",
+      "whorled-milkweed-4.jpg",
+      "whorled-milkweed-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Whorled Milkweed",
+        "sub": "Blooms late summer when other milkweeds have finished — critical late-season Mon"
+      }
+    ]
+  },
+  {
+    "id": "partridge-pea",
+    "species": "Chamaecrista fasciculata",
+    "common": "Partridge Pea",
+    "type": "Annual",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Full Sun",
+    "moisture": "Dry",
+    "soil": "Sandy, Well-drained",
+    "bloom_color": "Yellow",
+    "bloom_months": "Jul - Sep",
+    "height": "1-3'",
+    "selling_points": [
+      "Self-Seeding",
+      "Nitrogen Fixing",
+      "Drought Tolerant"
+    ],
+    "cautions": [],
+    "notes": "Self-seeding annual legume; fixes nitrogen to improve soil; very drought tolerant",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33B;",
+        "text": "A <strong>nitrogen-fixing legume</strong> that actually improves soil fertility as it grows."
+      },
+      {
+        "icon": "&#x1F33F;",
+        "text": "Touch its compound leaves and they <strong>fold shut</strong> like a sensitive plant &mdash; a defense against herbivores."
+      },
+      {
+        "icon": "&#x1F426;",
+        "text": "Seeds are a favorite food of <strong>bobwhite quail</strong> and other ground-feeding birds."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Gamebird Food",
+        "desc": "Seeds are eaten by quail, pheasant, and wild turkey throughout fall and winter"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bumble Bee Buzz",
+        "desc": "Bumblebees use buzz pollination to shake pollen from the flowers"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Butterfly Milkweed"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Black-eyed Susan"
+      }
+    ],
+    "planting_steps": [
+      "Scatter seed on bare, sandy soil in full sun in fall or early spring",
+      "No need to transplant &mdash; direct sow and let it self-seed annually",
+      "Do not fertilize &mdash; it fixes its own nitrogen and prefers poor soil"
+    ],
+    "detail_photos": [
+      "partridge-pea-1.jpeg",
+      "partridge-pea-2.jpeg",
+      "partridge-pea-3.jpeg",
+      "partridge-pea-4.jpeg",
+      "partridge-pea-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Partridge Pea",
+        "sub": "A nitrogen-fixing legume that actually improves soil fertility as it grows."
+      }
+    ]
+  },
+  {
+    "id": "lance-leaf-coreopsis",
+    "species": "Coreopsis lanceolata",
+    "common": "Lance-leaf Coreopsis",
+    "type": "Perennial",
+    "native": "Naturalized",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Full Sun",
+    "moisture": "Mesic to Dry",
+    "soil": "Sandy, Loam",
+    "bloom_color": "Yellow",
+    "bloom_months": "May - Jul",
+    "height": "1-2'",
+    "selling_points": [
+      "Long Blooming",
+      "Drought Tolerant",
+      "Easy to Grow"
+    ],
+    "cautions": [
+      "Self-seeds Freely"
+    ],
+    "notes": "Not native but naturalized; well-suited for meadows and wildflower gardens where spreading is an asset",
+    "fun_facts": [
+      {
+        "icon": "&#x1F31E;",
+        "text": "Blooms for <strong>8+ weeks</strong> nonstop &mdash; one of the longest-flowering native perennials."
+      },
+      {
+        "icon": "&#x1F33B;",
+        "text": "Deadheading spent flowers triggers <strong>continuous reblooming</strong> through midsummer."
+      },
+      {
+        "icon": "&#x1F426;",
+        "text": "Goldfinches love the <strong>seed heads</strong> &mdash; leave them standing in fall for bird food."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollinator Buffet",
+        "desc": "Visited by native bees, sweat bees, and small butterflies for weeks on end"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Seed for Birds",
+        "desc": "Goldfinches and sparrows feed on the abundant seed heads in fall"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Butterfly Milkweed"
+      },
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Purple Coneflower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in average to dry, well-drained soil",
+      "Space 12&ndash;18&Prime; apart; self-seeds freely in open areas",
+      "Deadhead regularly for continuous bloom or let it naturalize"
+    ],
+    "detail_photos": [
+      "lance-leaf-coreopsis-1.jpg",
+      "lance-leaf-coreopsis-2.jpg",
+      "lance-leaf-coreopsis-3.jpg",
+      "lance-leaf-coreopsis-4.jpg",
+      "lance-leaf-coreopsis-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Lance-leaf Coreopsis",
+        "sub": "Blooms for 8+ weeks nonstop — one of the longest-flowering native perennials."
+      }
+    ]
+  },
+  {
+    "id": "purple-coneflower",
+    "species": "Echinacea purpurea",
+    "common": "Purple Coneflower",
+    "type": "Perennial",
+    "native": "Naturalized",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Clay, Loam, Sandy",
+    "bloom_color": "Purple/Pink",
+    "bloom_months": "Jun - Aug",
+    "height": "2-4'",
+    "selling_points": [
+      "Easy to Grow",
+      "Long Blooming",
+      "Wildlife Food"
+    ],
+    "cautions": [],
+    "notes": "Not native but naturalized; thrives in any soil type; full sun to partial shade",
+    "fun_facts": [
+      {
+        "icon": "&#x1F48A;",
+        "text": "Used for centuries in <strong>herbal medicine</strong> &mdash; \"Echinacea\" comes from Greek for \"hedgehog\" (the spiny cone)."
+      },
+      {
+        "icon": "&#x1F426;",
+        "text": "Goldfinches perch on spent flower heads and <strong>pick seeds</strong> all winter long."
+      },
+      {
+        "icon": "&#x1F4AA;",
+        "text": "Thrives in <strong>any soil type</strong> from sandy to clay &mdash; one of the toughest prairie plants."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Magnet",
+        "desc": "Large landing platform attracts swallowtails, fritillaries, and painted ladies"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Goldfinch Feeder",
+        "desc": "Seed heads provide food for goldfinches and other songbirds through winter"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Bergamot"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Black-eyed Susan"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in any well-drained soil",
+      "Space 18&ndash;24&Prime; apart; drought tolerant once established",
+      "Leave seed heads standing through winter for bird food and self-sowing"
+    ],
+    "detail_photos": [
+      "purple-coneflower-1.jpg",
+      "purple-coneflower-2.jpeg",
+      "purple-coneflower-3.jpeg",
+      "purple-coneflower-4.jpeg",
+      "purple-coneflower-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Purple Coneflower",
+        "sub": "Used for centuries in herbal medicine — \"Echinacea\" comes from Greek for \"hedgeh"
+      }
+    ]
+  },
+  {
+    "id": "blue-mistflower",
+    "species": "Conoclinium coelestinum",
+    "common": "Blue Mistflower",
+    "type": "Perennial",
+    "native": "Naturalized",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "Blue/Purple",
+    "bloom_months": "Aug - Oct",
+    "height": "2-3'",
+    "selling_points": [
+      "Late Bloomer",
+      "Ground Cover",
+      "Butterfly Magnet"
+    ],
+    "cautions": [
+      "Spreads Aggressively"
+    ],
+    "notes": "Not native but naturalized; great ground cover for shade; spreads by rhizomes",
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "A <strong>butterfly magnet</strong> in late fall when few other blue flowers are blooming."
+      },
+      {
+        "icon": "&#x1F4A8;",
+        "text": "Spreads by rhizomes to form dense <strong>blue carpets</strong> &mdash; nature's ground cover."
+      },
+      {
+        "icon": "&#x1F33F;",
+        "text": "Looks like a <strong>wild ageratum</strong> &mdash; closely related to the popular garden annual."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Late Season Nectar",
+        "desc": "Critical fall nectar source for migrating Monarchs and other butterflies"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Native Bee Haven",
+        "desc": "Visited by many native bee species in late season"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Joe Pye Weed"
+      }
+    ],
+    "planting_steps": [
+      "Plant in moist soil in sun to part shade; ideal near streams or rain gardens",
+      "Space 18&ndash;24&Prime; apart; spreads aggressively by rhizomes",
+      "Use root barriers in small gardens to contain its spread"
+    ],
+    "detail_photos": [
+      "blue-mistflower-1.jpeg",
+      "blue-mistflower-2.jpeg",
+      "blue-mistflower-3.jpeg",
+      "blue-mistflower-4.jpeg",
+      "blue-mistflower-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Blue Mistflower",
+        "sub": "A butterfly magnet in late fall when few other blue flowers are blooming."
+      }
+    ]
+  },
+  {
+    "id": "spotted-joe-pye-weed",
+    "species": "Eupatorium maculatum",
+    "common": "Spotted Joe Pye Weed",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "Pink/Purple",
+    "bloom_months": "Jul - Sep",
+    "height": "4-7'",
+    "selling_points": [
+      "Butterfly Magnet",
+      "Rain Garden",
+      "Pollinator Magnet",
+      "Cut Flower"
+    ],
+    "cautions": [],
+    "notes": "Towering late-summer bloomer; spotted purple stems; attracts clouds of butterflies",
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "Named after <strong>Joe Pye</strong>, a Native American healer who reportedly used it to treat typhus fever."
+      },
+      {
+        "icon": "&#x1F4CF;",
+        "text": "Can reach <strong>7 feet tall</strong> &mdash; a dramatic backdrop plant for any garden."
+      },
+      {
+        "icon": "&#x1F33F;",
+        "text": "The stems have distinctive <strong>purple spots</strong> &mdash; that's how you tell it from other Joe Pyes."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Cloud",
+        "desc": "Massive flower heads attract dozens of butterflies at once in late summer"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bee Buffet",
+        "desc": "Long-tongued bees and bumblebees feast on the abundant nectar"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Swamp Milkweed"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Cardinal Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in moist, fertile soil",
+      "Space 24&ndash;36&Prime; apart; grows tall and wide &mdash; give it room",
+      "Cut back by half in late spring for shorter, bushier plants if desired"
+    ],
+    "detail_photos": [
+      "spotted-joe-pye-weed-1.jpeg",
+      "spotted-joe-pye-weed-2.jpeg",
+      "spotted-joe-pye-weed-3.jpeg",
+      "spotted-joe-pye-weed-4.jpeg",
+      "spotted-joe-pye-weed-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Spotted Joe Pye Weed",
+        "sub": "Named after Joe Pye, a Native American healer who reportedly used it to treat ty"
+      }
+    ]
+  },
+  {
+    "id": "rose-mallow",
+    "species": "Hibiscus moscheutos",
+    "common": "Rose Mallow",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "Pink/White",
+    "bloom_months": "Jul - Sep",
+    "height": "3-8'",
+    "selling_points": [
+      "Rain Garden",
+      "Pollinator Magnet",
+      "Hummingbird Plant"
+    ],
+    "cautions": [
+      "Late to Emerge"
+    ],
+    "notes": "Dinner-plate-sized flowers up to 8 inches across; emerges late in spring",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33A;",
+        "text": "Produces <strong>dinner-plate-sized flowers</strong> up to 8 inches across &mdash; the biggest native blooms."
+      },
+      {
+        "icon": "&#x1F4A4;",
+        "text": "Emerges very <strong>late in spring</strong> &mdash; don't give up on it; mark its spot so you don't dig it up!"
+      },
+      {
+        "icon": "&#x1F41D;",
+        "text": "Specialist <strong>hibiscus bees</strong> (Ptilothrix bombiformis) nest near these plants to collect pollen."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Specialist Bee",
+        "desc": "The hibiscus bee nests nearby and relies on Rose Mallow pollen"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Hummingbird Nectar",
+        "desc": "Large, open flowers offer easy nectar access for ruby-throated hummingbirds"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Swamp Milkweed"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Cardinal Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in consistently moist, rich soil",
+      "Space 24&ndash;36&Prime; apart; ensure root ball is level with soil surface",
+      "Mark location &mdash; emerges very late; mulch for moisture retention and winter protection"
+    ],
+    "detail_photos": [
+      "rose-mallow-1.jpeg",
+      "rose-mallow-2.jpeg",
+      "rose-mallow-3.jpeg",
+      "rose-mallow-4.jpeg",
+      "rose-mallow-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Rose Mallow",
+        "sub": "Produces dinner-plate-sized flowers up to 8 inches across — the biggest native b"
+      }
+    ]
+  },
+  {
+    "id": "dotted-st-johns-wort",
+    "species": "Hypericum perforatum",
+    "common": "Dotted St. John's Wort",
+    "type": "Perennial",
+    "native": "Naturalized",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Dry",
+    "soil": "Sandy, Rocky",
+    "bloom_color": "Yellow",
+    "bloom_months": "Jun - Aug",
+    "height": "1-3'",
+    "selling_points": [
+      "Drought Tolerant",
+      "Rock Garden",
+      "Pollinator Magnet"
+    ],
+    "cautions": [
+      "Self-seeds Freely"
+    ],
+    "notes": "Not native but naturalized; spreads by seed and rhizomes; excellent in rocky or gravelly soils",
+    "fun_facts": [
+      {
+        "icon": "&#x2600;&#xFE0F;",
+        "text": "Named for <strong>St. John's Day</strong> (June 24) because it typically blooms around the summer solstice."
+      },
+      {
+        "icon": "&#x1F50D;",
+        "text": "Hold a leaf up to light and see tiny <strong>translucent dots</strong> &mdash; oil glands that give it the name \"perforatum.\""
+      },
+      {
+        "icon": "&#x1F48A;",
+        "text": "One of the world's most studied <strong>herbal medicines</strong>, used for centuries in European folk remedies."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollen Source",
+        "desc": "Small native bees visit the bright yellow flowers for pollen"
+      },
+      {
+        "emoji": "&#x1F41E;",
+        "title": "Biocontrol Story",
+        "desc": "Chrysolina beetles were introduced to control it, a classic biological control success"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Lance-leaf Coreopsis"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Butterfly Milkweed"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in dry, well-drained, rocky or sandy soil",
+      "Space 12&ndash;18&Prime; apart; spreads by seed and rhizomes",
+      "Excellent for gravelly banks, dry meadows, and rocky outcrops"
+    ],
+    "detail_photos": [
+      "dotted-st-johns-wort-1.jpeg",
+      "dotted-st-johns-wort-2.jpeg",
+      "dotted-st-johns-wort-3.jpeg",
+      "dotted-st-johns-wort-4.jpg",
+      "dotted-st-johns-wort-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Dotted St. John's Wort",
+        "sub": "Named for St. John's Day (June 24) because it typically blooms around the summer"
+      }
+    ]
+  },
+  {
+    "id": "eastern-blazing-star",
+    "species": "Liatris scariosa",
+    "common": "Eastern Blazing Star",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Part Sun",
+    "moisture": "Dry",
+    "soil": "Sandy, Well-drained",
+    "bloom_color": "Purple",
+    "bloom_months": "Aug - Sep",
+    "height": "2-3'",
+    "selling_points": [
+      "Butterfly Magnet",
+      "Drought Tolerant",
+      "Pollinator Magnet",
+      "Wildlife Food"
+    ],
+    "cautions": [],
+    "notes": "Prefers dry, well-drained sites; important late-season nectar plant for butterflies",
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "A top <strong>Monarch butterfly</strong> nectar plant during fall migration season."
+      },
+      {
+        "icon": "&#x2B06;&#xFE0F;",
+        "text": "Blooms from the <strong>top down</strong> &mdash; opposite of most flower spikes."
+      },
+      {
+        "icon": "&#x1FAB4;",
+        "text": "Grows from a <strong>corm</strong> (like a bulb), storing energy underground for dry times."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Migration Fuel",
+        "desc": "Critical nectar source for Monarch butterflies during fall migration"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Seed for Finches",
+        "desc": "Goldfinches pick apart the fluffy seed heads in fall"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Butterfly Milkweed"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Wild Lupine"
+      }
+    ],
+    "planting_steps": [
+      "Plant corms in fall in dry, well-drained sandy or rocky soil",
+      "Space 12&ndash;15&Prime; apart; needs good drainage to prevent rot",
+      "Do not overwater or fertilize &mdash; thrives in lean, dry conditions"
+    ],
+    "detail_photos": [
+      "eastern-blazing-star-1.jpeg",
+      "eastern-blazing-star-2.jpeg",
+      "eastern-blazing-star-3.jpeg",
+      "eastern-blazing-star-4.jpeg",
+      "eastern-blazing-star-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Eastern Blazing Star",
+        "sub": "A top Monarch butterfly nectar plant during fall migration season."
+      }
+    ]
+  },
+  {
+    "id": "marsh-blazing-star",
+    "species": "Liatris spicata",
+    "common": "Marsh Blazing Star",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "Purple",
+    "bloom_months": "Jul - Aug",
+    "height": "3-5'",
+    "selling_points": [
+      "Butterfly Magnet",
+      "Rain Garden",
+      "Pollinator Magnet",
+      "Cut Flower"
+    ],
+    "cautions": [],
+    "notes": "Great for moist meadows; tall purple flower spikes are dramatic in mass plantings",
+    "fun_facts": [
+      {
+        "icon": "&#x1F4CF;",
+        "text": "Flower spikes can reach <strong>5 feet tall</strong> &mdash; dramatic purple exclamation points in the garden."
+      },
+      {
+        "icon": "&#x2B06;&#xFE0F;",
+        "text": "Like all Liatris, blooms <strong>top to bottom</strong> &mdash; nature's slow-reveal fireworks."
+      },
+      {
+        "icon": "&#x1F41D;",
+        "text": "One of the <strong>best bee plants</strong> &mdash; bumblebees spiral around the spikes collecting nectar."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bumblebee Spiral",
+        "desc": "Bumblebees spiral up the flower spikes, visiting dozens of florets in one trip"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Beacon",
+        "desc": "Tall purple spikes attract butterflies from across the meadow"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Swamp Milkweed"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Joe Pye Weed"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Blue Vervain"
+      }
+    ],
+    "planting_steps": [
+      "Plant corms in full sun in moist, fertile soil",
+      "Space 12&ndash;18&Prime; apart; mass plant for dramatic effect",
+      "Avoid very dry sites &mdash; this species prefers more moisture than other Liatris"
+    ],
+    "detail_photos": [
+      "marsh-blazing-star-1.jpg",
+      "marsh-blazing-star-2.jpg",
+      "marsh-blazing-star-3.jpg",
+      "marsh-blazing-star-4.jpg",
+      "marsh-blazing-star-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Marsh Blazing Star",
+        "sub": "Flower spikes can reach 5 feet tall — dramatic purple exclamation points in the "
+      }
+    ]
+  },
+  {
+    "id": "great-blue-lobelia",
+    "species": "Lobelia siphilitica",
+    "common": "Great Blue Lobelia",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "Blue",
+    "bloom_months": "Aug - Sep",
+    "height": "2-3'",
+    "selling_points": [
+      "Hummingbird Plant",
+      "Shade Tolerant",
+      "Rain Garden",
+      "Pollinator Magnet"
+    ],
+    "cautions": [
+      "Short-lived"
+    ],
+    "notes": "Like its cousin Cardinal Flower, attracts hummingbirds; self-seeds to persist in the garden",
+    "fun_facts": [
+      {
+        "icon": "&#x1F4A0;",
+        "text": "One of the few plants with <strong>true blue flowers</strong> &mdash; a rare and prized color in the garden."
+      },
+      {
+        "icon": "&#x1F426;",
+        "text": "Hummingbirds visit it just like <strong>Cardinal Flower</strong> &mdash; they're close cousins."
+      },
+      {
+        "icon": "&#x1FAB4;",
+        "text": "Short-lived perennial that <strong>self-seeds</strong> freely &mdash; let seedlings fill in naturally."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Hummingbird Magnet",
+        "desc": "Ruby-throated hummingbirds visit the tubular blue flowers regularly"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bumblebee Favorite",
+        "desc": "Long-tongued bumblebees are the primary insect pollinators"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Turtlehead"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade to sun in moist, humus-rich soil",
+      "Space 12&ndash;18&Prime; apart; keep soil consistently moist",
+      "Let it self-seed &mdash; individual plants are short-lived but colonies persist"
+    ],
+    "detail_photos": [
+      "great-blue-lobelia-1.jpg",
+      "great-blue-lobelia-2.jpg",
+      "great-blue-lobelia-3.jpg",
+      "great-blue-lobelia-4.jpg",
+      "great-blue-lobelia-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Great Blue Lobelia",
+        "sub": "One of the few plants with true blue flowers — a rare and prized color in the ga"
+      }
+    ]
+  },
+  {
+    "id": "scarlet-beebalm",
+    "species": "Monarda didyma",
+    "common": "Scarlet Beebalm",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "Red",
+    "bloom_months": "Jun - Aug",
+    "height": "2-5'",
+    "selling_points": [
+      "Hummingbird Plant",
+      "Edible",
+      "Deer Resistant",
+      "Pollinator Magnet"
+    ],
+    "cautions": [
+      "Powdery Mildew"
+    ],
+    "notes": "Brilliant red flowers irresistible to hummingbirds; prefers full sun in moist soils",
+    "fun_facts": [
+      {
+        "icon": "&#x1F426;",
+        "text": "The #1 <strong>hummingbird plant</strong> in eastern gardens &mdash; brilliant red flowers are an irresistible beacon."
+      },
+      {
+        "icon": "&#x2615;",
+        "text": "Leaves were brewed into <strong>Oswego Tea</strong> by colonists after the Boston Tea Party boycott."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "Crush a leaf and smell intense <strong>minty oregano</strong> &mdash; it's in the mint family."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Hummingbird #1",
+        "desc": "Ruby-throated hummingbirds are the primary pollinator of the tubular red flowers"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Nectar",
+        "desc": "Swallowtails and fritillaries also nectar on the showy flower heads"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Joe Pye Weed"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Blue Vervain"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to light shade in moist, fertile soil",
+      "Space 18&ndash;24&Prime; apart; good air circulation reduces powdery mildew",
+      "Divide clumps every 2&ndash;3 years to maintain vigor and reduce disease"
+    ],
+    "detail_photos": [
+      "scarlet-beebalm-1.jpeg",
+      "scarlet-beebalm-2.jpeg",
+      "scarlet-beebalm-3.jpeg",
+      "scarlet-beebalm-4.jpeg",
+      "scarlet-beebalm-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Scarlet Beebalm",
+        "sub": "The #1 hummingbird plant in eastern gardens — brilliant red flowers are an irres"
+      }
+    ]
+  },
+  {
+    "id": "wild-bergamot",
+    "species": "Monarda fistulosa",
+    "common": "Wild Bergamot",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Loam, Sandy",
+    "bloom_color": "Lavender",
+    "bloom_months": "Jul - Sep",
+    "height": "2-4'",
+    "selling_points": [
+      "Pollinator Magnet",
+      "Drought Tolerant",
+      "Deer Resistant"
+    ],
+    "cautions": [
+      "Spreads by Root"
+    ],
+    "notes": "Prime butterfly nectar plant; prefers moist fertile soils in full sun to light shade",
+    "fun_facts": [
+      {
+        "icon": "&#x1F41D;",
+        "text": "Arguably the #1 <strong>native bee plant</strong> &mdash; attracts more bee species than almost any other wildflower."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "Named \"bergamot\" for its <strong>citrusy fragrance</strong> similar to bergamot orange used in Earl Grey tea."
+      },
+      {
+        "icon": "&#x1F9F4;",
+        "text": "Contains <strong>thymol</strong>, a natural antiseptic &mdash; Native Americans used it as a medicinal tea."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bee Magnet #1",
+        "desc": "Attracts more native bee species than almost any other plant in the region"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Favorite",
+        "desc": "Key nectar plant for swallowtails, skippers, and many other butterflies"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Purple Coneflower"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Black-eyed Susan"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in average, well-drained soil",
+      "Space 18&ndash;24&Prime; apart; spreads by rhizomes in meadow settings",
+      "More drought and mildew tolerant than Scarlet Beebalm"
+    ],
+    "detail_photos": [
+      "wild-bergamot-1.png",
+      "wild-bergamot-2.jpg",
+      "wild-bergamot-3.jpg",
+      "wild-bergamot-4.jpg",
+      "wild-bergamot-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Wild Bergamot",
+        "sub": "Arguably the #1 native bee plant — attracts more bee species than almost any oth"
+      }
+    ]
+  },
+  {
+    "id": "spotted-bee-balm",
+    "species": "Monarda punctata",
+    "common": "Spotted Bee Balm",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Sandy, Well-drained",
+    "bloom_color": "Yellow/Purple spotted",
+    "bloom_months": "Jul - Sep",
+    "height": "1-2'",
+    "selling_points": [
+      "Drought Tolerant",
+      "Pollinator Magnet",
+      "Deer Resistant",
+      "Butterfly Magnet"
+    ],
+    "cautions": [
+      "Short-lived in Rich Soil"
+    ],
+    "notes": "Prefers moist to dry sandy or gravelly soils; nectar source for native bees; short-lived in rich soils",
+    "fun_facts": [
+      {
+        "icon": "&#x1F3A8;",
+        "text": "The most <strong>unusual-looking</strong> Monarda &mdash; tiered whorls of spotted flowers with pink bracts."
+      },
+      {
+        "icon": "&#x1F41D;",
+        "text": "Visited by <strong>dozens of bee species</strong> &mdash; one of the best plants for native bee diversity."
+      },
+      {
+        "icon": "&#x1F33F;",
+        "text": "Contains <strong>thymol</strong> like its cousins &mdash; the leaves have a strong oregano-thyme fragrance."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bee Diversity Champion",
+        "desc": "One of the top plants for attracting diverse native bee species"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Nectar",
+        "desc": "Attracts skippers, hairstreaks, and other small butterflies"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Butterfly Milkweed"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Partridge Pea"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in sandy or gravelly, well-drained soil",
+      "Space 12&ndash;18&Prime; apart; avoid rich, moist soils where it's short-lived",
+      "Let it self-seed to maintain colonies &mdash; individual plants may only live 2&ndash;3 years"
+    ],
+    "detail_photos": [
+      "spotted-bee-balm-1.jpg",
+      "spotted-bee-balm-2.jpg",
+      "spotted-bee-balm-3.jpg",
+      "spotted-bee-balm-4.jpg",
+      "spotted-bee-balm-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Spotted Bee Balm",
+        "sub": "The most unusual-looking Monarda — tiered whorls of spotted flowers with pink br"
+      }
+    ]
+  },
+  {
+    "id": "hairy-beardtongue",
+    "species": "Penstemon hirsutus",
+    "common": "Hairy Beardtongue",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Sandy, Loam",
+    "bloom_color": "Violet/Pink",
+    "bloom_months": "May - Jun",
+    "height": "1-2'",
+    "selling_points": [
+      "Hummingbird Plant",
+      "Drought Tolerant",
+      "Deer Resistant",
+      "Pollinator Magnet"
+    ],
+    "cautions": [],
+    "notes": "Snapdragon-like flowers in violet to pale rose; prefers medium to dry, well-drained soils",
+    "fun_facts": [
+      {
+        "icon": "&#x1F9D4;",
+        "text": "The \"<strong>beardtongue</strong>\" name comes from the hairy, sterile stamen that sticks out like a fuzzy tongue."
+      },
+      {
+        "icon": "&#x1F426;",
+        "text": "Tubular flowers are perfectly shaped for <strong>hummingbird</strong> beaks and long-tongued bees."
+      },
+      {
+        "icon": "&#x1FAB4;",
+        "text": "One of the <strong>hardiest Penstemons</strong> &mdash; tolerates cold winters and poor, dry soils."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Hummingbird Visitor",
+        "desc": "Tubular flowers attract ruby-throated hummingbirds in late spring"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Mason Bee Food",
+        "desc": "Important pollen source for spring-active mason bees and bumblebees"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Geranium"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Prairie Smoke"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in well-drained, average soil",
+      "Space 12&ndash;15&Prime; apart; tolerates dry, lean conditions",
+      "Avoid wet or clay-heavy soils &mdash; good drainage is essential"
+    ],
+    "detail_photos": [
+      "hairy-beardtongue-1.jpeg",
+      "hairy-beardtongue-2.jpg",
+      "hairy-beardtongue-3.jpeg",
+      "hairy-beardtongue-4.jpeg",
+      "hairy-beardtongue-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Hairy Beardtongue",
+        "sub": "The \"beardtongue\" name comes from the hairy, sterile stamen that sticks out like"
+      }
+    ]
+  },
+  {
+    "id": "obedient-plant",
+    "species": "Physostegia virginiana",
+    "common": "Obedient Plant",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "hummingbirds"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "Pink/Purple",
+    "bloom_months": "Aug - Sep",
+    "height": "3-4'",
+    "selling_points": [
+      "Late Bloomer",
+      "Pollinator Magnet",
+      "Easy to Grow"
+    ],
+    "cautions": [
+      "Spreads Aggressively"
+    ],
+    "notes": "Flowers can be pushed to any position and stay put; spreads by self-sowing and creeping rhizomes",
+    "fun_facts": [
+      {
+        "icon": "&#x1F449;",
+        "text": "Push an individual flower and it <strong>stays in place</strong> like a tiny hinge &mdash; hence \"Obedient Plant.\""
+      },
+      {
+        "icon": "&#x1F4A8;",
+        "text": "Also called <strong>False Dragonhead</strong> for its snapdragon-like flowers on square stems."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "Despite its name, the <strong>plant itself is disobedient</strong> &mdash; it spreads aggressively by rhizomes!"
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Bumblebee Plant",
+        "desc": "Tubular flowers are designed for bumblebee pollination"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Hummingbird Nectar",
+        "desc": "Late-blooming flowers provide nectar during fall migration"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Joe Pye Weed"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Great Blue Lobelia"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in moist, average soil",
+      "Space 18&ndash;24&Prime; apart; use root barriers in formal gardens",
+      "Divide every 2&ndash;3 years to control spread and refresh vigor"
+    ],
+    "detail_photos": [
+      "obedient-plant-1.jpg",
+      "obedient-plant-2.jpg",
+      "obedient-plant-3.jpg",
+      "obedient-plant-4.jpg",
+      "obedient-plant-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Obedient Plant",
+        "sub": "Push an individual flower and it stays in place like a tiny hinge — hence \"Obedi"
+      }
+    ]
+  },
+  {
+    "id": "showy-mountain-mint",
+    "species": "Pycnanthemum muticum",
+    "common": "Showy Mountain Mint",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies",
+      "wasps"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Clay, Loam",
+    "bloom_color": "White",
+    "bloom_months": "Jul - Sep",
+    "height": "2-3'",
+    "selling_points": [
+      "Pollinator Magnet",
+      "Deer Resistant",
+      "Easy to Grow"
+    ],
+    "cautions": [
+      "Spreads by Root"
+    ],
+    "notes": "Aromatic foliage; spreads by underground rhizomes; one of the best all-around pollinator plants",
+    "fun_facts": [
+      {
+        "icon": "&#x1F41D;",
+        "text": "Ranked among the <strong>top 5 pollinator plants</strong> in scientific studies &mdash; attracts incredible bee diversity."
+      },
+      {
+        "icon": "&#x2744;&#xFE0F;",
+        "text": "The silvery-white bracts look like the plant is <strong>dusted with frost</strong> even in midsummer."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "Crush a leaf for intense <strong>minty fragrance</strong> &mdash; deer and rabbits avoid it completely."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Pollinator Superstar",
+        "desc": "Attracts more pollinator species than almost any other native plant"
+      },
+      {
+        "emoji": "&#x1F99F;",
+        "title": "Beneficial Wasp Magnet",
+        "desc": "Parasitoid wasps visit the flowers and provide natural pest control"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Bergamot"
+      },
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Purple Coneflower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in average to dry soil",
+      "Space 18&ndash;24&Prime; apart; spreads moderately by rhizomes",
+      "Extremely low-maintenance once established; deer and rabbit resistant"
+    ],
+    "detail_photos": [
+      "showy-mountain-mint-1.jpg",
+      "showy-mountain-mint-2.jpg",
+      "showy-mountain-mint-3.jpg",
+      "showy-mountain-mint-4.jpg",
+      "showy-mountain-mint-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Showy Mountain Mint",
+        "sub": "Ranked among the top 5 pollinator plants in scientific studies — attracts incred"
+      }
+    ]
+  },
+  {
+    "id": "bluestem-goldenrod",
+    "species": "Solidago caesia",
+    "common": "Bluestem Goldenrod",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Part Sun to Shade",
+    "moisture": "Mesic to Dry",
+    "soil": "Loam, Sandy",
+    "bloom_color": "Yellow",
+    "bloom_months": "Aug - Oct",
+    "height": "2-3'",
+    "selling_points": [
+      "Shade Tolerant",
+      "Deer Resistant",
+      "Shade Garden",
+      "Pollinator Magnet"
+    ],
+    "cautions": [],
+    "notes": "Woodland goldenrod; clump-forming, non-aggressive; tolerates poor, dry soils; deer resistant",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33F;",
+        "text": "The only goldenrod that blooms well in <strong>deep shade</strong> &mdash; perfect for woodland gardens."
+      },
+      {
+        "icon": "&#x1F535;",
+        "text": "Named for its distinctive <strong>blue-purple stems</strong> with a waxy bloom."
+      },
+      {
+        "icon": "&#x1F927;",
+        "text": "Goldenrods do <strong>NOT cause hay fever</strong> &mdash; that's ragweed blooming at the same time."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Late Season Bee Food",
+        "desc": "Provides critical late-season pollen and nectar for native bees"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Butterfly Fuel",
+        "desc": "Important fall nectar source for migrating butterflies"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Christmas Fern"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Foam Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade to full shade in average, well-drained soil",
+      "Space 12&ndash;18&Prime; apart; forms tidy clumps without aggressive spreading",
+      "Tolerates dry shade once established &mdash; excellent under deciduous trees"
+    ],
+    "detail_photos": [
+      "bluestem-goldenrod-1.jpg",
+      "bluestem-goldenrod-2.jpg",
+      "bluestem-goldenrod-3.jpg",
+      "bluestem-goldenrod-4.jpeg",
+      "bluestem-goldenrod-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Bluestem Goldenrod",
+        "sub": "The only goldenrod that blooms well in deep shade — perfect for woodland gardens"
+      }
+    ]
+  },
+  {
+    "id": "showy-goldenrod",
+    "species": "Solidago speciosa",
+    "common": "Showy Goldenrod",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Loam, Sandy",
+    "bloom_color": "Yellow",
+    "bloom_months": "Aug - Oct",
+    "height": "2-4'",
+    "selling_points": [
+      "Pollinator Magnet",
+      "Cut Flower",
+      "Late Bloomer"
+    ],
+    "cautions": [],
+    "notes": "One of the showiest goldenrods with dense, club-shaped flower plumes",
+    "fun_facts": [
+      {
+        "icon": "&#x2B50;",
+        "text": "The <strong>showiest goldenrod</strong> species &mdash; dense, club-shaped plumes of golden flowers."
+      },
+      {
+        "icon": "&#x1F41D;",
+        "text": "Supports over <strong>100 species</strong> of native bees, butterflies, and beneficial insects."
+      },
+      {
+        "icon": "&#x1F927;",
+        "text": "Repeat: goldenrod is <strong>NOT the cause of fall allergies</strong> &mdash; its pollen is too heavy to blow in the wind."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "100+ Pollinator Species",
+        "desc": "Supports an extraordinary diversity of native bees and beneficial insects"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Winter Bird Food",
+        "desc": "Seed heads provide food for sparrows and juncos through winter"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Bergamot"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Aromatic Aster"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in dry to medium, well-drained soil",
+      "Space 18&ndash;24&Prime; apart; clump-forming and well-behaved in gardens",
+      "Leave seed heads standing for winter interest and bird food"
+    ],
+    "detail_photos": [
+      "showy-goldenrod-1.jpg",
+      "showy-goldenrod-2.jpg",
+      "showy-goldenrod-3.jpg",
+      "showy-goldenrod-4.jpg",
+      "showy-goldenrod-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Showy Goldenrod",
+        "sub": "The showiest goldenrod species — dense, club-shaped plumes of golden flowers."
+      }
+    ]
+  },
+  {
+    "id": "ohio-spiderwort",
+    "species": "Tradescantia ohiensis",
+    "common": "Ohio Spiderwort",
+    "type": "Perennial",
+    "native": "Naturalized",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Loam, Sandy",
+    "bloom_color": "Blue/Purple",
+    "bloom_months": "May - Jul",
+    "height": "1-2'",
+    "selling_points": [
+      "Long Blooming",
+      "Easy to Grow",
+      "Pollinator Magnet",
+      "Shade Tolerant"
+    ],
+    "cautions": [
+      "Self-seeds Freely"
+    ],
+    "notes": "Not native but naturalized; used in borders, naturalizing, and rock gardens",
+    "fun_facts": [
+      {
+        "icon": "&#x1F31E;",
+        "text": "Each flower lasts only <strong>one morning</strong> &mdash; new ones open every day for weeks."
+      },
+      {
+        "icon": "&#x1F52C;",
+        "text": "Stamen hairs turn <strong>blue when exposed to radiation</strong> &mdash; scientists use them as biological dosimeters."
+      },
+      {
+        "icon": "&#x1F578;&#xFE0F;",
+        "text": "Named \"spiderwort\" because the sap <strong>forms web-like threads</strong> when a stem is broken."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Buzz Pollination",
+        "desc": "Bumblebees use buzz pollination to vibrate pollen from the large anthers"
+      },
+      {
+        "emoji": "&#x1F98C;",
+        "title": "Deer Resistant",
+        "desc": "Deer and rabbits generally leave spiderwort alone"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Geranium"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Blue Phlox"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Foam Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in sun to part shade in average, well-drained soil",
+      "Space 12&ndash;18&Prime; apart; cut back after blooming for fresh fall foliage",
+      "Self-seeds freely; deadhead to prevent spread or allow to naturalize"
+    ],
+    "detail_photos": [
+      "ohio-spiderwort-1.jpeg",
+      "ohio-spiderwort-2.jpeg",
+      "ohio-spiderwort-3.jpeg",
+      "ohio-spiderwort-4.jpg",
+      "ohio-spiderwort-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Ohio Spiderwort",
+        "sub": "Each flower lasts only one morning — new ones open every day for weeks."
+      }
+    ]
+  },
+  {
+    "id": "appalachian-sedge",
+    "species": "Carex appalachica",
+    "common": "Appalachian Sedge",
+    "type": "Grass/Sedge",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Shade",
+    "moisture": "Mesic to Dry",
+    "soil": "Loam, Sandy",
+    "bloom_color": "Brown (inconspicuous)",
+    "bloom_months": "Apr - May",
+    "height": "6-12\"",
+    "selling_points": [
+      "Ground Cover",
+      "Easy to Grow",
+      "Shade Tolerant",
+      "Erosion Control"
+    ],
+    "cautions": [],
+    "notes": "Fine-textured native grass-like plant; excellent lawn alternative for shady areas",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33F;",
+        "text": "A perfect <strong>no-mow lawn alternative</strong> for shady spots &mdash; stays green and tidy at 6&ndash;12 inches."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "Fine, hair-like leaves give a <strong>soft, flowing texture</strong> unlike any traditional grass."
+      },
+      {
+        "icon": "&#x1FAB1;",
+        "text": "Supports <strong>moth caterpillars</strong> that are critical food for baby birds in woodland habitats."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Bird Nesting Cover",
+        "desc": "Dense tufts provide ground-level cover for nesting birds"
+      },
+      {
+        "emoji": "&#x1FAB1;",
+        "title": "Moth Host",
+        "desc": "Larval host for several species of native moths and skippers"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Christmas Fern"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Foam Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part to full shade in average, well-drained soil",
+      "Space 8&ndash;12&Prime; apart for ground cover; fills in within 2&ndash;3 years",
+      "No mowing needed; optional once-a-year trim in early spring for tidiness"
+    ],
+    "detail_photos": [
+      "appalachian-sedge-1.jpg",
+      "appalachian-sedge-2.jpg",
+      "appalachian-sedge-3.jpg",
+      "appalachian-sedge-4.jpg",
+      "appalachian-sedge-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Appalachian Sedge",
+        "sub": "A perfect no-mow lawn alternative for shady spots — stays green and tidy at 6–12"
+      }
+    ]
+  },
+  {
+    "id": "fringed-sedge",
+    "species": "Carex crinita",
+    "common": "Fringed Sedge",
+    "type": "Grass/Sedge",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Part Sun to Shade",
+    "moisture": "Moist to Wet",
+    "soil": "Clay, Loam",
+    "bloom_color": "Green (inconspicuous)",
+    "bloom_months": "May - Jun",
+    "height": "1-3'",
+    "selling_points": [
+      "Rain Garden",
+      "Erosion Control",
+      "Shade Tolerant",
+      "Wildlife Food"
+    ],
+    "cautions": [],
+    "notes": "Prefers moist to wet loamy soil; tolerates clay and seasonal flooding",
+    "fun_facts": [
+      {
+        "icon": "&#x1F4A7;",
+        "text": "Thrives in <strong>seasonally flooded</strong> areas where most plants can't survive."
+      },
+      {
+        "icon": "&#x1F33E;",
+        "text": "Drooping, fringed seed heads give it a graceful <strong>fountain-like</strong> appearance."
+      },
+      {
+        "icon": "&#x1FAB1;",
+        "text": "Sedges host <strong>more moth species</strong> than most flowering plants &mdash; critical for food webs."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Wetland Bird Habitat",
+        "desc": "Dense clumps provide nesting cover for wetland birds and amphibians"
+      },
+      {
+        "emoji": "&#x1FAB1;",
+        "title": "Moth Nursery",
+        "desc": "Larval host for many wetland moth species that feed songbird chicks"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Turtlehead"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Cardinal Flower"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Blue Vervain"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade in moist to wet, loamy soil",
+      "Space 18&ndash;24&Prime; apart; tolerates seasonal flooding and clay soils",
+      "Ideal for rain gardens, stream banks, and wet woodland edges"
+    ],
+    "detail_photos": [
+      "fringed-sedge-1.jpg",
+      "fringed-sedge-2.jpg",
+      "fringed-sedge-3.jpg",
+      "fringed-sedge-4.jpg",
+      "fringed-sedge-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Fringed Sedge",
+        "sub": "Thrives in seasonally flooded areas where most plants can't survive."
+      }
+    ]
+  },
+  {
+    "id": "plantain-leaved-sedge",
+    "species": "Carex plantaginea",
+    "common": "Plantain-leaved Sedge",
+    "type": "Grass/Sedge",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Part Sun to Shade",
+    "moisture": "Moist to Mesic",
+    "soil": "Loam",
+    "bloom_color": "Purple (inconspicuous)",
+    "bloom_months": "Apr - May",
+    "height": "6-12\"",
+    "selling_points": [
+      "Shade Tolerant",
+      "Evergreen",
+      "Ground Cover",
+      "Easy to Grow"
+    ],
+    "cautions": [],
+    "notes": "Unusual wide-leaved sedge for deep shade; clump-forming; adapts to varying moisture levels",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33F;",
+        "text": "The <strong>widest leaves</strong> of any native sedge &mdash; up to 1 inch across, looking like mini plantain leaves."
+      },
+      {
+        "icon": "&#x2744;&#xFE0F;",
+        "text": "Stays <strong>evergreen</strong> in mild winters, providing year-round texture in shade gardens."
+      },
+      {
+        "icon": "&#x1F7E3;",
+        "text": "Produces tiny <strong>purple flowers</strong> in early spring &mdash; unusual for a sedge."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Ground Cover",
+        "desc": "Dense clumps provide shelter for ground-dwelling birds and small mammals"
+      },
+      {
+        "emoji": "&#x1FAB1;",
+        "title": "Moth Caterpillar Host",
+        "desc": "Supports several skipper and moth species as a larval food plant"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Maidenhair Fern"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Foam Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part to deep shade in moist, humus-rich soil",
+      "Space 12&ndash;15&Prime; apart; clump-forming and well-behaved",
+      "Tolerates drier conditions in deeper shade; needs more moisture with more sun"
+    ],
+    "detail_photos": [
+      "plantain-leaved-sedge-1.jpeg",
+      "plantain-leaved-sedge-2.jpeg",
+      "plantain-leaved-sedge-3.jpeg",
+      "plantain-leaved-sedge-4.jpeg",
+      "plantain-leaved-sedge-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Plantain-leaved Sedge",
+        "sub": "The widest leaves of any native sedge — up to 1 inch across, looking like mini p"
+      }
+    ]
+  },
+  {
+    "id": "sea-oats",
+    "species": "Chasmanthium latifolium",
+    "common": "Sea Oats",
+    "type": "Grass/Sedge",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Sun to Shade",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "Green to Bronze",
+    "bloom_months": "Aug - Oct",
+    "height": "3-4'",
+    "selling_points": [
+      "Shade Tolerant",
+      "Winter Interest",
+      "Erosion Control",
+      "Self-Seeding"
+    ],
+    "cautions": [
+      "Self-seeds Aggressively"
+    ],
+    "notes": "Ornamental grass with dangling oat-like seed heads; spreads aggressively via seed heads",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33E;",
+        "text": "Flat, dangling seed heads look like <strong>tiny fish on a line</strong> &mdash; spectacular in fall breezes."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "One of the few ornamental grasses that thrives in <strong>full shade</strong>."
+      },
+      {
+        "icon": "&#x2744;&#xFE0F;",
+        "text": "Seed heads turn <strong>copper-bronze</strong> in fall and persist through winter &mdash; beautiful in dried arrangements."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Songbird Food",
+        "desc": "Seeds are eaten by sparrows, juncos, and other seed-eating birds"
+      },
+      {
+        "emoji": "&#x1FAB1;",
+        "title": "Moth Habitat",
+        "desc": "Dense clumps provide overwintering shelter for beneficial insects"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Christmas Fern"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Bluestem Goldenrod"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade to shade in moist, fertile soil",
+      "Space 18&ndash;24&Prime; apart; forms attractive clumps",
+      "Remove seed heads before they drop to control aggressive self-seeding"
+    ],
+    "detail_photos": [
+      "sea-oats-1.jpg",
+      "sea-oats-2.jpg",
+      "sea-oats-3.jpg",
+      "sea-oats-4.jpg",
+      "sea-oats-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Sea Oats",
+        "sub": "Flat, dangling seed heads look like tiny fish on a line — spectacular in fall br"
+      }
+    ]
+  },
+  {
+    "id": "purple-love-grass",
+    "species": "Eragrostis pectinacea",
+    "common": "Purple Love Grass",
+    "type": "Grass/Sedge",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Full Sun",
+    "moisture": "Dry",
+    "soil": "Sandy, Well-drained",
+    "bloom_color": "Purple haze",
+    "bloom_months": "Jul - Sep",
+    "height": "1-2'",
+    "selling_points": [
+      "Drought Tolerant",
+      "Self-Seeding",
+      "Easy to Grow"
+    ],
+    "cautions": [],
+    "notes": "Drought hardy; thrives in sandy sites; delicate purple seed heads create a hazy effect",
+    "fun_facts": [
+      {
+        "icon": "&#x1F7E3;",
+        "text": "Creates a <strong>purple haze</strong> over sandy meadows when its delicate seed heads catch the light."
+      },
+      {
+        "icon": "&#x1F3DC;&#xFE0F;",
+        "text": "Thrives in <strong>pure sand</strong> where almost nothing else will grow."
+      },
+      {
+        "icon": "&#x1F426;",
+        "text": "Tiny seeds are eaten by <strong>sparrows and ground-feeding birds</strong> throughout fall."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Ground Bird Food",
+        "desc": "Sparrows and towhees forage on the tiny seeds"
+      },
+      {
+        "emoji": "&#x1F41E;",
+        "title": "Habitat Structure",
+        "desc": "Provides ground-level structure for beetles and other beneficial insects"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Butterfly Milkweed"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Partridge Pea"
+      }
+    ],
+    "planting_steps": [
+      "Scatter seed on bare, sandy soil in full sun",
+      "No amendments needed &mdash; thrives in nutrient-poor, dry sand",
+      "Annual or short-lived perennial; self-seeds reliably"
+    ],
+    "detail_photos": [
+      "purple-love-grass-1.jpeg",
+      "purple-love-grass-2.jpeg",
+      "purple-love-grass-3.jpeg",
+      "purple-love-grass-4.jpg",
+      "purple-love-grass-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Purple Love Grass",
+        "sub": "Creates a purple haze over sandy meadows when its delicate seed heads catch the "
+      }
+    ]
+  },
+  {
+    "id": "big-bluestem",
+    "species": "Andropogon gerardi",
+    "common": "Big Bluestem",
+    "type": "Grass/Sedge",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Full Sun",
+    "moisture": "Mesic to Dry",
+    "soil": "Clay, Loam, Sandy",
+    "bloom_color": "Bronze/Red",
+    "bloom_months": "Aug - Sep",
+    "height": "4-8'",
+    "selling_points": [
+      "Fall Color",
+      "Erosion Control",
+      "Wildlife Food",
+      "Drought Tolerant"
+    ],
+    "cautions": [],
+    "notes": "Iconic tallgrass prairie species; deep roots prevent erosion; spectacular fall color",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33E;",
+        "text": "The <strong>king of the tallgrass prairie</strong> &mdash; once covered millions of acres across North America."
+      },
+      {
+        "icon": "&#x1FAB4;",
+        "text": "Roots grow <strong>6+ feet deep</strong> &mdash; deeper than the plant is tall, preventing erosion."
+      },
+      {
+        "icon": "&#x1F983;",
+        "text": "The three-parted seed head looks like a <strong>turkey's foot</strong> &mdash; an old common name."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1FAB1;",
+        "title": "Skipper Butterfly Host",
+        "desc": "Larval host for several species of grass skipper butterflies"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Nesting Habitat",
+        "desc": "Tall, dense clumps provide nesting cover for grassland birds"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Bergamot"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Butterfly Milkweed"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Showy Goldenrod"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in average to dry soil; adapts to clay, loam, or sand",
+      "Space 24&ndash;36&Prime; apart; forms large clumps over time",
+      "Cut back to 6&Prime; in late winter before new growth; burn or mow meadow plantings"
+    ],
+    "detail_photos": [
+      "big-bluestem-1.jpeg",
+      "big-bluestem-2.jpeg",
+      "big-bluestem-3.jpeg",
+      "big-bluestem-4.jpeg",
+      "big-bluestem-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Big Bluestem",
+        "sub": "The king of the tallgrass prairie — once covered millions of acres across North "
+      }
+    ]
+  },
+  {
+    "id": "sweet-fern",
+    "species": "Comptonia peregrina",
+    "common": "Sweet Fern",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Full Sun",
+    "moisture": "Dry",
+    "soil": "Sandy, Acidic",
+    "bloom_color": "Green (catkins)",
+    "bloom_months": "Apr - May",
+    "height": "2-4'",
+    "selling_points": [
+      "Fragrant Foliage",
+      "Nitrogen Fixing",
+      "Erosion Control"
+    ],
+    "cautions": [],
+    "notes": "Not a fern but a shrub; fern-like fragrant leaves; fixes nitrogen; great for sandy banks",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33F;",
+        "text": "Not actually a fern! It's a <strong>woody shrub</strong> with deeply lobed leaves that look fern-like."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "Crush a leaf for an incredible <strong>sweet, spicy fragrance</strong> &mdash; used to make aromatic tea."
+      },
+      {
+        "icon": "&#x1FAB4;",
+        "text": "Fixes <strong>nitrogen</strong> like a legume &mdash; improves poor, sandy soil as it grows."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Bird Habitat",
+        "desc": "Dense, low thickets provide nesting cover for ground-nesting birds"
+      },
+      {
+        "emoji": "&#x1F98C;",
+        "title": "Browse Resistant",
+        "desc": "Aromatic foliage deters deer but provides cover for small mammals"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F33E;",
+        "name": "Little Bluestem"
+      },
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Lupine"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Bear Oak"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in dry, sandy, acidic soil",
+      "Space 3&ndash;4&Prime; apart; spreads by suckering to form thickets",
+      "Do not fertilize or amend soil &mdash; prefers poor, acidic conditions"
+    ],
+    "detail_photos": [
+      "sweet-fern-1.jpg",
+      "sweet-fern-2.jpg",
+      "sweet-fern-3.jpg",
+      "sweet-fern-4.jpg",
+      "sweet-fern-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Sweet Fern",
+        "sub": "Not actually a fern! It's a woody shrub with deeply lobed leaves that look fern-"
+      }
+    ]
+  },
+  {
+    "id": "eastern-serviceberry",
+    "species": "Amelanchier canadensis",
+    "common": "Eastern Serviceberry",
+    "type": "Shrub/Tree",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Sun to Shade",
+    "moisture": "Moist to Mesic",
+    "soil": "Loam, Sandy",
+    "bloom_color": "White",
+    "bloom_months": "Mar - Apr",
+    "height": "15-25'",
+    "selling_points": [
+      "Early Bloomer",
+      "Edible",
+      "Winter Interest"
+    ],
+    "cautions": [],
+    "notes": "White spring flowers, edible berries in June, brilliant fall color; multi-season interest",
+    "fun_facts": [
+      {
+        "icon": "&#x1F338;",
+        "text": "One of the <strong>first trees to bloom</strong> in spring &mdash; white clouds of flowers before leaves emerge."
+      },
+      {
+        "icon": "&#x1F347;",
+        "text": "Berries are <strong>delicious eaten fresh</strong> or in pies &mdash; taste like a blueberry-almond blend."
+      },
+      {
+        "icon": "&#x1F341;",
+        "text": "Provides <strong>four-season interest</strong>: spring flowers, summer berries, fall color, winter bark."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Bird Berry Bonanza",
+        "desc": "Over 40 bird species eat the sweet, blueberry-like fruits in June"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Early Bee Food",
+        "desc": "Among the first spring nectar sources for newly emerged native bees"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Spicebush"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Christmas Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in sun to part shade in moist, well-drained, slightly acidic soil",
+      "Allow room for mature size; can be grown as multi-stem shrub or small tree",
+      "Minimal pruning needed; remove suckers if single-trunk form desired"
+    ],
+    "detail_photos": [
+      "eastern-serviceberry-1.jpeg",
+      "eastern-serviceberry-2.jpeg",
+      "eastern-serviceberry-3.jpeg",
+      "eastern-serviceberry-4.jpeg",
+      "eastern-serviceberry-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Eastern Serviceberry",
+        "sub": "One of the first trees to bloom in spring — white clouds of flowers before leave"
+      }
+    ]
+  },
+  {
+    "id": "buttonbush",
+    "species": "Cephalanthus occidentalis",
+    "common": "Buttonbush",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Wet to Moist",
+    "soil": "Clay, Loam",
+    "bloom_color": "White",
+    "bloom_months": "Jun - Aug",
+    "height": "6-12'",
+    "selling_points": [
+      "Rain Garden",
+      "Pollinator Magnet",
+      "Hummingbird Plant",
+      "Wildlife Food"
+    ],
+    "cautions": [
+      "Needs Wet Soil"
+    ],
+    "notes": "Distinctive ping-pong ball shaped flower clusters; thrives in wet and flooded conditions",
+    "fun_facts": [
+      {
+        "icon": "&#x26BE;",
+        "text": "Flowers look like perfect <strong>white ping-pong balls</strong> &mdash; actually clusters of tiny tubular flowers."
+      },
+      {
+        "icon": "&#x1F4A7;",
+        "text": "Can grow with its roots <strong>completely submerged</strong> in standing water &mdash; a true wetland champion."
+      },
+      {
+        "icon": "&#x1F41D;",
+        "text": "One of the <strong>top honey-producing</strong> native plants &mdash; beekeepers love it."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Honey Plant",
+        "desc": "Abundant nectar makes it a top plant for honey production and native bees"
+      },
+      {
+        "emoji": "&#x1F986;",
+        "title": "Waterfowl Habitat",
+        "desc": "Seeds and dense branches attract ducks and wading birds"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Swamp Milkweed"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Blue Vervain"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Cardinal Flower"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in consistently wet to moist soil; tolerates flooding",
+      "Space 6&ndash;8&Prime; apart; can become large &mdash; prune in late winter to control size",
+      "Perfect for pond edges, rain gardens, and low-lying wet areas"
+    ],
+    "detail_photos": [
+      "buttonbush-1.jpg",
+      "buttonbush-2.jpg",
+      "buttonbush-3.jpeg",
+      "buttonbush-4.jpeg",
+      "buttonbush-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Buttonbush",
+        "sub": "Flowers look like perfect white ping-pong balls — actually clusters of tiny tubu"
+      }
+    ]
+  },
+  {
+    "id": "red-osier-dogwood",
+    "species": "Cornus sericea",
+    "common": "Red Osier Dogwood",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Wet to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "White",
+    "bloom_months": "May - Jun",
+    "height": "6-9'",
+    "selling_points": [
+      "Winter Interest",
+      "Wildlife Food",
+      "Erosion Control"
+    ],
+    "cautions": [
+      "Spreads by Suckers"
+    ],
+    "notes": "Brilliant red stems in winter; white berries for birds; excellent for stream banks",
+    "fun_facts": [
+      {
+        "icon": "&#x1F534;",
+        "text": "Stems turn <strong>brilliant red</strong> in winter &mdash; the brighter the cold, the redder the stems."
+      },
+      {
+        "icon": "&#x1F426;",
+        "text": "White berries are eaten by <strong>over 90 bird species</strong> &mdash; a top wildlife food plant."
+      },
+      {
+        "icon": "&#x1FAB4;",
+        "text": "Roots spread by <strong>stolons</strong> and layering, creating natural erosion barriers along waterways."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "90+ Bird Species",
+        "desc": "Berries are a critical food source for dozens of songbirds and gamebirds"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Spring Nectar",
+        "desc": "Flat flower clusters provide accessible nectar for butterflies and small bees"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Winterberry"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Spicebush"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Buttonbush"
+      }
+    ],
+    "planting_steps": [
+      "Plant in sun to part shade in moist to wet soil",
+      "Space 4&ndash;6&Prime; apart; spreads by stolons to form thickets",
+      "Cut oldest stems to ground in late winter to encourage bright red new growth"
+    ],
+    "detail_photos": [
+      "red-osier-dogwood-1.jpg",
+      "red-osier-dogwood-2.jpg",
+      "red-osier-dogwood-3.jpg",
+      "red-osier-dogwood-4.jpg",
+      "red-osier-dogwood-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Red Osier Dogwood",
+        "sub": "Stems turn brilliant red in winter — the brighter the cold, the redder the stems"
+      }
+    ]
+  },
+  {
+    "id": "winterberry",
+    "species": "Ilex verticillata",
+    "common": "Winterberry",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Part Sun to Shade",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam, Acidic",
+    "bloom_color": "White (inconspicuous)",
+    "bloom_months": "Jun - Jul",
+    "height": "6-10'",
+    "selling_points": [
+      "Wildlife Food",
+      "Shade Tolerant",
+      "Winter Interest",
+      "Deer Resistant"
+    ],
+    "cautions": [
+      "Needs Male & Female"
+    ],
+    "notes": "Deciduous holly; bright red berries persist into winter; need both male and female plants for berries",
+    "fun_facts": [
+      {
+        "icon": "&#x1F534;",
+        "text": "Blazing <strong>red berries on bare branches</strong> in winter &mdash; the most dramatic native winter display."
+      },
+      {
+        "icon": "&#x2642;&#xFE0F;",
+        "text": "Need <strong>both male and female plants</strong> for berries &mdash; one male pollinates up to 6 females."
+      },
+      {
+        "icon": "&#x1F426;",
+        "text": "Berries <strong>soften after freezing</strong>, becoming a critical late-winter food for cedar waxwings and robins."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Winter Bird Survival",
+        "desc": "Persistent berries feed cedar waxwings, robins, and bluebirds in late winter"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Native Bee Pollinator",
+        "desc": "Small native bees pollinate the inconspicuous spring flowers"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Spicebush"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Red Osier Dogwood"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Witch Hazel"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade in moist, acidic soil; tolerates clay",
+      "Plant at least one male within 50&Prime; of female plants for berry production",
+      "Minimal pruning; remove suckers to control spread if desired"
+    ],
+    "detail_photos": [
+      "winterberry-1.jpg",
+      "winterberry-2.jpg",
+      "winterberry-3.jpg",
+      "winterberry-4.jpg",
+      "winterberry-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Winterberry",
+        "sub": "Blazing red berries on bare branches in winter — the most dramatic native winter"
+      }
+    ]
+  },
+  {
+    "id": "spicebush",
+    "species": "Lindera benzoin",
+    "common": "Spicebush",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Part Sun to Shade",
+    "moisture": "Moist to Mesic",
+    "soil": "Loam",
+    "bloom_color": "Yellow",
+    "bloom_months": "Mar - Apr",
+    "height": "6-12'",
+    "selling_points": [
+      "Early Bloomer",
+      "Caterpillar Host",
+      "Fragrant"
+    ],
+    "cautions": [],
+    "notes": "Very early spring bloomer; host plant for Spicebush Swallowtail butterfly; aromatic leaves and berries",
+    "fun_facts": [
+      {
+        "icon": "&#x1F98B;",
+        "text": "Sole host plant for the <strong>Spicebush Swallowtail</strong> butterfly &mdash; caterpillars roll leaves into shelters."
+      },
+      {
+        "icon": "&#x1F33B;",
+        "text": "Tiny <strong>yellow flowers</strong> appear before any leaves &mdash; one of the first signs of spring."
+      },
+      {
+        "icon": "&#x1F343;",
+        "text": "Scratch a twig for a spicy, <strong>citrusy fragrance</strong> &mdash; used as a seasoning in colonial times."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Swallowtail Nursery",
+        "desc": "Essential larval host for the beautiful Spicebush Swallowtail butterfly"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Fall Berry Feast",
+        "desc": "Bright red berries are high-fat fuel for migrating birds in fall"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Witch Hazel"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Christmas Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade to shade in moist, well-drained, humus-rich soil",
+      "Space 6&ndash;8&Prime; apart; naturally understory shrub in moist woodlands",
+      "Need male and female plants for berry production; minimal pruning needed"
+    ],
+    "detail_photos": [
+      "spicebush-1.jpg",
+      "spicebush-2.jpg",
+      "spicebush-3.jpeg",
+      "spicebush-4.jpeg",
+      "spicebush-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Spicebush",
+        "sub": "Sole host plant for the Spicebush Swallowtail butterfly — caterpillars roll leav"
+      }
+    ]
+  },
+  {
+    "id": "ninebark",
+    "species": "Physocarpus opulifolius",
+    "common": "Ninebark",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Dry",
+    "soil": "Clay, Loam, Sandy",
+    "bloom_color": "White/Pink",
+    "bloom_months": "May - Jun",
+    "height": "5-8'",
+    "selling_points": [
+      "Winter Interest",
+      "Easy to Grow",
+      "Deer Resistant",
+      "Erosion Control"
+    ],
+    "cautions": [],
+    "notes": "Distinctive peeling bark in layers; extremely adaptable to any soil condition",
+    "fun_facts": [
+      {
+        "icon": "&#x1F332;",
+        "text": "Named for its bark that <strong>peels in nine layers</strong> of papery strips &mdash; beautiful winter interest."
+      },
+      {
+        "icon": "&#x1F4AA;",
+        "text": "Grows in <strong>any soil</strong> from sand to clay, wet to dry &mdash; nearly indestructible."
+      },
+      {
+        "icon": "&#x1F41D;",
+        "text": "Clusters of tiny white flowers attract <strong>swarms of native bees</strong> in late spring."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Spring Bee Buffet",
+        "desc": "Dense flower clusters attract dozens of native bee species in late spring"
+      },
+      {
+        "emoji": "&#x1F426;",
+        "title": "Nesting Cover",
+        "desc": "Dense, arching branches provide excellent bird nesting habitat"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "New Jersey Tea"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Bergamot"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Little Bluestem"
+      }
+    ],
+    "planting_steps": [
+      "Plant in sun to part shade in any soil type &mdash; extremely adaptable",
+      "Space 5&ndash;8&Prime; apart; makes an excellent informal hedge",
+      "Prune after flowering if needed; old stems can be removed at ground level"
+    ],
+    "detail_photos": [
+      "ninebark-1.jpg",
+      "ninebark-2.jpg",
+      "ninebark-3.jpg",
+      "ninebark-4.jpg",
+      "ninebark-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Ninebark",
+        "sub": "Named for its bark that peels in nine layers of papery strips — beautiful winter"
+      }
+    ]
+  },
+  {
+    "id": "pussy-willow",
+    "species": "Salix discolor",
+    "common": "Pussy Willow",
+    "type": "Shrub/Tree",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Full Sun",
+    "moisture": "Wet to Moist",
+    "soil": "Clay, Loam",
+    "bloom_color": "Silver/Yellow (catkins)",
+    "bloom_months": "Feb - Apr",
+    "height": "10-20'",
+    "selling_points": [
+      "Early Bloomer",
+      "Pollinator Magnet",
+      "Wildlife Food",
+      "Fast Growing"
+    ],
+    "cautions": [
+      "Fast Growing"
+    ],
+    "notes": "Iconic fuzzy silver catkins in late winter; among the very first plants to bloom each year",
+    "fun_facts": [
+      {
+        "icon": "&#x1F431;",
+        "text": "Named for the soft, furry <strong>silver catkins</strong> that look and feel like tiny kitten paws."
+      },
+      {
+        "icon": "&#x1F41D;",
+        "text": "The <strong>very first pollen</strong> of the year &mdash; essential for newly-emerged queen bumblebees."
+      },
+      {
+        "icon": "&#x2702;&#xFE0F;",
+        "text": "Cut branches in late winter and they'll <strong>bloom indoors</strong> in a vase &mdash; a harbinger of spring."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F41D;",
+        "title": "First Bee Food",
+        "desc": "Critical first pollen source for queen bumblebees emerging from hibernation"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Willow Moth Host",
+        "desc": "Host plant for over 400 moth and butterfly species on willows"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Red Osier Dogwood"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Buttonbush"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Swamp Milkweed"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun in moist to wet soil; tolerates periodic flooding",
+      "Space 8&ndash;10&Prime; apart; grows fast and can be coppiced for catkin production",
+      "Cut stems to 12&Prime; every few years to encourage dense, catkin-rich new growth"
+    ],
+    "detail_photos": [
+      "pussy-willow-1.jpg",
+      "pussy-willow-2.jpg",
+      "pussy-willow-3.jpg",
+      "pussy-willow-4.jpg",
+      "pussy-willow-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Pussy Willow",
+        "sub": "Named for the soft, furry silver catkins that look and feel like tiny kitten paw"
+      }
+    ]
+  },
+  {
+    "id": "american-elderberry",
+    "species": "Sambucus nigra ssp. canadensis",
+    "common": "American Elderberry",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "White",
+    "bloom_months": "Jun - Jul",
+    "height": "5-12'",
+    "selling_points": [
+      "Edible",
+      "Fast Growing",
+      "Wildlife Food"
+    ],
+    "cautions": [
+      "Raw Berries Mildly Toxic"
+    ],
+    "notes": "Flat-topped white flower clusters; dark purple berries used for wine, syrup, and medicine",
+    "fun_facts": [
+      {
+        "icon": "&#x1F347;",
+        "text": "Berries make <strong>delicious wine, syrup, and jam</strong> &mdash; but must be cooked first (raw berries cause nausea)."
+      },
+      {
+        "icon": "&#x1F33B;",
+        "text": "Huge flat-topped <strong>flower heads</strong> can be battered and fried as elderflower fritters."
+      },
+      {
+        "icon": "&#x1F48A;",
+        "text": "Elderberry extract is a popular <strong>immune-boosting supplement</strong> with centuries of traditional use."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Over 50 Bird Species",
+        "desc": "Berries are eaten by catbirds, thrushes, woodpeckers, and dozens more"
+      },
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Pollinator Haven",
+        "desc": "Large flower heads attract butterflies, native bees, and beneficial wasps"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Joe Pye Weed"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Red Osier Dogwood"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Buttonbush"
+      }
+    ],
+    "planting_steps": [
+      "Plant in full sun to part shade in moist, fertile soil",
+      "Space 6&ndash;8&Prime; apart; plant two varieties for best berry production",
+      "Prune out dead wood in late winter; grows fast and recovers quickly"
+    ],
+    "detail_photos": [
+      "american-elderberry-1.jpg",
+      "american-elderberry-2.jpg",
+      "american-elderberry-3.jpg",
+      "american-elderberry-4.jpg",
+      "american-elderberry-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "American Elderberry",
+        "sub": "Berries make delicious wine, syrup, and jam — but must be cooked first (raw berr"
+      }
+    ]
+  },
+  {
+    "id": "american-spikenard",
+    "species": "Aralia racemosa",
+    "common": "American Spikenard",
+    "type": "Perennial",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Loam",
+    "bloom_color": "White/Green",
+    "bloom_months": "Jun - Aug",
+    "height": "3-5'",
+    "selling_points": [
+      "Shade Tolerant",
+      "Wildlife Food",
+      "Edible",
+      "Fall Color"
+    ],
+    "cautions": [],
+    "notes": "Large, dramatic woodland perennial with compound leaves and dark purple berry clusters",
+    "fun_facts": [
+      {
+        "icon": "&#x1F33F;",
+        "text": "Creates a <strong>bold, tropical look</strong> in woodland gardens with its huge compound leaves."
+      },
+      {
+        "icon": "&#x1F347;",
+        "text": "Dark purple <strong>berry clusters</strong> attract dozens of bird species in late summer."
+      },
+      {
+        "icon": "&#x1F48A;",
+        "text": "Root was used in Native American <strong>traditional medicine</strong> as a cough remedy and poultice."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Berry-loving Birds",
+        "desc": "Thrushes, catbirds, and other berry-eating birds feast on the fruit"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Woodland Pollinator",
+        "desc": "Tiny flowers attract small native bees and other woodland pollinators"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Maidenhair Fern"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Black Cohosh"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade in moist, rich, humus-filled woodland soil",
+      "Space 24&ndash;36&Prime; apart; gives a dramatic architectural presence",
+      "Mulch with leaf litter to replicate its natural woodland environment"
+    ],
+    "detail_photos": [
+      "american-spikenard-1.jpg",
+      "american-spikenard-2.jpeg",
+      "american-spikenard-3.jpeg",
+      "american-spikenard-4.jpeg",
+      "american-spikenard-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "American Spikenard",
+        "sub": "Creates a bold, tropical look in woodland gardens with its huge compound leaves."
+      }
+    ]
+  },
+  {
+    "id": "alleghany-serviceberry",
+    "species": "Amelanchier laevis",
+    "common": "Alleghany Serviceberry",
+    "type": "Shrub/Tree",
+    "native": "New York",
+    "pollinators": [
+      "bees"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Moist to Mesic",
+    "soil": "Loam, Sandy",
+    "bloom_color": "White",
+    "bloom_months": "Apr - May",
+    "height": "15-25'",
+    "selling_points": [
+      "Edible",
+      "Early Bloomer",
+      "Fall Color"
+    ],
+    "cautions": [],
+    "notes": "Graceful small tree with drooping white flower clusters; new leaves emerge bronze-purple",
+    "fun_facts": [
+      {
+        "icon": "&#x1F338;",
+        "text": "Drooping clusters of <strong>white flowers</strong> are more graceful than Eastern Serviceberry &mdash; a showier display."
+      },
+      {
+        "icon": "&#x1F7E4;",
+        "text": "New leaves emerge <strong>bronze-purple</strong> in spring, adding a second layer of spring color."
+      },
+      {
+        "icon": "&#x1F347;",
+        "text": "Berries are sweeter than Eastern Serviceberry &mdash; <strong>the tastiest native fruit</strong> for pies and jams."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Bird Fruit Tree",
+        "desc": "Sweet berries attract over 40 bird species including cedar waxwings and orioles"
+      },
+      {
+        "emoji": "&#x1F41D;",
+        "title": "Spring Pollinator",
+        "desc": "Early flowers provide nectar when few other sources are available"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Spicebush"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Witch Hazel"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Wild Ginger"
+      }
+    ],
+    "planting_steps": [
+      "Plant in sun to part shade in moist, well-drained, slightly acidic soil",
+      "Allow room for 15&ndash;25&Prime; mature height; can be multi-stem or single trunk",
+      "Virtually maintenance-free once established; occasional pruning for shape"
+    ],
+    "detail_photos": [
+      "alleghany-serviceberry-1.jpg",
+      "alleghany-serviceberry-2.jpg",
+      "alleghany-serviceberry-3.jpg",
+      "alleghany-serviceberry-4.jpg",
+      "alleghany-serviceberry-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Alleghany Serviceberry",
+        "sub": "Drooping clusters of white flowers are more graceful than Eastern Serviceberry —"
+      }
+    ]
+  },
+  {
+    "id": "pawpaw",
+    "species": "Asimina triloba",
+    "common": "Pawpaw",
+    "type": "Tree",
+    "native": "New York",
+    "pollinators": [
+      "flies",
+      "beetles"
+    ],
+    "light": "Part Sun to Shade",
+    "moisture": "Moist to Mesic",
+    "soil": "Loam",
+    "bloom_color": "Maroon/Purple",
+    "bloom_months": "Apr - May",
+    "height": "15-30'",
+    "selling_points": [
+      "Edible",
+      "Caterpillar Host",
+      "Shade Tolerant",
+      "Native Alternative"
+    ],
+    "cautions": [
+      "Slow to Establish"
+    ],
+    "notes": "North America's largest native edible fruit; tropical-looking foliage; needs a pollination partner",
+    "fun_facts": [
+      {
+        "icon": "&#x1F34C;",
+        "text": "Produces the <strong>largest native fruit</strong> in North America &mdash; tastes like banana-mango custard!"
+      },
+      {
+        "icon": "&#x1F98E;",
+        "text": "Pollinated by <strong>flies and beetles</strong>, not bees &mdash; flowers even smell slightly like rotting meat to attract them."
+      },
+      {
+        "icon": "&#x1F98B;",
+        "text": "Sole host plant for the <strong>Zebra Swallowtail</strong> butterfly &mdash; found only where pawpaws grow."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F98B;",
+        "title": "Zebra Swallowtail Host",
+        "desc": "The only host plant for the beautiful Zebra Swallowtail butterfly"
+      },
+      {
+        "emoji": "&#x1F99D;",
+        "title": "Fruit for Wildlife",
+        "desc": "Raccoons, opossums, and foxes eat the ripe fruit in fall"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Spicebush"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Wild Ginger"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Maidenhair Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade (full shade when young) in moist, rich, well-drained soil",
+      "Plant two genetically different trees within 30&Prime; for cross-pollination",
+      "Protect young trees from sun and wind; they naturally grow as understory trees"
+    ],
+    "detail_photos": [
+      "pawpaw-1.jpg",
+      "pawpaw-2.jpeg",
+      "pawpaw-3.jpeg",
+      "pawpaw-4.jpeg",
+      "pawpaw-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "Pawpaw",
+        "sub": "Produces the largest native fruit in North America — tastes like banana-mango cu"
+      }
+    ]
+  },
+  {
+    "id": "american-hornbeam",
+    "species": "Carpinus caroliniana",
+    "common": "American Hornbeam",
+    "type": "Tree",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Part Sun to Shade",
+    "moisture": "Moist to Mesic",
+    "soil": "Clay, Loam",
+    "bloom_color": "Green (catkins)",
+    "bloom_months": "Apr - May",
+    "height": "20-35'",
+    "selling_points": [
+      "Winter Interest",
+      "Shade Tolerant",
+      "Fall Color"
+    ],
+    "cautions": [
+      "Slow Growing"
+    ],
+    "notes": "Also called Musclewood for its smooth, sinewy bark; beautiful understory tree",
+    "fun_facts": [
+      {
+        "icon": "&#x1F4AA;",
+        "text": "Called <strong>\"Musclewood\"</strong> because the smooth bark reveals rippling, muscle-like ridges."
+      },
+      {
+        "icon": "&#x1FAA8;",
+        "text": "Wood is so <strong>incredibly hard</strong> it was used for tool handles, ox yokes, and bowls."
+      },
+      {
+        "icon": "&#x1F341;",
+        "text": "Fall color ranges from <strong>orange to scarlet red</strong> &mdash; one of the best native displays."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Songbird Habitat",
+        "desc": "Dense canopy provides excellent nesting sites for woodland songbirds"
+      },
+      {
+        "emoji": "&#x1F43F;&#xFE0F;",
+        "title": "Squirrel Food",
+        "desc": "Small nutlets are eaten by squirrels, chipmunks, and wild turkey"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Witch Hazel"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Spicebush"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Christmas Fern"
+      }
+    ],
+    "planting_steps": [
+      "Plant in part shade in moist, well-drained soil; tolerates clay",
+      "Allow room for 20&ndash;35&Prime; mature height and width",
+      "Virtually maintenance-free; slow-growing but long-lived native tree"
+    ],
+    "detail_photos": [
+      "american-hornbeam-1.jpg",
+      "american-hornbeam-2.jpg",
+      "american-hornbeam-3.jpg",
+      "american-hornbeam-4.jpg",
+      "american-hornbeam-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "American Hornbeam",
+        "sub": "Called \"Musclewood\" because the smooth bark reveals rippling, muscle-like ridges"
+      }
+    ]
+  },
+  {
+    "id": "american-hazelnut",
+    "species": "Corylus americana",
+    "common": "American Hazelnut",
+    "type": "Shrub",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Loam, Sandy",
+    "bloom_color": "Red (female) / Yellow (male catkins)",
+    "bloom_months": "Feb - Mar",
+    "height": "8-12'",
+    "selling_points": [
+      "Edible",
+      "Wildlife Food",
+      "Caterpillar Host",
+      "Erosion Control"
+    ],
+    "cautions": [],
+    "notes": "Native hazelnut producing edible nuts; male catkins are among the earliest spring features",
+    "fun_facts": [
+      {
+        "icon": "&#x1F330;",
+        "text": "Produces <strong>delicious edible hazelnuts</strong> &mdash; race the squirrels to harvest them in September!"
+      },
+      {
+        "icon": "&#x1F534;",
+        "text": "Tiny <strong>ruby-red female flowers</strong> in late winter are one of the first signs of spring."
+      },
+      {
+        "icon": "&#x1F33F;",
+        "text": "Dense, suckering habit makes it a <strong>natural privacy hedge</strong> and windbreak."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F43F;&#xFE0F;",
+        "title": "Squirrel & Bird Food",
+        "desc": "Nuts are cached by squirrels and eaten by jays, grouse, and woodpeckers"
+      },
+      {
+        "emoji": "&#x1FAB1;",
+        "title": "Moth Host",
+        "desc": "Host plant for several moth species including the Polyphemus moth"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Witch Hazel"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Spicebush"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Wild Geranium"
+      }
+    ],
+    "planting_steps": [
+      "Plant in sun to part shade in average, well-drained soil",
+      "Space 6&ndash;8&Prime; apart; plant two or more for nut production (cross-pollination needed)",
+      "Prune suckers to control spread or allow thicketing for wildlife habitat"
+    ],
+    "detail_photos": [
+      "american-hazelnut-1.jpg",
+      "american-hazelnut-2.jpeg",
+      "american-hazelnut-3.jpeg",
+      "american-hazelnut-4.jpeg",
+      "american-hazelnut-5.jpeg"
+    ],
+    "facts": [
+      {
+        "title": "American Hazelnut",
+        "sub": "Produces delicious edible hazelnuts — race the squirrels to harvest them in Sept"
+      }
+    ]
+  },
+  {
+    "id": "american-hop-hornbeam",
+    "species": "Ostrya virginiana",
+    "common": "American Hop Hornbeam",
+    "type": "Tree",
+    "native": "New York",
+    "pollinators": [
+      "wind"
+    ],
+    "light": "Sun to Part",
+    "moisture": "Mesic to Dry",
+    "soil": "Loam, Sandy",
+    "bloom_color": "Green (catkins)",
+    "bloom_months": "Apr - May",
+    "height": "25-40'",
+    "selling_points": [
+      "Drought Tolerant",
+      "Shade Tolerant",
+      "Wildlife Food"
+    ],
+    "cautions": [
+      "Slow Growing"
+    ],
+    "notes": "Elegant small tree with hop-like seed clusters; extremely hard wood; very drought tolerant",
+    "fun_facts": [
+      {
+        "icon": "&#x1F37A;",
+        "text": "Named for its papery seed clusters that look like <strong>hops used in brewing beer</strong>."
+      },
+      {
+        "icon": "&#x1FAA8;",
+        "text": "Wood is so hard it's called <strong>\"Ironwood\"</strong> &mdash; historically used for tool handles and fence posts."
+      },
+      {
+        "icon": "&#x1F333;",
+        "text": "One of the <strong>most drought-tolerant</strong> native shade trees &mdash; thrives on dry, rocky hillsides."
+      }
+    ],
+    "wildlife": [
+      {
+        "emoji": "&#x1F426;",
+        "title": "Songbird Habitat",
+        "desc": "Provides nesting sites and seed food for woodland songbirds"
+      },
+      {
+        "emoji": "&#x1F43F;&#xFE0F;",
+        "title": "Small Mammal Food",
+        "desc": "Nutlets are eaten by squirrels, chipmunks, and grouse"
+      }
+    ],
+    "companions": [
+      {
+        "emoji": "&#x1F338;",
+        "name": "Witch Hazel"
+      },
+      {
+        "emoji": "&#x1F33F;",
+        "name": "Christmas Fern"
+      },
+      {
+        "emoji": "&#x2B50;",
+        "name": "Wild Ginger"
+      }
+    ],
+    "planting_steps": [
+      "Plant in sun to part shade in average to dry, well-drained soil",
+      "Allow room for 25&ndash;40&Prime; mature height; slow-growing but very long-lived",
+      "No pruning needed; naturally forms a graceful, rounded crown"
+    ],
+    "detail_photos": [
+      "american-hop-hornbeam-1.jpg",
+      "american-hop-hornbeam-2.jpg",
+      "american-hop-hornbeam-3.jpg",
+      "american-hop-hornbeam-4.jpg",
+      "american-hop-hornbeam-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "American Hop Hornbeam",
+        "sub": "Named for its papery seed clusters that look like hops used in brewing beer."
+      }
+    ]
+  }
+]

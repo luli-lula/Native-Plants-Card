@@ -1018,9 +1018,11 @@
     }
   }
 
-  /* ── Photo scroll: stop horizontal swipe propagation ── */
+  /* ── Photo scroll: stop all touch propagation so swiping photos never flips the card ── */
   if (photoScroll) {
-    photoScroll.addEventListener('touchmove', function (e) { e.stopPropagation(); }, { passive: true });
+    photoScroll.addEventListener('touchstart', function (e) { e.stopPropagation(); }, { passive: true });
+    photoScroll.addEventListener('touchmove',  function (e) { e.stopPropagation(); }, { passive: true });
+    photoScroll.addEventListener('touchend',   function (e) { e.stopPropagation(); });
   }
 
   /* ── Update scroll fade indicator ── */
