@@ -147,11 +147,11 @@ This regenerates all 36+ print cards AND mobile pages.
 
 Print cards contain QR codes pointing to:
 ```
-https://ailula.top/Native-Plants-Card/plants/{plant-id}/
+https://ailula.top/plant-care-signs/plants/{plant-id}/
 ```
 The base URL is configurable in `tools/generate-print-cards.js` → `GITHUB_PAGES_BASE`.
 
-GitHub repo: https://github.com/luli-lula/Native-Plants-Card
+GitHub repo: https://github.com/luli-lula/plant-care-signs
 Custom domain: ailula.top
 
 ## Print Export (PNG)

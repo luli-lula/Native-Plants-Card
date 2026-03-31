@@ -4,7 +4,7 @@
 
 Scan the QR code on a plant card to see its interactive page — growing conditions, fun facts, wildlife value, planting guide, and detail photos.
 
-**Browse all plants:** [ailula.top/Native-Plants-Card/plants/](https://ailula.top/Native-Plants-Card/plants/)
+**Browse all plants:** [ailula.top/plant-care-signs/plants/](https://ailula.top/plant-care-signs/plants/)
 
 ## Features
 
