@@ -14,24 +14,21 @@
     "soil": "Rich, Loam",
     "bloom_color": "White",
     "bloom_months": "Jun - Sep",
-    "height": "3-5'",
+    "height": "3-7'",
     "selling_points": [
       "Deer Resistant",
       "Shade Tolerant",
       "Caterpillar Host"
     ],
-    "cautions": [],
-    "notes": "Dramatic tall white flower spikes; formerly Cimicifuga racemosa",
-    "facts": [
-      {
-        "title": "Architectural Plant",
-        "sub": "Dramatic 3-5’ tall white flower spires"
-      }
+    "cautions": [
+      "Toxic to Humans"
     ],
+    "notes": "Dramatic tall white flower spikes; formerly Cimicifuga racemosa",
+    "facts": [],
     "fun_facts": [
       {
         "icon": "&#x1F3F0;",
-        "text": "Dramatic flower spires reach <strong>3&ndash;5 feet tall</strong>, earning it the nickname \"fairy candles.\""
+        "text": "Dramatic flower spires reach <strong>3–5 feet tall</strong>, earning it the nickname \"fairy candles.\""
       },
       {
         "icon": "&#x1F48A;",
@@ -69,8 +66,8 @@
       }
     ],
     "planting_steps": [
-      "Plant in rich, moist soil in part to full shade &mdash; woodland edges are ideal",
-      "Space 2&ndash;3 feet apart; it forms impressive clumps over time",
+      "Plant in rich, moist soil in part to full shade — woodland edges are ideal",
+      "Space 2–3 feet apart; it forms impressive clumps over time",
       "Mulch generously with composted leaves to keep roots cool and moist"
     ],
     "detail_photos": [
@@ -97,7 +94,6 @@
     "height": "1-2'",
     "selling_points": [
       "Deer Resistant",
-      "Shade Garden",
       "Shade Tolerant",
       "Easy to Grow"
     ],
@@ -136,7 +132,7 @@
     ],
     "planting_steps": [
       "Plant in part to full shade in moist, rich, neutral to alkaline soil",
-      "Keep soil consistently moist &mdash; this fern will not tolerate drought",
+      "Keep soil consistently moist — this fern will not tolerate drought",
       "Shelter from wind, which can damage the delicate fronds"
     ],
     "detail_photos": [
@@ -157,8 +153,8 @@
       "bees",
       "butterflies"
     ],
-    "light": "Full Sun",
-    "moisture": "Moist",
+    "light": "Sun to Part",
+    "moisture": "Moist to Medium",
     "soil": "Sandy",
     "bloom_color": "Pink-Purple",
     "bloom_months": "Aug - Oct",
@@ -168,9 +164,7 @@
       "Late Bloomer",
       "Self-Seeding"
     ],
-    "cautions": [
-      "Spreads by Seed"
-    ],
+    "cautions": [],
     "notes": "A delicate, hemiparasitic annual wildflower with showy pink-purple trumpet-shaped flowers that lights up moist meadows and shorelines in late summer.",
     "fun_facts": [
       {
@@ -244,8 +238,8 @@
       "bees",
       "butterflies"
     ],
-    "light": "Full Sun",
-    "moisture": "Medium",
+    "light": "Sun to Part",
+    "moisture": "Dry to Medium",
     "soil": "Any",
     "bloom_color": "Pink-Purple",
     "bloom_months": "Aug - Oct",
@@ -255,9 +249,7 @@
       "Late Bloomer",
       "Caterpillar Host"
     ],
-    "cautions": [
-      "Spreads by Seed"
-    ],
+    "cautions": [],
     "notes": "A dainty, adaptable annual with tiny funnel-shaped pink flowers that blooms prolifically in late summer across fields, prairies, and stream edges.",
     "fun_facts": [
       {
@@ -326,7 +318,7 @@
     "species": "Agastache foeniculum",
     "common": "Anise Hyssop",
     "type": "Perennial",
-    "native": "New York",
+    "native": "USA",
     "pollinators": [
       "bees",
       "butterflies",
@@ -337,7 +329,7 @@
     "soil": "Any",
     "bloom_color": "Lavender-Purple",
     "bloom_months": "Jun - Sep",
-    "height": "2-4'",
+    "height": "2-5'",
     "selling_points": [
       "Pollinator Magnet",
       "Deer Resistant",
@@ -509,10 +501,10 @@
       "bees"
     ],
     "light": "Sun to Shade",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Loam, Sandy",
     "bloom_color": "White",
-    "bloom_months": "Mar - Apr",
+    "bloom_months": "Apr - May",
     "height": "15-25'",
     "selling_points": [
       "Early Bloomer",
@@ -523,11 +515,11 @@
     "fun_facts": [
       {
         "icon": "&#x1F338;",
-        "text": "One of the <strong>first trees to bloom</strong> in spring &mdash; white clouds of flowers before leaves emerge."
+        "text": "One of the <strong>first trees to bloom</strong> in spring — white clouds of flowers before leaves emerge."
       },
       {
         "icon": "&#x1F347;",
-        "text": "Berries are <strong>delicious eaten fresh</strong> or in pies &mdash; taste like a blueberry-almond blend."
+        "text": "Berries are <strong>delicious eaten fresh</strong> or in pies — taste like a blueberry-almond blend."
       },
       {
         "icon": "&#x1F341;",
@@ -586,28 +578,29 @@
   {
     "id": "amelanchier-laevis",
     "species": "Amelanchier laevis",
-    "common": "Alleghany Serviceberry",
+    "common": "Allegheny Serviceberry",
     "type": "Shrub/Tree",
     "native": "New York",
     "pollinators": [
       "bees"
     ],
     "light": "Sun to Part",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Loam, Sandy",
     "bloom_color": "White",
     "bloom_months": "Apr - May",
     "height": "15-25'",
     "selling_points": [
       "Early Bloomer",
-      "Fall Color"
+      "Fall Color",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Graceful small tree with drooping white flower clusters; new leaves emerge bronze-purple",
     "fun_facts": [
       {
         "icon": "&#x1F338;",
-        "text": "Drooping clusters of <strong>white flowers</strong> are more graceful than Eastern Serviceberry &mdash; a showier display."
+        "text": "Drooping clusters of <strong>white flowers</strong> are more graceful than Eastern Serviceberry — a showier display."
       },
       {
         "icon": "&#x1F7E4;",
@@ -615,7 +608,7 @@
       },
       {
         "icon": "&#x1F347;",
-        "text": "Berries are sweeter than Eastern Serviceberry &mdash; <strong>the tastiest native fruit</strong> for pies and jams."
+        "text": "Berries are sweeter than Eastern Serviceberry — <strong>the tastiest native fruit</strong> for pies and jams."
       }
     ],
     "wildlife": [
@@ -646,7 +639,7 @@
     ],
     "planting_steps": [
       "Plant in sun to part shade in moist, well-drained, slightly acidic soil",
-      "Allow room for 15&ndash;25&Prime; mature height; can be multi-stem or single trunk",
+      "Allow room for 15–25″ mature height; can be multi-stem or single trunk",
       "Virtually maintenance-free once established; occasional pruning for shape"
     ],
     "detail_photos": [
@@ -660,10 +653,6 @@
       {
         "title": "Alleghany Serviceberry",
         "sub": "Drooping clusters of white flowers are more graceful than Eastern Serviceberry —"
-      },
-      {
-        "title": "Smooth Bark",
-        "sub": "Elegant silvery-gray bark adds year-round beauty"
       }
     ]
   },
@@ -672,7 +661,7 @@
     "species": "Amsonia tabernaemontana",
     "common": "Eastern Bluestar",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [
       "bees",
       "butterflies"
@@ -770,11 +759,11 @@
     "height": "1-2'",
     "selling_points": [
       "Ground Cover",
-      "Erosion Control",
       "Pollinator Magnet"
     ],
     "cautions": [
-      "Spreads by Root"
+      "Spreads by Root",
+      "Toxic to Humans"
     ],
     "notes": "Can overwhelm smaller plants; spreads by rhizomes",
     "fun_facts": [
@@ -784,11 +773,11 @@
       },
       {
         "icon": "&#x1F4A8;",
-        "text": "Spreads by underground rhizomes to form dense colonies &mdash; nature's own <strong>weed suppressor</strong>."
+        "text": "Spreads by underground rhizomes to form dense colonies — nature's own <strong>weed suppressor</strong>."
       },
       {
         "icon": "&#x1F33F;",
-        "text": "The name \"Anemone\" comes from Greek <em>anemos</em> (wind) &mdash; these are the <strong>windflowers</strong>."
+        "text": "The name \"Anemone\" comes from Greek <em>anemos</em> (wind) — these are the <strong>windflowers</strong>."
       }
     ],
     "wildlife": [
@@ -819,7 +808,7 @@
     ],
     "planting_steps": [
       "Plant in moist soil with partial shade for best results",
-      "Space 12&ndash;18&Prime; apart &mdash; it will fill in quickly via rhizomes",
+      "Space 12–18″ apart — it will fill in quickly via rhizomes",
       "Use a root barrier if you need to contain its spread in small gardens"
     ],
     "detail_photos": [
@@ -1106,11 +1095,11 @@
     "height": "3-4'",
     "selling_points": [
       "Pollinator Magnet",
-      "Deer Resistant",
-      "Drought Tolerant"
+      "Deer Resistant"
     ],
     "cautions": [
-      "Toxic to Humans"
+      "Toxic to Humans",
+      "Spreads by Root"
     ],
     "notes": "A tough, upright perennial with clusters of small fragrant white flowers that attract a huge diversity of pollinators and produce silky-seeded pods.",
     "fun_facts": [
@@ -1194,15 +1183,15 @@
     "height": "1-3'",
     "selling_points": [
       "Deer Resistant",
-      "Rock Garden",
-      "Self-Seeding"
+      "Self-Seeding",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Short-lived (3-5 years) but self-seeds readily",
     "fun_facts": [
       {
         "icon": "&#x1F3A8;",
-        "text": "The red and yellow flowers are perfectly shaped for <strong>hummingbird bills</strong> &mdash; each spur holds a drop of nectar."
+        "text": "The red and yellow flowers are perfectly shaped for <strong>hummingbird bills</strong> — each spur holds a drop of nectar."
       },
       {
         "icon": "&#x1F4AB;",
@@ -1249,7 +1238,7 @@
       }
     ],
     "planting_steps": [
-      "Plant in part shade with well-drained soil &mdash; it likes woodland edges",
+      "Plant in part shade with well-drained soil — it likes woodland edges",
       "Scatter seeds in fall for spring germination, or transplant in early spring",
       "Let spent flowers go to seed for natural self-sowing each year"
     ],
@@ -1276,8 +1265,8 @@
     "pollinators": [
       "bees"
     ],
-    "light": "Sun to Part",
-    "moisture": "Moist to Mesic",
+    "light": "Part to Shade",
+    "moisture": "Moist to Medium",
     "soil": "Loam",
     "bloom_color": "White/Green",
     "bloom_months": "Jun - Aug",
@@ -1331,7 +1320,7 @@
     ],
     "planting_steps": [
       "Plant in part shade in moist, rich, humus-filled woodland soil",
-      "Space 24&ndash;36&Prime; apart; gives a dramatic architectural presence",
+      "Space 24–36″ apart; gives a dramatic architectural presence",
       "Mulch with leaf litter to replicate its natural woodland environment"
     ],
     "detail_photos": [
@@ -1368,7 +1357,7 @@
       "Fragrant Foliage"
     ],
     "cautions": [],
-    "notes": "Pollinated by flies; host plant for Pipevine Swallowtail (Battus philenor)",
+    "notes": "Pollinated by flies; host plant for Pipevine Swallowtail (Battus philenor). Tolerant of black walnut (juglone).",
     "fun_facts": [
       {
         "icon": "&#x1F98B;",
@@ -1376,7 +1365,7 @@
       },
       {
         "icon": "&#x1F443;",
-        "text": "Crush a leaf or root to release a <strong>spicy ginger scent</strong> &mdash; though it's not related to culinary ginger."
+        "text": "Crush a leaf or root to release a <strong>spicy ginger scent</strong> — though it's not related to culinary ginger."
       },
       {
         "icon": "&#x1F33A;",
@@ -1415,7 +1404,7 @@
     ],
     "planting_steps": [
       "Plant in full to part shade in rich, moist soil",
-      "Space rhizomes 12&Prime; apart &mdash; they'll slowly spread to form a lush carpet",
+      "Space rhizomes 12″ apart — they'll slowly spread to form a lush carpet",
       "Mulch with leaf litter to mimic its natural woodland habitat"
     ],
     "detail_photos": [
@@ -1442,31 +1431,24 @@
     "soil": "Clay, Loam",
     "bloom_color": "Pink",
     "bloom_months": "Jun - Aug",
-    "height": "4'",
+    "height": "3-5'",
     "selling_points": [
       "Rain Garden",
-      "Pollinator Magnet"
+      "Pollinator Magnet",
+      "Deer Resistant",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Essential Monarch butterfly host plant; thrives in wet areas and rain gardens",
-    "facts": [
-      {
-        "title": "Monarch Nursery",
-        "sub": "Monarch caterpillars feed exclusively on milkweed — no milkweed means no Monarchs"
-      },
-      {
-        "title": "Wetland Monarch",
-        "sub": "Unlike common milkweed, thrives in wet soils and stays clump-forming"
-      }
-    ],
+    "facts": [],
     "fun_facts": [
       {
         "icon": "&#x1F98B;",
-        "text": "Monarch caterpillars <strong>feed exclusively</strong> on milkweed &mdash; no milkweed means no Monarchs."
+        "text": "Monarch caterpillars <strong>feed exclusively</strong> on milkweed — no milkweed means no Monarchs."
       },
       {
         "icon": "&#x1F331;",
-        "text": "Unlike common milkweed, this species is <strong>well-behaved</strong> in gardens &mdash; clump-forming, not aggressive."
+        "text": "Unlike common milkweed, this species is <strong>well-behaved</strong> in gardens — clump-forming, not aggressive."
       },
       {
         "icon": "&#x1F9EA;",
@@ -1501,8 +1483,8 @@
     ],
     "planting_steps": [
       "Plant in full sun in moist to wet soil; ideal for rain gardens",
-      "Space 18&ndash;24&Prime; apart; grows in clumps without spreading aggressively",
-      "Leave seed pods in fall &mdash; they provide winter interest and self-sow gently"
+      "Space 18–24″ apart; grows in clumps without spreading aggressively",
+      "Leave seed pods in fall — they provide winter interest and self-sow gently"
     ],
     "detail_photos": [
       "asclepias-incarnata-1.jpg",
@@ -1530,32 +1512,25 @@
     "height": "1-2'",
     "selling_points": [
       "Drought Tolerant",
-      "Pollinator Magnet"
+      "Pollinator Magnet",
+      "Deer Resistant",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Brilliant orange flowers; deep taproot makes it very drought tolerant but hard to transplant",
-    "facts": [
-      {
-        "title": "Monarch Host",
-        "sub": "Monarch caterpillars feed exclusively on milkweed — essential for butterfly survival"
-      },
-      {
-        "title": "Deep Taproot",
-        "sub": "Anchor root reaches deep — choose your spot carefully, resents disturbance"
-      }
-    ],
+    "facts": [],
     "fun_facts": [
       {
         "icon": "&#x1F9E1;",
-        "text": "The only milkweed with <strong>bright orange</strong> flowers &mdash; a beacon for butterflies and gardeners alike."
+        "text": "The only milkweed with <strong>bright orange</strong> flowers — a beacon for butterflies and gardeners alike."
       },
       {
         "icon": "&#x1F331;",
-        "text": "Has a deep <strong>taproot</strong> instead of rhizomes &mdash; stays put and never spreads aggressively."
+        "text": "Has a deep <strong>taproot</strong> instead of rhizomes — stays put and never spreads aggressively."
       },
       {
         "icon": "&#x1F9EA;",
-        "text": "Unlike other milkweeds, its sap is <strong>clear, not milky</strong> &mdash; a unique trait in the genus."
+        "text": "Unlike other milkweeds, its sap is <strong>clear, not milky</strong> — a unique trait in the genus."
       }
     ],
     "wildlife": [
@@ -1586,13 +1561,13 @@
     ],
     "planting_steps": [
       "Plant in full sun in sandy, well-drained soil; do not overwater",
-      "Space 12&ndash;18&Prime; apart; emerges late in spring &mdash; mark its location",
-      "Do not transplant once established &mdash; the deep taproot resents disturbance"
+      "Space 12–18″ apart; emerges late in spring — mark its location",
+      "Do not transplant once established — the deep taproot resents disturbance"
     ],
     "detail_photos": [
       "asclepias-tuberosa-1.jpg",
       "asclepias-tuberosa-2.jpg",
-      "asclepias-tuberosa-3.jpg",
+      "asclepias-tuberosa-3.jpeg",
       "asclepias-tuberosa-4.jpg",
       "asclepias-tuberosa-5.jpg"
     ]
@@ -1608,14 +1583,15 @@
       "butterflies"
     ],
     "light": "Sun to Part",
-    "moisture": "Mesic to Dry",
+    "moisture": "Medium to Dry",
     "soil": "Sandy, Loam",
     "bloom_color": "White",
     "bloom_months": "Jul - Sep",
     "height": "1-3'",
     "selling_points": [
-      "Late Bloomer",
-      "Drought Tolerant"
+      "Drought Tolerant",
+      "Deer Resistant",
+      "Caterpillar Host"
     ],
     "cautions": [
       "Spreads by Root"
@@ -1624,7 +1600,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F98B;",
-        "text": "Blooms <strong>late summer</strong> when other milkweeds have finished &mdash; critical late-season Monarch fuel."
+        "text": "Blooms <strong>late summer</strong> when other milkweeds have finished — critical late-season Monarch fuel."
       },
       {
         "icon": "&#x1F33F;",
@@ -1663,8 +1639,8 @@
     ],
     "planting_steps": [
       "Plant in full sun in dry to medium, well-drained soil",
-      "Space 12&ndash;18&Prime; apart; spreads by rhizomes to form colonies",
-      "Avoid rich soils &mdash; performs best in lean, sandy conditions"
+      "Space 12–18″ apart; spreads by rhizomes to form colonies",
+      "Avoid rich soils — performs best in lean, sandy conditions"
     ],
     "detail_photos": [
       "asclepias-verticillata-1.jpg",
@@ -1673,12 +1649,7 @@
       "asclepias-verticillata-4.jpg",
       "asclepias-verticillata-5.jpg"
     ],
-    "facts": [
-      {
-        "title": "Whorled Milkweed",
-        "sub": "Blooms late summer when other milkweeds have finished — critical late-season Mon"
-      }
-    ]
+    "facts": []
   },
   {
     "id": "asimina-triloba",
@@ -1688,10 +1659,11 @@
     "native": "New York",
     "pollinators": [
       "flies",
-      "beetles"
+      "beetles",
+      "butterflies"
     ],
     "light": "Part Sun to Shade",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Loam",
     "bloom_color": "Maroon/Purple",
     "bloom_months": "Apr - May",
@@ -1705,15 +1677,15 @@
     "fun_facts": [
       {
         "icon": "&#x1F34C;",
-        "text": "Produces the <strong>largest native fruit</strong> in North America &mdash; tastes like banana-mango custard!"
+        "text": "Produces the <strong>largest native fruit</strong> in North America — tastes like banana-mango custard!"
       },
       {
         "icon": "&#x1F98E;",
-        "text": "Pollinated by <strong>flies and beetles</strong>, not bees &mdash; flowers even smell slightly like rotting meat to attract them."
+        "text": "Pollinated by <strong>flies and beetles</strong>, not bees — flowers even smell slightly like rotting meat to attract them."
       },
       {
         "icon": "&#x1F98B;",
-        "text": "Sole host plant for the <strong>Zebra Swallowtail</strong> butterfly &mdash; found only where pawpaws grow."
+        "text": "Sole host plant for the <strong>Zebra Swallowtail</strong> butterfly — found only where pawpaws grow."
       }
     ],
     "wildlife": [
@@ -1744,7 +1716,7 @@
     ],
     "planting_steps": [
       "Plant in part shade (full shade when young) in moist, rich, well-drained soil",
-      "Plant two genetically different trees within 30&Prime; for cross-pollination",
+      "Plant two genetically different trees within 30″ for cross-pollination",
       "Protect young trees from sun and wind; they naturally grow as understory trees"
     ],
     "detail_photos": [
@@ -1777,7 +1749,7 @@
       "hummingbirds"
     ],
     "light": "Sun to Part",
-    "moisture": "Medium",
+    "moisture": "Dry to Medium",
     "soil": "Loam",
     "bloom_color": "Cream-White",
     "bloom_months": "Jun - Aug",
@@ -1812,7 +1784,7 @@
       },
       {
         "emoji": "🦋",
-        "title": "Western Tailed-Blue",
+        "title": "Eastern Tailed-Blue",
         "desc": "Larvae feed on developing seed pods"
       },
       {
@@ -1868,7 +1840,7 @@
     "height": "2-3'",
     "selling_points": [
       "Deer Resistant",
-      "Shade Garden",
+      "Shade Tolerant",
       "Erosion Control",
       "Easy to Grow"
     ],
@@ -1881,7 +1853,7 @@
       },
       {
         "icon": "&#x1F4A7;",
-        "text": "Deciduous &mdash; fronds emerge as tight <strong>fiddleheads</strong> in spring, unfurling in elegant spirals."
+        "text": "Deciduous — fronds emerge as tight <strong>fiddleheads</strong> in spring, unfurling in elegant spirals."
       }
     ],
     "wildlife": [
@@ -1912,7 +1884,7 @@
     ],
     "planting_steps": [
       "Plant in part to full shade in rich, moist, acidic soil",
-      "Space 18&ndash;24&Prime; apart; fronds arch gracefully to 2&ndash;3 feet",
+      "Space 18–24″ apart; fronds arch gracefully to 2–3 feet",
       "Keep soil consistently moist; mulch with shredded leaves annually"
     ],
     "detail_photos": [
@@ -1999,7 +1971,7 @@
     "planting_steps": [
       "Plant near oak trees; hemiparasitic on oak roots.",
       "Sow seed in fall in part shade with leaf litter.",
-      "Do not transplant easily; best grown from seed in place."
+      "Difficult to transplant — it forms a parasitic relationship with oak roots, so plant near oaks and avoid moving."
     ],
     "detail_photos": [
       "aureolaria-flava-1.jpg",
@@ -2014,7 +1986,7 @@
     "species": "Baptisia alba",
     "common": "White Wild Indigo",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Naturalized",
     "pollinators": [
       "bees",
       "butterflies"
@@ -2092,7 +2064,7 @@
       "baptisia-alba-1.jpg",
       "baptisia-alba-2.jpg",
       "baptisia-alba-3.jpg",
-      "baptisia-alba-4.jpg",
+      "baptisia-alba-4.jpeg",
       "baptisia-alba-5.jpg"
     ]
   },
@@ -2101,7 +2073,7 @@
     "species": "Baptisia australis",
     "common": "Blue Wild Indigo",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [
       "bees",
       "butterflies"
@@ -2206,7 +2178,7 @@
       "Ground Cover"
     ],
     "cautions": [],
-    "notes": "A compact, aromatic woodland mint with whorls of lavender flowers stacked along the stem that attracts specialist bees in early summer.",
+    "notes": "A compact, aromatic woodland mint with whorls of lavender flowers stacked along the stem that attracts specialist bees in early summer. Does not tolerate salt — avoid roadside plantings.",
     "fun_facts": [
       {
         "emoji": "🌸",
@@ -2360,13 +2332,13 @@
     "species": "Boltonia asteroides",
     "common": "False Aster",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [
       "bees",
       "butterflies"
     ],
     "light": "Full Sun",
-    "moisture": "Moist",
+    "moisture": "Moist to Medium",
     "soil": "Any",
     "bloom_color": "White",
     "bloom_months": "Aug - Oct",
@@ -2531,7 +2503,7 @@
     "species": "Bouteloua gracilis",
     "common": "Blue Grama",
     "type": "Grass",
-    "native": "New York",
+    "native": "USA",
     "pollinators": [
       "birds"
     ],
@@ -2728,7 +2700,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F31F;",
-        "text": "Despite its name, this is actually a <strong>biennial</strong> &mdash; it grows leaves the first year and flowers the second."
+        "text": "Despite its name, this is actually a <strong>biennial</strong> — it grows leaves the first year and flowers the second."
       },
       {
         "icon": "&#x1F4A7;",
@@ -2763,7 +2735,7 @@
     ],
     "planting_steps": [
       "Sow seeds directly in moist, partly shaded soil in fall",
-      "Thin seedlings to 12&Prime; apart in spring",
+      "Thin seedlings to 12″ apart in spring",
       "Let plants self-seed freely to maintain a continuous colony year after year"
     ],
     "detail_photos": [
@@ -2970,7 +2942,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F343;",
-        "text": "One of the best <strong>native lawn alternatives</strong> for shady areas &mdash; stays green and needs no mowing."
+        "text": "One of the best <strong>native lawn alternatives</strong> for shady areas — stays green and needs no mowing."
       },
       {
         "icon": "&#x1F331;",
@@ -3005,8 +2977,8 @@
     ],
     "planting_steps": [
       "Plant in part to full shade in moist, well-drained soil",
-      "Space 8&ndash;12&Prime; apart for a flowing groundcover effect",
-      "No mowing needed &mdash; just comb out dead foliage in early spring"
+      "Space 8–12″ apart for a flowing groundcover effect",
+      "No mowing needed — just comb out dead foliage in early spring"
     ],
     "detail_photos": [
       "carex-blanda-1.jpg",
@@ -3056,7 +3028,7 @@
       },
       {
         "icon": "&#x1FAB1;",
-        "text": "Sedges host <strong>more moth species</strong> than most flowering plants &mdash; critical for food webs."
+        "text": "Sedges host <strong>more moth species</strong> than most flowering plants — critical for food webs."
       }
     ],
     "wildlife": [
@@ -3087,7 +3059,7 @@
     ],
     "planting_steps": [
       "Plant in part shade in moist to wet, loamy soil",
-      "Space 18&ndash;24&Prime; apart; tolerates seasonal flooding and clay soils",
+      "Space 18–24″ apart; tolerates seasonal flooding and clay soils",
       "Ideal for rain gardens, stream banks, and wet woodland edges"
     ],
     "detail_photos": [
@@ -3448,7 +3420,7 @@
       "wind"
     ],
     "light": "Part Sun to Shade",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Clay, Loam",
     "bloom_color": "Green",
     "bloom_months": "Apr - May",
@@ -3471,7 +3443,7 @@
       },
       {
         "icon": "&#x1F341;",
-        "text": "Fall color ranges from <strong>orange to scarlet red</strong> &mdash; one of the best native displays."
+        "text": "Fall color ranges from <strong>orange to scarlet red</strong> — one of the best native displays."
       }
     ],
     "wildlife": [
@@ -3502,7 +3474,7 @@
     ],
     "planting_steps": [
       "Plant in part shade in moist, well-drained soil; tolerates clay",
-      "Allow room for 20&ndash;35&Prime; mature height and width",
+      "Allow room for 20–35″ mature height and width",
       "Virtually maintenance-free; slow-growing but long-lived native tree"
     ],
     "detail_photos": [
@@ -3540,9 +3512,7 @@
       "Early Bloomer",
       "Self-Seeding"
     ],
-    "cautions": [
-      "Spreads by Seed"
-    ],
+    "cautions": [],
     "notes": "A striking biennial wildflower with brilliant scarlet bracts that is hemiparasitic, drawing some nutrients from neighboring grass roots.",
     "facts": [
       {
@@ -3613,7 +3583,7 @@
     "species": "Castilleja sessiliflora",
     "common": "Downy Painted Cup",
     "type": "Perennial",
-    "native": "New York",
+    "native": "USA",
     "pollinators": [
       "hummingbirds",
       "bees",
@@ -3720,7 +3690,8 @@
     "selling_points": [
       "Drought Tolerant",
       "Deer Resistant",
-      "Nitrogen Fixing"
+      "Nitrogen Fixing",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Nitrogen fixer; deep taproot makes it hard to transplant",
@@ -3779,9 +3750,9 @@
       }
     ],
     "planting_steps": [
-      "Choose a spot with good drainage &mdash; this plant hates wet feet",
+      "Choose a spot with good drainage — this plant hates wet feet",
       "Dig a hole twice the width of the root ball, same depth as the pot",
-      "Backfill with native soil (no amendments needed), water deeply, and mulch 2&ndash;3&Prime; around the base"
+      "Backfill with native soil (no amendments needed), water deeply, and mulch 2–3″ around the base"
     ],
     "seasonal_tips": {
       "0": "January: Plan your spring garden layout &mdash; New Jersey Tea pairs beautifully with Little Bluestem and Black-Eyed Susan.",
@@ -3804,12 +3775,7 @@
       "ceanothus-americanus-4.jpg",
       "ceanothus-americanus-5.jpg"
     ],
-    "facts": [
-      {
-        "title": "Tea Plant",
-        "sub": "Leaves were brewed as tea during the American Revolution"
-      }
-    ]
+    "facts": []
   },
   {
     "id": "cephalanthus-occidentalis",
@@ -3830,22 +3796,23 @@
     "selling_points": [
       "Rain Garden",
       "Pollinator Magnet",
-      "Wildlife Food"
+      "Wildlife Food",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Distinctive ping-pong ball shaped flower clusters; thrives in wet and flooded conditions",
     "fun_facts": [
       {
         "icon": "&#x26BE;",
-        "text": "Flowers look like perfect <strong>white ping-pong balls</strong> &mdash; actually clusters of tiny tubular flowers."
+        "text": "Flowers look like perfect <strong>white ping-pong balls</strong> — actually clusters of tiny tubular flowers."
       },
       {
         "icon": "&#x1F4A7;",
-        "text": "Can grow with its roots <strong>completely submerged</strong> in standing water &mdash; a true wetland champion."
+        "text": "Can grow with its roots <strong>completely submerged</strong> in standing water — a true wetland champion."
       },
       {
         "icon": "&#x1F41D;",
-        "text": "One of the <strong>top honey-producing</strong> native plants &mdash; beekeepers love it."
+        "text": "One of the <strong>top honey-producing</strong> native plants — beekeepers love it."
       }
     ],
     "wildlife": [
@@ -3876,7 +3843,7 @@
     ],
     "planting_steps": [
       "Plant in full sun in consistently wet to moist soil; tolerates flooding",
-      "Space 6&ndash;8&Prime; apart; can become large &mdash; prune in late winter to control size",
+      "Space 6–8″ apart; can become large — prune in late winter to control size",
       "Perfect for pond edges, rain gardens, and low-lying wet areas"
     ],
     "detail_photos": [
@@ -3886,12 +3853,7 @@
       "cephalanthus-occidentalis-4.jpg",
       "cephalanthus-occidentalis-5.jpg"
     ],
-    "facts": [
-      {
-        "title": "Buttonbush",
-        "sub": "Flowers look like perfect white ping-pong balls — actually clusters of tiny tubu"
-      }
-    ]
+    "facts": []
   },
   {
     "id": "chamaenerion-angustifolium",
@@ -4055,7 +4017,7 @@
       }
     ],
     "planting_steps": [
-      "Plant in consistently moist to wet soil &mdash; perfect near streams or rain gardens",
+      "Plant in consistently moist to wet soil — perfect near streams or rain gardens",
       "Part shade to full shade works best; it tolerates sun only if soil stays moist",
       "Pinch stems in early June to encourage bushier growth and more blooms"
     ],
@@ -4100,11 +4062,11 @@
       },
       {
         "icon": "&#x2728;",
-        "text": "The fluffy, silvery seed heads in fall are as ornamental as the flowers &mdash; great for <strong>winter arrangements</strong>."
+        "text": "The fluffy, silvery seed heads in fall are as ornamental as the flowers — great for <strong>winter arrangements</strong>."
       },
       {
         "icon": "&#x1F33F;",
-        "text": "This is the <strong>native clematis</strong> &mdash; a vigorous vine that covers fences and dead trees with white flowers."
+        "text": "This is the <strong>native clematis</strong> — a vigorous vine that covers fences and dead trees with white flowers."
       }
     ],
     "wildlife": [
@@ -4151,13 +4113,13 @@
     "species": "Conoclinium coelestinum",
     "common": "Blue Mistflower",
     "type": "Perennial",
-    "native": "Naturalized",
+    "native": "Eastern USA",
     "pollinators": [
       "bees",
       "butterflies"
     ],
     "light": "Sun to Part",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Clay, Loam",
     "bloom_color": "Blue/Purple",
     "bloom_months": "Aug - Oct",
@@ -4177,11 +4139,11 @@
       },
       {
         "icon": "&#x1F4A8;",
-        "text": "Spreads by rhizomes to form dense <strong>blue carpets</strong> &mdash; nature's ground cover."
+        "text": "Spreads by rhizomes to form dense <strong>blue carpets</strong> — nature's ground cover."
       },
       {
         "icon": "&#x1F33F;",
-        "text": "Looks like a <strong>wild ageratum</strong> &mdash; closely related to the popular garden annual."
+        "text": "Looks like a <strong>wild ageratum</strong> — closely related to the popular garden annual."
       }
     ],
     "wildlife": [
@@ -4212,7 +4174,7 @@
     ],
     "planting_steps": [
       "Plant in moist soil in sun to part shade; ideal near streams or rain gardens",
-      "Space 18&ndash;24&Prime; apart; spreads aggressively by rhizomes",
+      "Space 18–24″ apart; spreads aggressively by rhizomes",
       "Use root barriers in small gardens to contain its spread"
     ],
     "detail_photos": [
@@ -4240,7 +4202,7 @@
       "butterflies"
     ],
     "light": "Full Sun",
-    "moisture": "Mesic to Dry",
+    "moisture": "Medium to Dry",
     "soil": "Sandy, Loam",
     "bloom_color": "Yellow",
     "bloom_months": "May - Jul",
@@ -4248,7 +4210,7 @@
     "selling_points": [
       "Long Blooming",
       "Drought Tolerant",
-      "Easy to Grow"
+      "Caterpillar Host"
     ],
     "cautions": [
       "Spreads by Seed"
@@ -4257,7 +4219,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F31E;",
-        "text": "Blooms for <strong>8+ weeks</strong> nonstop &mdash; one of the longest-flowering native perennials."
+        "text": "Blooms for <strong>8+ weeks</strong> nonstop — one of the longest-flowering native perennials."
       },
       {
         "icon": "&#x1F33B;",
@@ -4265,7 +4227,7 @@
       },
       {
         "icon": "&#x1F426;",
-        "text": "Goldfinches love the <strong>seed heads</strong> &mdash; leave them standing in fall for bird food."
+        "text": "Goldfinches love the <strong>seed heads</strong> — leave them standing in fall for bird food."
       }
     ],
     "wildlife": [
@@ -4296,7 +4258,7 @@
     ],
     "planting_steps": [
       "Plant in full sun in average to dry, well-drained soil",
-      "Space 12&ndash;18&Prime; apart; self-seeds freely in open areas",
+      "Space 12–18″ apart; self-seeds freely in open areas",
       "Deadhead regularly for continuous bloom or let it naturalize"
     ],
     "detail_photos": [
@@ -4318,7 +4280,7 @@
       "butterflies"
     ],
     "light": "Sun to Part",
-    "moisture": "Wet to Mesic",
+    "moisture": "Wet to Medium",
     "soil": "Clay, Loam",
     "bloom_color": "White",
     "bloom_months": "May - Jun",
@@ -4335,11 +4297,11 @@
     "fun_facts": [
       {
         "icon": "&#x1F534;",
-        "text": "Stems turn <strong>brilliant red</strong> in winter &mdash; the brighter the cold, the redder the stems."
+        "text": "Stems turn <strong>brilliant red</strong> in winter — the brighter the cold, the redder the stems."
       },
       {
         "icon": "&#x1F426;",
-        "text": "White berries are eaten by <strong>over 90 bird species</strong> &mdash; a top wildlife food plant."
+        "text": "White berries are eaten by <strong>over 90 bird species</strong> — a top wildlife food plant."
       },
       {
         "icon": "&#x1FAB4;",
@@ -4374,7 +4336,7 @@
     ],
     "planting_steps": [
       "Plant in sun to part shade in moist to wet soil",
-      "Space 4&ndash;6&Prime; apart; spreads by stolons to form thickets",
+      "Space 4–6″ apart; spreads by stolons to form thickets",
       "Cut oldest stems to ground in late winter to encourage bright red new growth"
     ],
     "detail_photos": [
@@ -4407,9 +4369,7 @@
       "Rock Garden",
       "Self-Seeding"
     ],
-    "cautions": [
-      "Spreads by Seed"
-    ],
+    "cautions": [],
     "notes": "A delicate annual or biennial with lacy blue-green foliage and charming tubular pink flowers tipped in bright yellow, thriving in rocky, poor soils.",
     "fun_facts": [
       {
@@ -4479,7 +4439,7 @@
       "wind"
     ],
     "light": "Sun to Part",
-    "moisture": "Mesic to Dry",
+    "moisture": "Medium to Dry",
     "soil": "Loam, Sandy",
     "bloom_color": "Red & Yellow",
     "bloom_months": "Feb - Mar",
@@ -4494,7 +4454,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F330;",
-        "text": "Produces <strong>delicious edible hazelnuts</strong> &mdash; race the squirrels to harvest them in September!"
+        "text": "Produces <strong>delicious edible hazelnuts</strong> — race the squirrels to harvest them in September!"
       },
       {
         "icon": "&#x1F534;",
@@ -4533,7 +4493,7 @@
     ],
     "planting_steps": [
       "Plant in sun to part shade in average, well-drained soil",
-      "Space 6&ndash;8&Prime; apart; plant two or more for nut production (cross-pollination needed)",
+      "Space 6–8″ apart; plant two or more for nut production (cross-pollination needed)",
       "Prune suckers to control spread or allow thicketing for wildlife habitat"
     ],
     "detail_photos": [
@@ -4640,7 +4600,7 @@
     "species": "Delphinium exaltatum",
     "common": "Tall Larkspur",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [
       "hummingbirds",
       "bees",
@@ -4653,7 +4613,6 @@
     "bloom_months": "Jul - Aug",
     "height": "4-6'",
     "selling_points": [
-      "Late Bloomer",
       "Deer Resistant"
     ],
     "cautions": [
@@ -4906,7 +4865,7 @@
     "species": "Echinacea pallida",
     "common": "Pale Purple Coneflower",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [
       "bees",
       "butterflies"
@@ -4992,7 +4951,7 @@
     "species": "Echinacea paradoxa",
     "common": "Bush's Coneflower",
     "type": "Perennial",
-    "native": "New York",
+    "native": "USA",
     "pollinators": [
       "bees",
       "butterflies"
@@ -5164,7 +5123,7 @@
     "species": "Eryngium yuccifolium",
     "common": "Rattlesnake Master",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [
       "bees",
       "butterflies"
@@ -5265,7 +5224,7 @@
       "Pollinator Magnet",
       "Deer Resistant",
       "Rain Garden",
-      "Long Blooming"
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "A tall wetland perennial with distinctive perfoliate leaves that appear to be pierced by the stem, topped with flat clusters of fluffy white flowers.",
@@ -5437,16 +5396,12 @@
     "selling_points": [
       "Rain Garden",
       "Deer Resistant",
-      "Wildlife Food"
+      "Wildlife Food",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "A majestic wetland perennial with purple-speckled stems, whorled leaves, and massive domed clusters of dusty pink flowers that are irresistible to butterflies.",
-    "facts": [
-      {
-        "title": "Butterfly Buffet",
-        "sub": "Massive pink clusters attract dozens of butterfly species at once"
-      }
-    ],
+    "facts": [],
     "fun_facts": [
       {
         "emoji": "🌿",
@@ -5620,7 +5575,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F41D;",
-        "text": "The flowers <strong>never fully open</strong> &mdash; only bumblebees are strong enough to pry them apart for nectar."
+        "text": "The flowers <strong>never fully open</strong> — only bumblebees are strong enough to pry them apart for nectar."
       },
       {
         "icon": "&#x1F499;",
@@ -5658,9 +5613,9 @@
       }
     ],
     "planting_steps": [
-      "Plant in moist, rich soil in partial shade &mdash; meadow edges work well",
+      "Plant in moist, rich soil in partial shade — meadow edges work well",
       "Do not let soil dry out during the first growing season",
-      "Patience is key &mdash; plants are slow to establish but long-lived once settled"
+      "Patience is key — plants are slow to establish but long-lived once settled"
     ],
     "detail_photos": [
       "gentiana-andrewsii-1.jpg",
@@ -5675,7 +5630,7 @@
     "species": "Gentiana flavida",
     "common": "Cream Gentian",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [],
     "light": "Sun to Part",
     "moisture": "Medium",
@@ -5780,7 +5735,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F3A8;",
-        "text": "Flowers range from <strong>pale pink to deep lavender</strong> &mdash; every plant is slightly different."
+        "text": "Flowers range from <strong>pale pink to deep lavender</strong> — every plant is slightly different."
       },
       {
         "icon": "&#x1F4A5;",
@@ -5815,7 +5770,7 @@
     ],
     "planting_steps": [
       "Plant in part shade in average to rich, well-drained soil",
-      "Space 12&ndash;18&Prime; apart for a natural woodland carpet",
+      "Space 12–18″ apart for a natural woodland carpet",
       "Let seed pods mature and fling seeds for natural spreading"
     ],
     "detail_photos": [
@@ -5856,7 +5811,7 @@
       },
       {
         "icon": "&#x2744;&#xFE0F;",
-        "text": "One of the <strong>earliest spring bloomers</strong> &mdash; its nodding pink flowers appear before most other wildflowers."
+        "text": "One of the <strong>earliest spring bloomers</strong> — its nodding pink flowers appear before most other wildflowers."
       },
       {
         "icon": "&#x1F343;",
@@ -5891,8 +5846,8 @@
     ],
     "planting_steps": [
       "Plant in full sun with dry, well-drained or rocky soil",
-      "Seeds need cold stratification &mdash; sow outdoors in fall for best results",
-      "Space 8&ndash;12&Prime; apart in rock gardens or dry meadow areas"
+      "Seeds need cold stratification — sow outdoors in fall for best results",
+      "Space 8–12″ apart in rock gardens or dry meadow areas"
     ],
     "detail_photos": [
       "geum-triflorum-1.jpg",
@@ -5926,7 +5881,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F319;",
-        "text": "Blooms in <strong>late October&ndash;November</strong> when almost nothing else is flowering &mdash; a true garden surprise."
+        "text": "Blooms in <strong>late October–November</strong> when almost nothing else is flowering — a true garden surprise."
       },
       {
         "icon": "&#x1FAB0;",
@@ -5965,7 +5920,7 @@
     ],
     "planting_steps": [
       "Plant in part shade to shade in moist, acidic to neutral soil",
-      "Give it room &mdash; mature specimens spread 15&ndash;20 feet wide",
+      "Give it room — mature specimens spread 15–20 feet wide",
       "Prune only right after flowering if needed; blooms form on old wood"
     ],
     "detail_photos": [
@@ -5996,7 +5951,7 @@
       "Pollinator Magnet",
       "Rain Garden",
       "Late Bloomer",
-      "Long Blooming"
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "A showy fall-blooming perennial with clusters of bright yellow, daisy-like flowers featuring distinctive wedge-shaped petals and dome-shaped centers.",
@@ -6130,7 +6085,7 @@
     ],
     "planting_steps": [
       "Plant in partial shade to full sun with average to moist soil",
-      "Space 18&ndash;24&Prime; apart &mdash; rhizomes will fill in gaps over time",
+      "Space 18–24″ apart — rhizomes will fill in gaps over time",
       "Cut back by half in early June if you want shorter, bushier plants"
     ],
     "detail_photos": [
@@ -6146,7 +6101,7 @@
     "species": "Heuchera richardsonii",
     "common": "Prairie Alumroot",
     "type": "Perennial",
-    "native": "New York",
+    "native": "USA",
     "pollinators": [
       "bees"
     ],
@@ -6408,7 +6363,7 @@
       "bees"
     ],
     "light": "Sun to Part",
-    "moisture": "Dry",
+    "moisture": "Dry to Moist",
     "soil": "Sandy, Rocky",
     "bloom_color": "Yellow",
     "bloom_months": "Jun - Aug",
@@ -6429,7 +6384,7 @@
       },
       {
         "emoji": "🌱",
-        "text": "Hold a leaf up to light and see tiny <strong>translucent dots</strong> &mdash; oil glands that give it the name \"perforatum.\""
+        "text": "Hold a leaf up to light and see tiny <strong>translucent dots</strong> — oil glands that give it the name \"perforatum.\""
       },
       {
         "emoji": "🌿",
@@ -6516,7 +6471,7 @@
     "fun_facts": [
       {
         "emoji": "🐦",
-        "text": "The <strong>largest native St. John's Wort</strong> &mdash; flowers reach a showy 2 inches across."
+        "text": "The <strong>largest native St. John's Wort</strong> — flowers reach a showy 2 inches across."
       },
       {
         "emoji": "🌱",
@@ -6598,7 +6553,7 @@
     "fun_facts": [
       {
         "icon": "&#x2B50;",
-        "text": "Despite its name, it's not a grass at all &mdash; it's in the <strong>iris family</strong>."
+        "text": "Despite its name, it's not a grass at all — it's in the <strong>iris family</strong>."
       },
       {
         "icon": "&#x1F31E;",
@@ -6628,8 +6583,8 @@
     ],
     "planting_steps": [
       "Plant in full sun with dry to average, well-drained soil",
-      "Space 6&ndash;8&Prime; apart in rock gardens or meadow edges",
-      "Avoid rich soils and overwatering &mdash; it prefers lean conditions"
+      "Space 6–8″ apart in rock gardens or meadow edges",
+      "Avoid rich soils and overwatering — it prefers lean conditions"
     ],
     "detail_photos": [
       "hypoxis-hirsuta-1.jpg",
@@ -6646,10 +6601,11 @@
     "type": "Shrub",
     "native": "New York",
     "pollinators": [
-      "bees"
+      "bees",
+      "birds"
     ],
     "light": "Part Sun to Shade",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Clay, Loam, Acidic",
     "bloom_color": "White",
     "bloom_months": "Jun - Jul",
@@ -6666,11 +6622,11 @@
     "fun_facts": [
       {
         "icon": "&#x1F534;",
-        "text": "Blazing <strong>red berries on bare branches</strong> in winter &mdash; the most dramatic native winter display."
+        "text": "Blazing <strong>red berries on bare branches</strong> in winter — the most dramatic native winter display."
       },
       {
         "icon": "&#x2642;&#xFE0F;",
-        "text": "Need <strong>both male and female plants</strong> for berries &mdash; one male pollinates up to 6 females."
+        "text": "Need <strong>both male and female plants</strong> for berries — one male pollinates up to 6 females."
       },
       {
         "icon": "&#x1F426;",
@@ -6705,7 +6661,7 @@
     ],
     "planting_steps": [
       "Plant in part shade in moist, acidic soil; tolerates clay",
-      "Plant at least one male within 50&Prime; of female plants for berry production",
+      "Plant at least one male within 50″ of female plants for berry production",
       "Minimal pruning; remove suckers to control spread if desired"
     ],
     "detail_photos": [
@@ -6724,7 +6680,8 @@
     "native": "New York",
     "pollinators": [
       "bees",
-      "butterflies"
+      "butterflies",
+      "birds"
     ],
     "light": "Full Sun",
     "moisture": "Dry to Medium",
@@ -6735,8 +6692,8 @@
     "selling_points": [
       "Nitrogen Fixing",
       "Drought Tolerant",
-      "Wildlife Food",
-      "Winter Interest"
+      "Winter Interest",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "A sturdy prairie legume with round clusters of cream flowers with pink throats, whose rigid stems and deep brown seed heads persist through winter providing food for birds.",
@@ -6807,11 +6764,12 @@
     "species": "Liatris pycnostachya",
     "common": "Prairie Blazing Star",
     "type": "Perennial",
-    "native": "New York",
+    "native": "USA",
     "pollinators": [
       "bees",
       "butterflies",
-      "hummingbirds"
+      "hummingbirds",
+      "birds"
     ],
     "light": "Full Sun",
     "moisture": "Medium",
@@ -6908,14 +6866,15 @@
       "butterflies"
     ],
     "light": "Sun to Part",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Clay, Loam",
     "bloom_color": "Purple",
     "bloom_months": "Jul - Aug",
     "height": "3-5'",
     "selling_points": [
       "Rain Garden",
-      "Pollinator Magnet"
+      "Pollinator Magnet",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Great for moist meadows; tall purple flower spikes are dramatic in mass plantings",
@@ -6923,24 +6882,20 @@
       {
         "title": "Top-down Bloomer",
         "sub": "Flower spikes open from top to bottom, unlike most plants"
-      },
-      {
-        "title": "Bumblebee Spiral",
-        "sub": "Bumblebees spiral around the tall spikes collecting nectar"
       }
     ],
     "fun_facts": [
       {
         "icon": "&#x1F4CF;",
-        "text": "Flower spikes can reach <strong>5 feet tall</strong> &mdash; dramatic purple exclamation points in the garden."
+        "text": "Flower spikes can reach <strong>5 feet tall</strong> — dramatic purple exclamation points in the garden."
       },
       {
         "icon": "&#x1F4A1;",
-        "text": "Like all Liatris, blooms <strong>top to bottom</strong> &mdash; nature&apos;s slow-reveal fireworks."
+        "text": "Like all Liatris, blooms <strong>top to bottom</strong> — nature's slow-reveal fireworks."
       },
       {
         "icon": "&#x1F41D;",
-        "text": "One of the <strong>best bee plants</strong> &mdash; bumblebees spiral around the spikes collecting nectar."
+        "text": "One of the <strong>best bee plants</strong> — bumblebees spiral around the spikes collecting nectar."
       }
     ],
     "wildlife": [
@@ -6971,8 +6926,8 @@
     ],
     "planting_steps": [
       "Plant corms in full sun in moist, fertile soil",
-      "Space 12&ndash;18&Prime; apart; mass plant for dramatic effect",
-      "Avoid very dry sites &mdash; this species prefers more moisture than other Liatris"
+      "Space 12–18″ apart; mass plant for dramatic effect",
+      "Avoid very dry sites — this species prefers more moisture than other Liatris"
     ],
     "detail_photos": [
       "liatris-spicata-1.jpg",
@@ -7083,10 +7038,11 @@
     "type": "Shrub",
     "native": "New York",
     "pollinators": [
-      "bees"
+      "bees",
+      "birds"
     ],
     "light": "Part Sun to Shade",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Loam",
     "bloom_color": "Yellow",
     "bloom_months": "Mar - Apr",
@@ -7101,15 +7057,15 @@
     "fun_facts": [
       {
         "icon": "&#x1F98B;",
-        "text": "Sole host plant for the <strong>Spicebush Swallowtail</strong> butterfly &mdash; caterpillars roll leaves into shelters."
+        "text": "Sole host plant for the <strong>Spicebush Swallowtail</strong> butterfly — caterpillars roll leaves into shelters."
       },
       {
         "icon": "&#x1F33B;",
-        "text": "Tiny <strong>yellow flowers</strong> appear before any leaves &mdash; one of the first signs of spring."
+        "text": "Tiny <strong>yellow flowers</strong> appear before any leaves — one of the first signs of spring."
       },
       {
         "icon": "&#x1F343;",
-        "text": "Scratch a twig for a spicy, <strong>citrusy fragrance</strong> &mdash; used as a seasoning in colonial times."
+        "text": "Scratch a twig for a spicy, <strong>citrusy fragrance</strong> — used as a seasoning in colonial times."
       }
     ],
     "wildlife": [
@@ -7140,7 +7096,7 @@
     ],
     "planting_steps": [
       "Plant in part shade to shade in moist, well-drained, humus-rich soil",
-      "Space 6&ndash;8&Prime; apart; naturally understory shrub in moist woodlands",
+      "Space 6–8″ apart; naturally understory shrub in moist woodlands",
       "Need male and female plants for berry production; minimal pruning needed"
     ],
     "detail_photos": [
@@ -7197,7 +7153,7 @@
       },
       {
         "icon": "&#x1F331;",
-        "text": "A <strong>short-lived perennial</strong> &mdash; the parent plant fades after 2&ndash;3 years but readily self-seeds nearby."
+        "text": "A <strong>short-lived perennial</strong> — the parent plant fades after 2–3 years but readily self-seeds nearby."
       },
       {
         "icon": "&#x1F451;",
@@ -7254,7 +7210,7 @@
       "hummingbirds"
     ],
     "light": "Sun to Part",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Clay, Loam",
     "bloom_color": "Blue",
     "bloom_months": "Aug - Sep",
@@ -7269,15 +7225,15 @@
     "fun_facts": [
       {
         "icon": "&#x1F4A0;",
-        "text": "One of the few plants with <strong>true blue flowers</strong> &mdash; a rare and prized color in the garden."
+        "text": "One of the few plants with <strong>true blue flowers</strong> — a rare and prized color in the garden."
       },
       {
         "icon": "&#x1F426;",
-        "text": "Hummingbirds visit it just like <strong>Cardinal Flower</strong> &mdash; they're close cousins."
+        "text": "Hummingbirds visit it just like <strong>Cardinal Flower</strong> — they're close cousins."
       },
       {
         "icon": "&#x1FAB4;",
-        "text": "Short-lived perennial that <strong>self-seeds</strong> freely &mdash; let seedlings fill in naturally."
+        "text": "Short-lived perennial that <strong>self-seeds</strong> freely — let seedlings fill in naturally."
       }
     ],
     "wildlife": [
@@ -7308,8 +7264,8 @@
     ],
     "planting_steps": [
       "Plant in part shade to sun in moist, humus-rich soil",
-      "Space 12&ndash;18&Prime; apart; keep soil consistently moist",
-      "Let it self-seed &mdash; individual plants are short-lived but colonies persist"
+      "Space 12–18″ apart; keep soil consistently moist",
+      "Let it self-seed — individual plants are short-lived but colonies persist"
     ],
     "detail_photos": [
       "lobelia-siphilitica-1.jpg",
@@ -7363,7 +7319,7 @@
       },
       {
         "icon": "&#x2764;&#xFE0F;",
-        "text": "Tubular red flowers are perfectly designed for <strong>hummingbird bills</strong> &mdash; a top hummingbird plant."
+        "text": "Tubular red flowers are perfectly designed for <strong>hummingbird bills</strong> — a top hummingbird plant."
       },
       {
         "icon": "&#x1F352;",
@@ -7402,7 +7358,7 @@
       }
     ],
     "planting_steps": [
-      "Plant near a fence, trellis, or arbor &mdash; this vine needs something to climb",
+      "Plant near a fence, trellis, or arbor — this vine needs something to climb",
       "Full sun to part shade; more sun means more flowers",
       "Water regularly the first year, then it's quite drought tolerant once established"
     ],
@@ -7480,9 +7436,9 @@
       }
     ],
     "planting_steps": [
-      "Plant in full sun with sandy, well-drained soil &mdash; it hates wet feet",
+      "Plant in full sun with sandy, well-drained soil — it hates wet feet",
       "Nick or scarify seeds before planting to improve germination",
-      "Do not fertilize &mdash; it makes its own nitrogen and prefers lean soil"
+      "Do not fertilize — it makes its own nitrogen and prefers lean soil"
     ],
     "detail_photos": [
       "lupinus-perennis-1.jpg",
@@ -7648,7 +7604,7 @@
     ],
     "planting_steps": [
       "Plant in rich, moist woodland soil in part to full shade",
-      "Space 18&Prime; apart; rhizomes slowly form graceful colonies",
+      "Space 18″ apart; rhizomes slowly form graceful colonies",
       "Top-dress with composted leaves annually to maintain rich soil"
     ],
     "detail_photos": [
@@ -7763,14 +7719,15 @@
     "selling_points": [
       "Ground Cover",
       "Deer Resistant",
-      "Winter Interest"
+      "Winter Interest",
+      "Fragrant"
     ],
     "cautions": [],
     "notes": "Prostrate evergreen ground cover; bright red berries persist through winter",
     "fun_facts": [
       {
         "icon": "&#x1F534;",
-        "text": "Each red berry requires <strong>two flowers</strong> to form &mdash; you can see the two \"eyes\" on each fruit."
+        "text": "Each red berry requires <strong>two flowers</strong> to form — you can see the two \"eyes\" on each fruit."
       },
       {
         "icon": "&#x2744;&#xFE0F;",
@@ -7778,7 +7735,7 @@
       },
       {
         "icon": "&#x1F343;",
-        "text": "Traditionally used to make <strong>terrarium plantings</strong> &mdash; thrives in enclosed, moist conditions."
+        "text": "Traditionally used to make <strong>terrarium plantings</strong> — thrives in enclosed, moist conditions."
       }
     ],
     "wildlife": [
@@ -7810,7 +7767,7 @@
     "planting_steps": [
       "Plant in part to full shade in moist, acidic soil",
       "Perfect under evergreens or in woodland paths",
-      "Do not disturb once established &mdash; it spreads slowly on its own"
+      "Do not disturb once established — it spreads slowly on its own"
     ],
     "detail_photos": [
       "mitchella-repens-1.jpg",
@@ -7819,12 +7776,7 @@
       "mitchella-repens-4.jpg",
       "mitchella-repens-5.jpg"
     ],
-    "facts": [
-      {
-        "title": "Twin Flowers",
-        "sub": "Always blooms in pairs that fuse into one berry"
-      }
-    ]
+    "facts": []
   },
   {
     "id": "mitella-diphylla",
@@ -7923,15 +7875,15 @@
       "hummingbirds"
     ],
     "light": "Sun to Part",
-    "moisture": "Mesic to Dry",
+    "moisture": "Medium to Dry",
     "soil": "Loam, Sandy",
     "bloom_color": "Lavender",
     "bloom_months": "Jul - Sep",
     "height": "2-4'",
     "selling_points": [
       "Pollinator Magnet",
-      "Drought Tolerant",
-      "Deer Resistant"
+      "Deer Resistant",
+      "Caterpillar Host"
     ],
     "cautions": [
       "Spreads by Root"
@@ -7940,7 +7892,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F41D;",
-        "text": "Arguably the #1 <strong>native bee plant</strong> &mdash; attracts more bee species than almost any other wildflower."
+        "text": "Arguably the #1 <strong>native bee plant</strong> — attracts more bee species than almost any other wildflower."
       },
       {
         "icon": "&#x1F343;",
@@ -7948,7 +7900,7 @@
       },
       {
         "icon": "&#x1F9F4;",
-        "text": "Contains <strong>thymol</strong>, a natural antiseptic &mdash; Native Americans used it as a medicinal tea."
+        "text": "Contains <strong>thymol</strong>, a natural antiseptic — Native Americans used it as a medicinal tea."
       }
     ],
     "wildlife": [
@@ -7979,7 +7931,7 @@
     ],
     "planting_steps": [
       "Plant in full sun in average, well-drained soil",
-      "Space 18&ndash;24&Prime; apart; spreads by rhizomes in meadow settings",
+      "Space 18–24″ apart; spreads by rhizomes in meadow settings",
       "More drought and mildew tolerant than Scarlet Beebalm"
     ],
     "detail_photos": [
@@ -8001,7 +7953,7 @@
       "butterflies"
     ],
     "light": "Sun to Part",
-    "moisture": "Mesic to Dry",
+    "moisture": "Medium to Dry",
     "soil": "Sandy, Well-drained",
     "bloom_color": "Yellow & Purple",
     "bloom_months": "Jul - Sep",
@@ -8016,15 +7968,15 @@
     "fun_facts": [
       {
         "icon": "&#x1F3A8;",
-        "text": "The most <strong>unusual-looking</strong> Monarda &mdash; tiered whorls of spotted flowers with pink bracts."
+        "text": "The most <strong>unusual-looking</strong> Monarda — tiered whorls of spotted flowers with pink bracts."
       },
       {
         "icon": "&#x1F41D;",
-        "text": "Visited by <strong>dozens of bee species</strong> &mdash; one of the best plants for native bee diversity."
+        "text": "Visited by <strong>dozens of bee species</strong> — one of the best plants for native bee diversity."
       },
       {
         "icon": "&#x1F33F;",
-        "text": "Contains <strong>thymol</strong> like its cousins &mdash; the leaves have a strong oregano-thyme fragrance."
+        "text": "Contains <strong>thymol</strong> like its cousins — the leaves have a strong oregano-thyme fragrance."
       }
     ],
     "wildlife": [
@@ -8055,8 +8007,8 @@
     ],
     "planting_steps": [
       "Plant in full sun in sandy or gravelly, well-drained soil",
-      "Space 12&ndash;18&Prime; apart; avoid rich, moist soils where it's short-lived",
-      "Let it self-seed to maintain colonies &mdash; individual plants may only live 2&ndash;3 years"
+      "Space 12–18″ apart; avoid rich, moist soils where it's short-lived",
+      "Let it self-seed to maintain colonies — individual plants may only live 2–3 years"
     ],
     "detail_photos": [
       "monarda-punctata-1.jpg",
@@ -8090,7 +8042,7 @@
     "height": "1-2'",
     "selling_points": [
       "Fragrant",
-      "Shade Garden",
+      "Shade Tolerant",
       "Early Bloomer"
     ],
     "cautions": [],
@@ -8108,7 +8060,7 @@
       },
       {
         "icon": "&#x1F36C;",
-        "text": "Crush the leaves or roots for a sweet <strong>anise/licorice scent</strong> &mdash; historically used as a flavoring."
+        "text": "Crush the leaves or roots for a sweet <strong>anise/licorice scent</strong> — historically used as a flavoring."
       }
     ],
     "wildlife": [
@@ -8139,7 +8091,7 @@
     ],
     "planting_steps": [
       "Plant in part to full shade in rich, moist woodland soil",
-      "Space 12&ndash;18&Prime; apart; it self-seeds gently in good conditions",
+      "Space 12–18″ apart; it self-seeds gently in good conditions",
       "Leave foliage standing to support swallowtail caterpillars"
     ],
     "detail_photos": [
@@ -8160,7 +8112,7 @@
       "wind"
     ],
     "light": "Sun to Part",
-    "moisture": "Mesic to Dry",
+    "moisture": "Medium to Dry",
     "soil": "Loam, Sandy",
     "bloom_color": "Green",
     "bloom_months": "Apr - May",
@@ -8179,11 +8131,11 @@
       },
       {
         "icon": "&#x1FAA8;",
-        "text": "Wood is so hard it's called <strong>\"Ironwood\"</strong> &mdash; historically used for tool handles and fence posts."
+        "text": "Wood is so hard it's called <strong>\"Ironwood\"</strong> — historically used for tool handles and fence posts."
       },
       {
         "icon": "&#x1F333;",
-        "text": "One of the <strong>most drought-tolerant</strong> native shade trees &mdash; thrives on dry, rocky hillsides."
+        "text": "One of the <strong>most drought-tolerant</strong> native shade trees — thrives on dry, rocky hillsides."
       }
     ],
     "wildlife": [
@@ -8214,7 +8166,7 @@
     ],
     "planting_steps": [
       "Plant in sun to part shade in average to dry, well-drained soil",
-      "Allow room for 25&ndash;40&Prime; mature height; slow-growing but very long-lived",
+      "Allow room for 25–40″ mature height; slow-growing but very long-lived",
       "No pruning needed; naturally forms a graceful, rounded crown"
     ],
     "detail_photos": [
@@ -8249,8 +8201,8 @@
     "height": "1-3'",
     "selling_points": [
       "Ground Cover",
-      "Early Bloomer",
-      "Shade Tolerant"
+      "Shade Tolerant",
+      "Caterpillar Host"
     ],
     "cautions": [
       "Toxic to Humans"
@@ -8408,7 +8360,7 @@
     "species": "Parthenium integrifolium",
     "common": "Wild Quinine",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Naturalized",
     "pollinators": [
       "bees"
     ],
@@ -8659,7 +8611,7 @@
     "species": "Penstemon digitalis",
     "common": "Foxglove Beardtongue",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Naturalized",
     "pollinators": [
       "bees",
       "hummingbirds"
@@ -8673,16 +8625,12 @@
     "selling_points": [
       "Pollinator Magnet",
       "Drought Tolerant",
-      "Easy to Grow"
+      "Easy to Grow",
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "A tall, adaptable native perennial with showy panicles of white tubular flowers that are magnets for long-tongued bees, mason bees, and hummingbirds.",
-    "facts": [
-      {
-        "title": "Foxglove Lookalike",
-        "sub": "Native alternative to non-native foxglove"
-      }
-    ],
+    "facts": [],
     "fun_facts": [
       {
         "emoji": "🐦",
@@ -8750,7 +8698,7 @@
     "species": "Penstemon grandiflorus",
     "common": "Large-Flowered Beardtongue",
     "type": "Perennial",
-    "native": "New York",
+    "native": "USA",
     "pollinators": [],
     "light": "Full Sun",
     "moisture": "Dry",
@@ -8839,7 +8787,7 @@
       "hummingbirds"
     ],
     "light": "Sun to Part",
-    "moisture": "Mesic to Dry",
+    "moisture": "Medium to Dry",
     "soil": "Sandy, Loam",
     "bloom_color": "Violet/Pink",
     "bloom_months": "May - Jun",
@@ -8862,7 +8810,7 @@
       },
       {
         "icon": "&#x1FAB4;",
-        "text": "One of the <strong>hardiest Penstemons</strong> &mdash; tolerates cold winters and poor, dry soils."
+        "text": "One of the <strong>hardiest Penstemons</strong> — tolerates cold winters and poor, dry soils."
       }
     ],
     "wildlife": [
@@ -8893,8 +8841,8 @@
     ],
     "planting_steps": [
       "Plant in full sun to part shade in well-drained, average soil",
-      "Space 12&ndash;15&Prime; apart; tolerates dry, lean conditions",
-      "Avoid wet or clay-heavy soils &mdash; good drainage is essential"
+      "Space 12–15″ apart; tolerates dry, lean conditions",
+      "Avoid wet or clay-heavy soils — good drainage is essential"
     ],
     "detail_photos": [
       "penstemon-hirsutus-1.jpg",
@@ -8972,7 +8920,7 @@
     ],
     "planting_steps": [
       "Plant in part shade in rich, moist, well-drained soil",
-      "Space 12&Prime; apart for a solid carpet of spring blooms",
+      "Space 12″ apart for a solid carpet of spring blooms",
       "Let it self-seed to naturalize through the woodland garden"
     ],
     "detail_photos": [
@@ -9015,7 +8963,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F98B;",
-        "text": "A <strong>butterfly magnet</strong> &mdash; swallowtails hover around the fragrant flower clusters all day."
+        "text": "A <strong>butterfly magnet</strong> — swallowtails hover around the fragrant flower clusters all day."
       },
       {
         "icon": "&#x1F4AB;",
@@ -9050,7 +8998,7 @@
     ],
     "planting_steps": [
       "Plant in full sun to light shade with average, well-drained soil",
-      "Space 12&ndash;18&Prime; apart; good air circulation prevents powdery mildew",
+      "Space 12–18″ apart; good air circulation prevents powdery mildew",
       "Deadhead spent flowers to encourage reblooming"
     ],
     "detail_photos": [
@@ -9093,11 +9041,11 @@
     "fun_facts": [
       {
         "icon": "&#x1F332;",
-        "text": "Named for its bark that <strong>peels in nine layers</strong> of papery strips &mdash; beautiful winter interest."
+        "text": "Named for its bark that <strong>peels in nine layers</strong> of papery strips — beautiful winter interest."
       },
       {
         "icon": "&#x1F4AA;",
-        "text": "Grows in <strong>any soil</strong> from sand to clay, wet to dry &mdash; nearly indestructible."
+        "text": "Grows in <strong>any soil</strong> from sand to clay, wet to dry — nearly indestructible."
       },
       {
         "icon": "&#x1F41D;",
@@ -9131,8 +9079,8 @@
       }
     ],
     "planting_steps": [
-      "Plant in sun to part shade in any soil type &mdash; extremely adaptable",
-      "Space 5&ndash;8&Prime; apart; makes an excellent informal hedge",
+      "Plant in sun to part shade in any soil type — extremely adaptable",
+      "Space 5–8″ apart; makes an excellent informal hedge",
       "Prune after flowering if needed; old stems can be removed at ground level"
     ],
     "detail_photos": [
@@ -9154,7 +9102,7 @@
       "hummingbirds"
     ],
     "light": "Sun to Part",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Clay, Loam",
     "bloom_color": "Pink/Purple",
     "bloom_months": "Aug - Sep",
@@ -9171,7 +9119,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F449;",
-        "text": "Push an individual flower and it <strong>stays in place</strong> like a tiny hinge &mdash; hence \"Obedient Plant.\""
+        "text": "Push an individual flower and it <strong>stays in place</strong> like a tiny hinge — hence \"Obedient Plant.\""
       },
       {
         "icon": "&#x1F4A8;",
@@ -9179,7 +9127,7 @@
       },
       {
         "icon": "&#x1F343;",
-        "text": "Despite its name, the <strong>plant itself is disobedient</strong> &mdash; it spreads aggressively by rhizomes!"
+        "text": "Despite its name, the <strong>plant itself is disobedient</strong> — it spreads aggressively by rhizomes!"
       }
     ],
     "wildlife": [
@@ -9210,8 +9158,8 @@
     ],
     "planting_steps": [
       "Plant in full sun to part shade in moist, average soil",
-      "Space 18&ndash;24&Prime; apart; use root barriers in formal gardens",
-      "Divide every 2&ndash;3 years to control spread and refresh vigor"
+      "Space 18–24″ apart; use root barriers in formal gardens",
+      "Divide every 2–3 years to control spread and refresh vigor"
     ],
     "detail_photos": [
       "physostegia-virginiana-1.jpg",
@@ -9245,7 +9193,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F384;",
-        "text": "Named because its fronds stay <strong>green through Christmas</strong> &mdash; one of very few evergreen ferns."
+        "text": "Named because its fronds stay <strong>green through Christmas</strong> — one of very few evergreen ferns."
       },
       {
         "icon": "&#x1F9E6;",
@@ -9284,8 +9232,8 @@
     ],
     "planting_steps": [
       "Plant in part to full shade in moist, well-drained, slightly acidic soil",
-      "Space 18&Prime; apart; clumps expand slowly over the years",
-      "Leave old fronds in place &mdash; they protect new fiddleheads emerging in spring"
+      "Space 18″ apart; clumps expand slowly over the years",
+      "Leave old fronds in place — they protect new fiddleheads emerging in spring"
     ],
     "detail_photos": [
       "polystichum-acrostichoides-1.jpg",
@@ -9505,7 +9453,7 @@
       },
       {
         "icon": "&#x1F525;",
-        "text": "Adapted to <strong>fire-prone</strong> habitats &mdash; resprouts vigorously from roots after wildfire."
+        "text": "Adapted to <strong>fire-prone</strong> habitats — resprouts vigorously from roots after wildfire."
       },
       {
         "icon": "&#x1F333;",
@@ -9540,8 +9488,8 @@
     ],
     "planting_steps": [
       "Plant in full sun in well-drained, sandy or rocky soil",
-      "Space 8&ndash;10&Prime; apart; grows slowly but forms dense thickets",
-      "No fertilizer needed &mdash; thrives in nutrient-poor soil"
+      "Space 8–10″ apart; grows slowly but forms dense thickets",
+      "No fertilizer needed — thrives in nutrient-poor soil"
     ],
     "detail_photos": [
       "quercus-ilicifolia-1.jpg",
@@ -9556,7 +9504,7 @@
     "species": "Ratibida pinnata",
     "common": "Yellow Coneflower",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [
       "bees",
       "butterflies"
@@ -9570,7 +9518,7 @@
     "selling_points": [
       "Drought Tolerant",
       "Pollinator Magnet",
-      "Easy to Grow"
+      "Caterpillar Host"
     ],
     "cautions": [
       "Spreads by Seed"
@@ -9675,7 +9623,7 @@
       },
       {
         "icon": "&#x1F36F;",
-        "text": "Rose hips are rich in <strong>vitamin C</strong> &mdash; historically used to make teas and jams."
+        "text": "Rose hips are rich in <strong>vitamin C</strong> — historically used to make teas and jams."
       }
     ],
     "wildlife": [
@@ -9711,7 +9659,7 @@
     ],
     "planting_steps": [
       "Plant in full sun to part shade in average, well-drained soil",
-      "Give it 3&ndash;4 feet of space; it forms a low, arching shrub",
+      "Give it 3–4 feet of space; it forms a low, arching shrub",
       "Prune out dead canes in late winter; leave rose hips for birds"
     ],
     "detail_photos": [
@@ -9727,7 +9675,7 @@
     "species": "Rudbeckia fulgida var. sullivantii",
     "common": "Orange Coneflower",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Naturalized",
     "pollinators": [
       "bees",
       "butterflies"
@@ -9814,12 +9762,12 @@
     "species": "Rudbeckia subtomentosa",
     "common": "Sweet Black-eyed Susan",
     "type": "Perennial",
-    "native": "New York",
+    "native": "USA",
     "pollinators": [
       "bees",
       "butterflies"
     ],
-    "light": "Full Sun",
+    "light": "Sun to Part",
     "moisture": "Medium",
     "soil": "Loam",
     "bloom_color": "Yellow",
@@ -9917,9 +9865,7 @@
       "Pollinator Magnet",
       "Self-Seeding"
     ],
-    "cautions": [
-      "Spreads by Seed"
-    ],
+    "cautions": [],
     "notes": "Profuse self-seeder; short-lived biennial/perennial",
     "fun_facts": [
       {
@@ -9928,7 +9874,7 @@
       },
       {
         "icon": "&#x1F9F1;",
-        "text": "One of the <strong>toughest native wildflowers</strong> &mdash; thrives in poor soils where others struggle."
+        "text": "One of the <strong>toughest native wildflowers</strong> — thrives in poor soils where others struggle."
       }
     ],
     "wildlife": [
@@ -9958,7 +9904,7 @@
       }
     ],
     "planting_steps": [
-      "Plant in full sun with any well-drained soil &mdash; even poor, dry clay",
+      "Plant in full sun with any well-drained soil — even poor, dry clay",
       "Direct sow seeds in fall for natural cold stratification",
       "Leave seed heads standing all winter for birds and self-seeding"
     ],
@@ -9975,7 +9921,7 @@
     "species": "Ruellia humilis",
     "common": "Wild Petunia",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [
       "bees",
       "butterflies"
@@ -9984,7 +9930,7 @@
     "moisture": "Dry",
     "soil": "Sandy",
     "bloom_color": "Lavender",
-    "bloom_months": "May - Oct",
+    "bloom_months": "Jun - Aug",
     "height": "1-2'",
     "selling_points": [
       "Drought Tolerant",
@@ -10063,7 +10009,8 @@
     "type": "Shrub/Tree",
     "native": "New York",
     "pollinators": [
-      "bees"
+      "bees",
+      "butterflies"
     ],
     "light": "Full Sun",
     "moisture": "Wet to Moist",
@@ -10074,7 +10021,7 @@
     "selling_points": [
       "Early Bloomer",
       "Pollinator Magnet",
-      "Wildlife Food"
+      "Caterpillar Host"
     ],
     "cautions": [
       "Spreads by Root"
@@ -10087,11 +10034,11 @@
       },
       {
         "icon": "&#x1F41D;",
-        "text": "The <strong>very first pollen</strong> of the year &mdash; essential for newly-emerged queen bumblebees."
+        "text": "The <strong>very first pollen</strong> of the year — essential for newly-emerged queen bumblebees."
       },
       {
         "icon": "&#x2702;&#xFE0F;",
-        "text": "Cut branches in late winter and they'll <strong>bloom indoors</strong> in a vase &mdash; a harbinger of spring."
+        "text": "Cut branches in late winter and they'll <strong>bloom indoors</strong> in a vase — a harbinger of spring."
       }
     ],
     "wildlife": [
@@ -10122,8 +10069,8 @@
     ],
     "planting_steps": [
       "Plant in full sun in moist to wet soil; tolerates periodic flooding",
-      "Space 8&ndash;10&Prime; apart; grows fast and can be coppiced for catkin production",
-      "Cut stems to 12&Prime; every few years to encourage dense, catkin-rich new growth"
+      "Space 8–10″ apart; grows fast and can be coppiced for catkin production",
+      "Cut stems to 12″ every few years to encourage dense, catkin-rich new growth"
     ],
     "detail_photos": [
       "salix-discolor-1.jpg",
@@ -10160,7 +10107,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F41D;",
-        "text": "One of the <strong>first spring pollen sources</strong> &mdash; essential for early-emerging native bees."
+        "text": "One of the <strong>first spring pollen sources</strong> — essential for early-emerging native bees."
       },
       {
         "icon": "&#x1F33E;",
@@ -10199,7 +10146,7 @@
     ],
     "planting_steps": [
       "Plant in sun to light shade in well-drained soil",
-      "Space 4&ndash;6&Prime; apart; tolerates dry sandy conditions",
+      "Space 4–6″ apart; tolerates dry sandy conditions",
       "Prune lightly after flowering to maintain compact shape"
     ],
     "detail_photos": [
@@ -10221,14 +10168,15 @@
       "butterflies"
     ],
     "light": "Sun to Part",
-    "moisture": "Moist to Mesic",
+    "moisture": "Moist to Medium",
     "soil": "Clay, Loam",
     "bloom_color": "White",
     "bloom_months": "Jun - Jul",
     "height": "5-12'",
     "selling_points": [
       "Fast Growing",
-      "Wildlife Food"
+      "Wildlife Food",
+      "Caterpillar Host"
     ],
     "cautions": [
       "Toxic to Humans"
@@ -10237,7 +10185,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F347;",
-        "text": "Berries make <strong>delicious wine, syrup, and jam</strong> &mdash; but must be cooked first (raw berries cause nausea)."
+        "text": "All parts of elderberry except ripe, cooked berries are toxic. Raw berries cause nausea — always cook before consuming. The cooked berries make excellent jams, pies, and wine."
       },
       {
         "icon": "&#x1F33B;",
@@ -10276,7 +10224,7 @@
     ],
     "planting_steps": [
       "Plant in full sun to part shade in moist, fertile soil",
-      "Space 6&ndash;8&Prime; apart; plant two varieties for best berry production",
+      "Space 6–8″ apart; plant two varieties for best berry production",
       "Prune out dead wood in late winter; grows fast and recovers quickly"
     ],
     "detail_photos": [
@@ -10286,12 +10234,7 @@
       "sambucus-nigra-ssp-canadensis-4.jpg",
       "sambucus-nigra-ssp-canadensis-5.jpg"
     ],
-    "facts": [
-      {
-        "title": "American Elderberry",
-        "sub": "Berries make delicious wine, syrup, and jam — but must be cooked first (raw berr"
-      }
-    ]
+    "facts": []
   },
   {
     "id": "schizachyrium-scoparium",
@@ -10301,9 +10244,10 @@
     "native": "New York",
     "pollinators": [
       "butterflies",
-      "birds"
+      "birds",
+      "bees"
     ],
-    "light": "Sun",
+    "light": "Sun to Part",
     "moisture": "Dry to Moist",
     "soil": "Loam, Sandy",
     "bloom_color": "Blue-Green",
@@ -10363,8 +10307,8 @@
     ],
     "planting_steps": [
       "Plant in full sun with dry to average, well-drained soil",
-      "Space 18&ndash;24&Prime; apart in groups for a natural prairie look",
-      "Cut back to 4&ndash;6&Prime; in late winter before new growth emerges"
+      "Space 18–24″ apart in groups for a natural prairie look",
+      "Cut back to 4–6″ in late winter before new growth emerges"
     ],
     "detail_photos": [
       "schizachyrium-scoparium-1.jpg",
@@ -10556,9 +10500,10 @@
     "species": "Silene regia",
     "common": "Royal Catchfly",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Eastern USA",
     "pollinators": [
-      "hummingbirds"
+      "hummingbirds",
+      "bees"
     ],
     "light": "Sun to Part",
     "moisture": "Dry to Medium",
@@ -10912,7 +10857,7 @@
     "type": "Grass",
     "native": "New York",
     "pollinators": [],
-    "light": "Full Sun",
+    "light": "Sun to Part",
     "moisture": "Dry to Medium",
     "soil": "Any",
     "bloom_color": "Golden-Brown",
@@ -10920,11 +10865,12 @@
     "height": "3-6'",
     "selling_points": [
       "Fall Color",
-      "Winter Interest",
       "Drought Tolerant",
-      "Erosion Control"
+      "Deer Resistant"
     ],
-    "cautions": [],
+    "cautions": [
+      "Spreads by Root"
+    ],
     "notes": "A majestic warm-season prairie grass with blue-green foliage topped by golden-bronze plumes that turn rich orange in fall.",
     "fun_facts": [
       {
@@ -10995,7 +10941,7 @@
     "type": "Grass",
     "native": "New York",
     "pollinators": [],
-    "light": "Full Sun",
+    "light": "Sun to Part",
     "moisture": "Dry",
     "soil": "Sandy",
     "bloom_color": "Pink-Brown",
@@ -11005,7 +10951,7 @@
       "Drought Tolerant",
       "Fragrant",
       "Fall Color",
-      "Ground Cover"
+      "Deer Resistant"
     ],
     "cautions": [],
     "notes": "An elegant, fine-textured bunchgrass forming fountain-like mounds of arching foliage with airy seed heads that smell like buttered popcorn or coriander.",
@@ -11016,7 +10962,7 @@
       },
       {
         "emoji": "🐦",
-        "text": "Individual plants can live for 50 years or more, making Prairie Dropseed one of the longest-lived prairie grasses."
+        "text": "Individual plants can live for decades or more, making Prairie Dropseed one of the longest-lived prairie grasses."
       },
       {
         "emoji": "🐦",
@@ -11081,7 +11027,7 @@
       "bees",
       "butterflies"
     ],
-    "light": "Full Sun",
+    "light": "Sun to Part",
     "moisture": "Dry to Medium",
     "soil": "Any",
     "bloom_color": "Blue-Violet",
@@ -11168,7 +11114,7 @@
       "bees",
       "butterflies"
     ],
-    "light": "Full Sun",
+    "light": "Sun to Part",
     "moisture": "Medium",
     "soil": "Loam",
     "bloom_color": "Purple",
@@ -11341,7 +11287,7 @@
     "species": "Symphyotrichum oblongifolium",
     "common": "Aromatic Aster",
     "type": "Perennial",
-    "native": "USA",
+    "native": "Eastern USA",
     "pollinators": [
       "bees",
       "butterflies"
@@ -11362,7 +11308,7 @@
     "fun_facts": [
       {
         "icon": "&#x1F4A8;",
-        "text": "Crush a leaf to enjoy the <strong>pleasant spicy scent</strong> &mdash; rare among asters."
+        "text": "Crush a leaf to enjoy the <strong>pleasant spicy scent</strong> — rare among asters."
       },
       {
         "icon": "&#x1F3C6;",
@@ -11397,7 +11343,7 @@
     ],
     "planting_steps": [
       "Plant in full sun with dry to average, well-drained soil",
-      "Space 18&ndash;24&Prime; apart; it mounds to about 3 feet wide",
+      "Space 18–24″ apart; it mounds to about 3 feet wide",
       "Cut back by half in early June for a more compact shape and more blooms"
     ],
     "detail_photos": [
@@ -11510,7 +11456,7 @@
       "bees",
       "butterflies"
     ],
-    "light": "Full Sun",
+    "light": "Sun to Part",
     "moisture": "Dry",
     "soil": "Sandy",
     "bloom_color": "Pink & Yellow",
@@ -11588,8 +11534,8 @@
     ]
   },
   {
-    "id": "tiarella-cordifolia",
-    "species": "Tiarella cordifolia",
+    "id": "tiarella-stolonifera",
+    "species": "Tiarella stolonifera",
     "common": "Foam Flower",
     "type": "Perennial",
     "native": "New York",
@@ -11608,7 +11554,7 @@
       "Deer Resistant",
       "Ground Cover",
       "Shade Tolerant",
-      "Early Bloomer"
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Spreads by stolons to form attractive colonies; semi-evergreen foliage",
@@ -11649,15 +11595,15 @@
     ],
     "planting_steps": [
       "Plant in part to full shade in moist, rich, acidic soil",
-      "Space 12&Prime; apart; stolons spread to form a lush carpet",
+      "Space 12″ apart; stolons spread to form a lush carpet",
       "Mulch with shredded leaves to mimic the forest floor"
     ],
     "detail_photos": [
-      "tiarella-cordifolia-1.jpg",
-      "tiarella-cordifolia-2.jpg",
-      "tiarella-cordifolia-3.jpg",
-      "tiarella-cordifolia-4.jpg",
-      "tiarella-cordifolia-5.jpg"
+      "tiarella-stolonifera-1.jpg",
+      "tiarella-stolonifera-2.jpg",
+      "tiarella-stolonifera-3.jpg",
+      "tiarella-stolonifera-4.jpg",
+      "tiarella-stolonifera-5.jpg"
     ]
   },
   {
@@ -11681,14 +11627,14 @@
       "Deer Resistant",
       "Rain Garden",
       "Pollinator Magnet",
-      "Wildlife Food"
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Flowers open sequentially from bottom to top; tolerates wet soil",
     "fun_facts": [
       {
         "icon": "&#x1F41D;",
-        "text": "A <strong>pollinator powerhouse</strong> &mdash; attracts dozens of bee and butterfly species to its purple flower spikes."
+        "text": "A <strong>pollinator powerhouse</strong> — attracts dozens of bee and butterfly species to its purple flower spikes."
       },
       {
         "icon": "&#x1F48A;",
@@ -11729,7 +11675,7 @@
     "planting_steps": [
       "Plant in full sun to part shade in moist to wet soil",
       "Perfect for rain gardens, pond edges, and low wet spots",
-      "Self-seeds readily &mdash; remove spent stalks if you want to limit spread"
+      "Self-seeds readily — remove spent stalks if you want to limit spread"
     ],
     "detail_photos": [
       "verbena-hastata-1.jpg",
@@ -11744,13 +11690,13 @@
     "species": "Verbena stricta",
     "common": "Hoary Vervain",
     "type": "Perennial",
-    "native": "New York",
+    "native": "Naturalized",
     "pollinators": [
       "bees",
       "butterflies",
       "hummingbirds"
     ],
-    "light": "Full Sun",
+    "light": "Sun to Part",
     "moisture": "Dry",
     "soil": "Any",
     "bloom_color": "Purple",
@@ -11857,7 +11803,7 @@
       },
       {
         "icon": "&#x1F3F0;",
-        "text": "Can reach <strong>6&ndash;8 feet tall</strong> &mdash; a towering presence in late-summer gardens."
+        "text": "Can reach <strong>6–8 feet tall</strong> — a towering presence in late-summer gardens."
       }
     ],
     "wildlife": [
@@ -11887,8 +11833,8 @@
       }
     ],
     "planting_steps": [
-      "Plant in full sun in moist to average soil &mdash; great at pond or stream edges",
-      "Space 2&ndash;3 feet apart; it gets very tall",
+      "Plant in full sun in moist to average soil — great at pond or stream edges",
+      "Space 2–3 feet apart; it gets very tall",
       "Pinch stems in late May to reduce height and encourage branching"
     ],
     "detail_photos": [
@@ -11913,18 +11859,18 @@
     "native": "New York",
     "pollinators": [
       "bees",
-      "butterflies"
+      "butterflies",
+      "birds"
     ],
     "light": "Full Sun",
     "moisture": "Moist",
     "soil": "Clay, Loam",
     "bloom_color": "Purple",
-    "bloom_months": "Aug - Sep",
+    "bloom_months": "Jul - Sep",
     "height": "4-7'",
     "selling_points": [
       "Pollinator Magnet",
-      "Rain Garden",
-      "Late Bloomer"
+      "Rain Garden"
     ],
     "cautions": [],
     "notes": "A towering late-summer perennial with fluffy clusters of deep purple flowers atop sturdy stems, providing critical nectar for fall pollinators.",
@@ -12016,16 +11962,11 @@
     "selling_points": [
       "Pollinator Magnet",
       "Deer Resistant",
-      "Late Bloomer"
+      "Caterpillar Host"
     ],
     "cautions": [],
     "notes": "Host plant for Buckeye butterfly larvae; elegant spire-like flower stalks",
-    "facts": [
-      {
-        "title": "Butterfly Host",
-        "sub": "Larval food for Buckeye butterfly"
-      }
-    ],
+    "facts": [],
     "fun_facts": [
       {
         "icon": "&#x1F98B;",
@@ -12033,7 +11974,7 @@
       },
       {
         "icon": "&#x1F3F0;",
-        "text": "Elegant white flower spires can reach <strong>4&ndash;6 feet</strong>, making it a dramatic back-of-border plant."
+        "text": "Elegant white flower spires can reach <strong>4–6 feet</strong>, making it a dramatic back-of-border plant."
       },
       {
         "icon": "&#x1F48A;",
@@ -12068,7 +12009,7 @@
     ],
     "planting_steps": [
       "Plant in full sun to part shade in moist, rich soil",
-      "Space 2&ndash;3 feet apart; it gets large and impressive",
+      "Space 2–3 feet apart; it gets large and impressive",
       "Stake in windy locations or plant behind shorter perennials for support"
     ],
     "detail_photos": [
@@ -12088,28 +12029,29 @@
     "pollinators": [
       "bees"
     ],
-    "light": "Part to Shade",
+    "light": "Sun to Shade",
     "moisture": "Moist",
     "soil": "Rich, Loam",
-    "bloom_color": "Yellow",
-    "bloom_months": "Apr - May",
+    "bloom_color": "Blue-Purple",
+    "bloom_months": "Apr - Jun",
     "height": "4-12\"",
     "selling_points": [
       "Ground Cover",
-      "Shade Garden",
-      "Early Bloomer",
-      "Self-Seeding"
+      "Shade Tolerant",
+      "Early Bloomer"
     ],
-    "cautions": [],
+    "cautions": [
+      "Spreads by Seed"
+    ],
     "notes": "Does not spread aggressively like some violets; smooth leaves distinguish it from Downy Yellow Violet",
     "fun_facts": [
       {
         "emoji": "🌿",
-        "text": "Unlike many violets, this one is <strong>well-behaved</strong> &mdash; it does not spread aggressively."
+        "text": "Unlike many violets, this one is <strong>well-behaved</strong> — it does not spread aggressively."
       },
       {
         "emoji": "🐦",
-        "text": "One of the few native violets with <strong>yellow flowers</strong> &mdash; a cheerful spring groundcover."
+        "text": "One of the few native violets with <strong>yellow flowers</strong> — a cheerful spring groundcover."
       }
     ],
     "wildlife": [
@@ -12181,9 +12123,7 @@
       "Early Bloomer",
       "Self-Seeding"
     ],
-    "cautions": [
-      "Spreads by Seed"
-    ],
+    "cautions": [],
     "notes": "One of the earliest native perennials to bloom, producing flat-topped clusters of tiny yellow flowers that are a critical spring food source for short-tongued pollinators.",
     "fun_facts": [
       {
