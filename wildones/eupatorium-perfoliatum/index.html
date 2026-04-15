@@ -319,24 +319,35 @@
     overflow: hidden;
   }
 
-  /* Back header */
+  /* Back header — tap target for flipping back. Extra padding + active feedback
+     so it's easy to hit on mobile. */
   .back-header {
-    padding: 12px 16px 8px;
+    padding: 16px 16px 14px;
     text-align: center;
     flex-shrink: 0;
     cursor: pointer;
     position: relative;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.08);
+    transition: background-color 0.15s ease;
+  }
+  .back-header:active {
+    background-color: rgba(0, 0, 0, 0.04);
   }
   .back-header .plant-common-name { font-size: 18px; letter-spacing: 1px; }
   .back-header .plant-scientific-name { font-size: 11.5px; }
   .back-header .flip-back-hint {
-    display: inline-flex; align-items: center; gap: 4px;
-    margin-top: 6px;
-    font-size: 10px; color: var(--warm-gray);
+    display: inline-flex; align-items: center; gap: 5px;
+    margin-top: 8px;
+    padding: 4px 10px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    font-size: 11px; color: var(--warm-gray);
     letter-spacing: 0.3px;
+    font-weight: 500;
   }
   .back-header .flip-back-hint svg {
-    width: 12px; height: 12px;
+    width: 13px; height: 13px;
     stroke: var(--warm-gray); fill: none;
     stroke-width: 2;
   }
@@ -883,7 +894,7 @@
                 <div class="back-section">
                   <h3 class="section-title">Plant Details</h3>
                   <div class="photo-scroll" id="photoScroll">
-                    <div class="photo-thumb"><img src="../../assets/photos/eupatorium-perfoliatum.jpg" alt="Boneset" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/eupatorium-perfoliatum-2.jpg" alt="Boneset detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/eupatorium-perfoliatum-3.jpg" alt="Boneset detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/eupatorium-perfoliatum-4.jpg" alt="Boneset detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/eupatorium-perfoliatum-5.jpg" alt="Boneset detail" loading="lazy"></div>
+                    <div class="photo-thumb"><img src="../../assets/photos/details/eupatorium-perfoliatum-1.jpg" alt="Boneset detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/eupatorium-perfoliatum-2.jpg" alt="Boneset detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/eupatorium-perfoliatum-3.jpg" alt="Boneset detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/eupatorium-perfoliatum-4.jpg" alt="Boneset detail" loading="lazy"></div><div class="photo-thumb"><img src="../../assets/photos/details/eupatorium-perfoliatum-5.jpg" alt="Boneset detail" loading="lazy"></div>
                   </div>
                 </div>
 
