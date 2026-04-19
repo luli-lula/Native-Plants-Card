@@ -231,7 +231,7 @@
   {
     "id": "agalinis-tenuifolia",
     "species": "Agalinis tenuifolia",
-    "common": "Slender False Foxglove",
+    "common": "Slender-leaved False Foxglove",
     "type": "Perennial",
     "native": "New York",
     "pollinators": [
@@ -567,7 +567,7 @@
     "facts": [
       {
         "title": "Eastern Serviceberry",
-        "sub": "One of the first trees to bloom in spring — white clouds of flowers before leave"
+        "sub": "Among the first trees to bloom — flowers appear before leaves"
       },
       {
         "title": "Bird Buffet",
@@ -651,8 +651,8 @@
     ],
     "facts": [
       {
-        "title": "Alleghany Serviceberry",
-        "sub": "Drooping clusters of white flowers are more graceful than Eastern Serviceberry —"
+        "title": "Allegheny Serviceberry",
+        "sub": "Drooping white flower clusters — showier than Eastern Serviceberry"
       }
     ]
   },
@@ -1333,7 +1333,7 @@
     "facts": [
       {
         "title": "American Spikenard",
-        "sub": "Creates a bold, tropical look in woodland gardens with its huge compound leaves."
+        "sub": "Creates a bold, tropical look in woodland gardens with its huge compound leaves"
       }
     ]
   },
@@ -1729,7 +1729,7 @@
     "facts": [
       {
         "title": "Pawpaw",
-        "sub": "Produces the largest native fruit in North America — tastes like banana-mango cu"
+        "sub": "Largest native fruit in North America — tastes like tropical custard"
       },
       {
         "title": "Zebra Swallowtail",
@@ -2835,7 +2835,7 @@
   {
     "id": "carex-bicknellii",
     "species": "Carex bicknellii",
-    "common": "Copper-shouldered Oval Sedge",
+    "common": "Bicknell's Sedge",
     "type": "Sedge",
     "native": "New York",
     "pollinators": [
@@ -3158,7 +3158,7 @@
   {
     "id": "carex-eburnea",
     "species": "Carex eburnea",
-    "common": "Ivory Sedge",
+    "common": "Bristle-leaf Sedge",
     "type": "Sedge",
     "native": "New York",
     "pollinators": [
@@ -3487,7 +3487,7 @@
     "facts": [
       {
         "title": "American Hornbeam",
-        "sub": "Called \"Musclewood\" because the smooth bark reveals rippling, muscle-like ridges"
+        "sub": "Called \"Musclewood\" — smooth bark reveals muscle-like ridges"
       }
     ]
   },
@@ -4187,7 +4187,7 @@
     "facts": [
       {
         "title": "Blue Mistflower",
-        "sub": "A butterfly magnet in late fall when few other blue flowers are blooming."
+        "sub": "A butterfly magnet in late fall when few other blue flowers are blooming"
       }
     ]
   },
@@ -4506,7 +4506,7 @@
     "facts": [
       {
         "title": "American Hazelnut",
-        "sub": "Produces delicious edible hazelnuts — race the squirrels to harvest them in Sept"
+        "sub": "Delicious edible hazelnuts — race the squirrels each fall"
       }
     ]
   },
@@ -5380,7 +5380,7 @@
   {
     "id": "eutrochium-maculatum",
     "species": "Eutrochium maculatum",
-    "common": "Joe Pye Weed",
+    "common": "Spotted Joe Pye Weed",
     "type": "Perennial",
     "native": "New York",
     "pollinators": [
@@ -5626,8 +5626,8 @@
     ]
   },
   {
-    "id": "gentiana-flavida",
-    "species": "Gentiana flavida",
+    "id": "gentiana-alba",
+    "species": "Gentiana alba",
     "common": "Cream Gentian",
     "type": "Perennial",
     "native": "Eastern USA",
@@ -5701,11 +5701,11 @@
       "Water regularly the first year; established plants are low-maintenance."
     ],
     "detail_photos": [
-      "gentiana-flavida-1.jpg",
-      "gentiana-flavida-2.jpg",
-      "gentiana-flavida-3.jpg",
-      "gentiana-flavida-4.jpg",
-      "gentiana-flavida-5.jpg"
+      "gentiana-alba-1.jpg",
+      "gentiana-alba-2.jpg",
+      "gentiana-alba-3.jpg",
+      "gentiana-alba-4.jpg",
+      "gentiana-alba-5.jpg"
     ]
   },
   {
@@ -6356,7 +6356,7 @@
   {
     "id": "hypericum-punctatum",
     "species": "Hypericum punctatum",
-    "common": "Dotted St. John's Wort",
+    "common": "Spotted St. John's Wort",
     "type": "Perennial",
     "native": "New York",
     "pollinators": [
@@ -6464,7 +6464,7 @@
     "notes": "Largest native St. John's Wort; showy 2-inch yellow flowers",
     "facts": [
       {
-        "title": "Largest Native",
+        "title": "Largest Native St. John's Wort",
         "sub": "Biggest St. John's Wort with 2-inch golden flowers"
       }
     ],
@@ -7109,7 +7109,7 @@
     "facts": [
       {
         "title": "Spicebush",
-        "sub": "Sole host plant for the Spicebush Swallowtail butterfly — caterpillars roll leav"
+        "sub": "Sole host plant for the Spicebush Swallowtail butterfly"
       }
     ]
   },
@@ -7277,7 +7277,7 @@
     "facts": [
       {
         "title": "Great Blue Lobelia",
-        "sub": "One of the few plants with true blue flowers — a rare and prized color in the ga"
+        "sub": "One of the few plants with true blue flowers — rare and prized"
       }
     ]
   },
@@ -7391,9 +7391,7 @@
       "Nitrogen Fixing",
       "Caterpillar Host"
     ],
-    "cautions": [
-      "Deep Roots"
-    ],
+    "cautions": [],
     "notes": "Host plant for endangered Karner Blue butterfly; nitrogen fixer",
     "fun_facts": [
       {
@@ -7446,6 +7444,12 @@
       "lupinus-perennis-3.jpg",
       "lupinus-perennis-4.jpg",
       "lupinus-perennis-5.jpg"
+    ],
+    "facts": [
+      {
+        "title": "Karner Blue Host",
+        "sub": "Only food plant for the endangered Karner Blue butterfly"
+      }
     ]
   },
   {
@@ -8020,7 +8024,7 @@
     "facts": [
       {
         "title": "Spotted Bee Balm",
-        "sub": "The most unusual-looking Monarda — tiered whorls of spotted flowers with pink br"
+        "sub": "The most unusual Monarda — tiered whorls of spotted flowers"
       }
     ]
   },
@@ -8179,7 +8183,7 @@
     "facts": [
       {
         "title": "American Hop Hornbeam",
-        "sub": "Named for its papery seed clusters that look like hops used in brewing beer."
+        "sub": "Named for its papery seed clusters that look like hops used in brewing beer"
       }
     ]
   },
@@ -8526,7 +8530,7 @@
   {
     "id": "pedicularis-lanceolata",
     "species": "Pedicularis lanceolata",
-    "common": "Marsh Betony",
+    "common": "Swamp Lousewort",
     "type": "Perennial",
     "native": "New York",
     "pollinators": [],
@@ -8854,7 +8858,7 @@
     "facts": [
       {
         "title": "Hairy Beardtongue",
-        "sub": "The \"beardtongue\" name comes from the hairy, sterile stamen that sticks out like"
+        "sub": "The \"beardtongue\" name comes from the fuzzy sterile stamen"
       }
     ]
   },
@@ -11876,7 +11880,7 @@
     "notes": "A towering late-summer perennial with fluffy clusters of deep purple flowers atop sturdy stems, providing critical nectar for fall pollinators.",
     "facts": [
       {
-        "title": "Tallest Wildflower",
+        "title": "One of the Tallest",
         "sub": "Can reach 8 feet tall in rich moist soil"
       }
     ],
