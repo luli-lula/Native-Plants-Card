@@ -115,6 +115,22 @@
     overflow: hidden;
   }
 
+  /* ========== NOT-FOR-SALE NOTICE ========== */
+  .sale-notice {
+    margin: 0 auto 14px;
+    max-width: 360px;
+    padding: 10px 14px;
+    background: rgba(248, 245, 239, 0.85);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--sage);
+    border-radius: 8px;
+    font-size: 12.5px;
+    line-height: 1.45;
+    color: var(--text-light);
+    text-align: center;
+  }
+  .sale-notice strong { color: var(--sage-dark); font-weight: 600; }
+
   /* ========== FLIP HINT ========== */
   .flip-hint {
     position: absolute;
@@ -702,6 +718,9 @@
 <!-- ========== MAIN ========== -->
 <main class="page-content">
 
+  <div class="sale-notice">
+    This is a <strong>native plant</strong>, but it is <strong>not available in the 2026 Wild Ones plant sale</strong>.
+  </div>
   <p class="flip-hint" id="flipHint">Tap card to flip</p>
 
   <div class="card-scene" id="cardScene">
