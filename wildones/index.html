@@ -62,6 +62,18 @@
     margin: 0 auto;
   }
 
+  /* Plant count */
+  .plant-count {
+    font-size: 13px;
+    color: var(--text-light);
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+  }
+  .plant-count strong {
+    color: var(--sage-dark);
+    font-weight: 600;
+  }
+
   /* Search */
   .search-wrap {
     position: relative;
@@ -223,6 +235,7 @@
 </header>
 
 <div class="page">
+  <div class="plant-count" id="plantCount"></div>
   <div class="search-wrap">
     <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
@@ -255,6 +268,7 @@
   var searchInput = document.getElementById('searchInput');
   var noResults = document.getElementById('noResults');
   var tabBadge = document.getElementById('tabBadge');
+  var plantCount = document.getElementById('plantCount');
 
   function getSaved() {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
@@ -279,6 +293,10 @@
              p.scientific.toLowerCase().indexOf(query) !== -1 ||
              p.type.toLowerCase().indexOf(query) !== -1;
     });
+
+    plantCount.innerHTML = query
+      ? 'Showing <strong>' + filtered.length + '</strong> of <strong>' + PLANTS.length + '</strong> plants'
+      : '<strong>' + PLANTS.length + '</strong> plants available for the 2026 sale';
 
     if (filtered.length === 0) {
       noResults.style.display = '';
