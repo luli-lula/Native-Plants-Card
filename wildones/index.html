@@ -226,6 +226,25 @@
     display: flex; align-items: center; justify-content: center;
   }
   .tab-badge.hidden { display: none; }
+
+  /* ========== TAG FILTER BANNER ========== */
+  .filter-banner {
+    display: flex; align-items: center; gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  .filter-pill {
+    display: inline-flex; align-items: center;
+    padding: 5px 12px;
+    background: var(--sage); color: #fff;
+    border-radius: 14px;
+    font-size: 13px; font-weight: 600;
+  }
+  .filter-clear {
+    font-size: 13px; color: var(--sage-dark);
+    text-decoration: none; font-weight: 600;
+  }
+  .filter-clear:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -236,6 +255,7 @@
 
 <div class="page">
   <div class="plant-count" id="plantCount"></div>
+  <div class="filter-banner" id="filterBanner" style="display:none"></div>
   <div class="search-wrap">
     <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
@@ -264,15 +284,35 @@
   'use strict';
 
   var STORAGE_KEY = 'wildones-saved-plants';
+  // Human-readable labels for known tags. Unknown tags fall back to the slug.
+  var TAG_LABELS = { 'sale-2026-05-17': 'May 17, 2026 Plant Sale' };
+
   var plantList = document.getElementById('plantList');
   var searchInput = document.getElementById('searchInput');
   var noResults = document.getElementById('noResults');
   var tabBadge = document.getElementById('tabBadge');
   var plantCount = document.getElementById('plantCount');
+  var filterBanner = document.getElementById('filterBanner');
+
+  // ?tag=<slug> narrows the listing to plants carrying that tag. No param =
+  // the full reference of every plant. Share e.g. index.html?tag=sale-2026.
+  var activeTag = new URLSearchParams(window.location.search).get('tag');
+  var scope = PLANTS.filter(function (p) {
+    return !activeTag || (p.tags || []).indexOf(activeTag) !== -1;
+  });
 
   function getSaved() {
     try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
     catch (_) { return []; }
+  }
+
+  function renderBanner() {
+    if (!activeTag) { filterBanner.style.display = 'none'; return; }
+    var label = TAG_LABELS[activeTag] || activeTag;
+    filterBanner.style.display = '';
+    filterBanner.innerHTML =
+      '<span class="filter-pill">' + label + '</span>' +
+      '<a class="filter-clear" href="index.html">Show all ' + PLANTS.length + ' plants &times;</a>';
   }
 
   function render(query) {
@@ -287,7 +327,7 @@
       tabBadge.classList.add('hidden');
     }
 
-    var filtered = PLANTS.filter(function (p) {
+    var filtered = scope.filter(function (p) {
       if (!query) return true;
       return p.name.toLowerCase().indexOf(query) !== -1 ||
              p.scientific.toLowerCase().indexOf(query) !== -1 ||
@@ -295,8 +335,10 @@
     });
 
     plantCount.innerHTML = query
-      ? 'Showing <strong>' + filtered.length + '</strong> of <strong>' + PLANTS.length + '</strong> plants'
-      : '<strong>' + PLANTS.length + '</strong> plants available for the 2026 sale';
+      ? 'Showing <strong>' + filtered.length + '</strong> of <strong>' + scope.length + '</strong> plants'
+      : (activeTag
+          ? '<strong>' + scope.length + '</strong> plants &mdash; ' + (TAG_LABELS[activeTag] || activeTag)
+          : '<strong>' + scope.length + '</strong> Northeast native plants');
 
     if (filtered.length === 0) {
       noResults.style.display = '';
@@ -328,6 +370,7 @@
     render(searchInput.value);
   });
 
+  renderBanner();
   render();
 })();
 </script>
