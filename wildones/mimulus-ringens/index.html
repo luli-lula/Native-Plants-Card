@@ -4,7 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="theme-color" content="#c8c2b6">
-<title>Monkey Flower &mdash; Native Plant Care Signs</title>
+<title>Monkey Flower (Mimulus ringens) — Care, Growing Conditions &amp; Wildlife Value</title>
+<meta name="description" content="Monkey Flower (Mimulus ringens) — New York native perennial for moist to wet soil in sun to part shade. Lavender blooms Jul - Aug. Attracts bees, butterflies.">
+<link rel="canonical" href="https://ailula.top/plant-care-signs/plants/mimulus-ringens/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Native Plant Care Signs">
+<meta property="og:title" content="Monkey Flower (Mimulus ringens) — Care, Growing Conditions &amp; Wildlife Value">
+<meta property="og:description" content="Monkey Flower (Mimulus ringens) — New York native perennial for moist to wet soil in sun to part shade. Lavender blooms Jul - Aug. Attracts bees, butterflies.">
+<meta property="og:image" content="https://ailula.top/plant-care-signs/assets/og/wildones/mimulus-ringens.jpg">
+<meta property="og:url" content="https://ailula.top/plant-care-signs/plants/mimulus-ringens/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Monkey Flower (Mimulus ringens) — Care, Growing Conditions &amp; Wildlife Value">
+<meta name="twitter:description" content="Monkey Flower (Mimulus ringens) — New York native perennial for moist to wet soil in sun to part shade. Lavender blooms Jul - Aug. Attracts bees, butterflies.">
+<meta name="twitter:image" content="https://ailula.top/plant-care-signs/assets/og/wildones/mimulus-ringens.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Monkey Flower (Mimulus ringens) — Care, Growing Conditions & Wildlife Value","description":"Monkey Flower (Mimulus ringens) — New York native perennial for moist to wet soil in sun to part shade. Lavender blooms Jul - Aug. Attracts bees, butterflies.","image":"https://ailula.top/plant-care-signs/assets/og/wildones/mimulus-ringens.jpg","mainEntityOfPage":"https://ailula.top/plant-care-signs/plants/mimulus-ringens/","about":{"@type":"Thing","name":"Mimulus ringens","alternateName":"Monkey Flower"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All Plants","item":"https://ailula.top/plant-care-signs/plants/"},{"@type":"ListItem","position":2,"name":"Monkey Flower","item":"https://ailula.top/plant-care-signs/plants/mimulus-ringens/"}]}]}</script>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WMC06JHFDG"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WMC06JHFDG');</script>
@@ -110,6 +123,9 @@
     left: 0; right: 0;
     bottom: var(--bottom-bar-h);
     display: flex;
+    /* Without this the sale notice and the card lay out side by side, which
+       squeezes the card to a sliver on the 70 plants that carry the notice. */
+    flex-direction: column;
     align-items: center; justify-content: center;
     padding: 8px 20px;
     overflow: hidden;
@@ -979,7 +995,11 @@
   /* ── Dynamic card sizing to fit viewport ── */
   function sizeCard() {
     var vh = window.innerHeight;
-    var available = vh - 56 - 72 - 44; /* header - bottom bar - hint+padding */
+    /* The sale notice sits above the card in the same column, so its height
+       has to come out of the card's budget or the two overflow together. */
+    var notice = document.querySelector('.sale-notice');
+    var noticeH = notice ? notice.offsetHeight + 14 : 0; /* + its margin */
+    var available = vh - 56 - 72 - 44 - noticeH; /* header - bottom bar - hint+padding */
     var maxH = Math.min(548, available);  /* 520 + 28 stamp padding */
     var scale = maxH / 548;
     if (scale < 1) {

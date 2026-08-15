@@ -4,7 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="theme-color" content="#c8c2b6">
-<title>Butterfly Weed &mdash; Native Plant Care Signs</title>
+<title>Butterfly Weed (Asclepias tuberosa) — Care, Growing Conditions &amp; Wildlife Value</title>
+<meta name="description" content="Butterfly Weed (Asclepias tuberosa) — New York native perennial for dry soil in sun to part shade. Orange blooms Jun - Aug. Attracts bees, butterflies.">
+<link rel="canonical" href="https://ailula.top/plant-care-signs/plants/asclepias-tuberosa/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Native Plant Care Signs">
+<meta property="og:title" content="Butterfly Weed (Asclepias tuberosa) — Care, Growing Conditions &amp; Wildlife Value">
+<meta property="og:description" content="Butterfly Weed (Asclepias tuberosa) — New York native perennial for dry soil in sun to part shade. Orange blooms Jun - Aug. Attracts bees, butterflies.">
+<meta property="og:image" content="https://ailula.top/plant-care-signs/assets/og/wildones/asclepias-tuberosa.jpg">
+<meta property="og:url" content="https://ailula.top/plant-care-signs/plants/asclepias-tuberosa/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Butterfly Weed (Asclepias tuberosa) — Care, Growing Conditions &amp; Wildlife Value">
+<meta name="twitter:description" content="Butterfly Weed (Asclepias tuberosa) — New York native perennial for dry soil in sun to part shade. Orange blooms Jun - Aug. Attracts bees, butterflies.">
+<meta name="twitter:image" content="https://ailula.top/plant-care-signs/assets/og/wildones/asclepias-tuberosa.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Butterfly Weed (Asclepias tuberosa) — Care, Growing Conditions & Wildlife Value","description":"Butterfly Weed (Asclepias tuberosa) — New York native perennial for dry soil in sun to part shade. Orange blooms Jun - Aug. Attracts bees, butterflies.","image":"https://ailula.top/plant-care-signs/assets/og/wildones/asclepias-tuberosa.jpg","mainEntityOfPage":"https://ailula.top/plant-care-signs/plants/asclepias-tuberosa/","about":{"@type":"Thing","name":"Asclepias tuberosa","alternateName":"Butterfly Weed"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"All Plants","item":"https://ailula.top/plant-care-signs/plants/"},{"@type":"ListItem","position":2,"name":"Butterfly Weed","item":"https://ailula.top/plant-care-signs/plants/asclepias-tuberosa/"}]}]}</script>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WMC06JHFDG"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WMC06JHFDG');</script>
@@ -110,6 +123,9 @@
     left: 0; right: 0;
     bottom: var(--bottom-bar-h);
     display: flex;
+    /* Without this the sale notice and the card lay out side by side, which
+       squeezes the card to a sliver on the 70 plants that carry the notice. */
+    flex-direction: column;
     align-items: center; justify-content: center;
     padding: 8px 20px;
     overflow: hidden;
@@ -971,7 +987,11 @@
   /* ── Dynamic card sizing to fit viewport ── */
   function sizeCard() {
     var vh = window.innerHeight;
-    var available = vh - 56 - 72 - 44; /* header - bottom bar - hint+padding */
+    /* The sale notice sits above the card in the same column, so its height
+       has to come out of the card's budget or the two overflow together. */
+    var notice = document.querySelector('.sale-notice');
+    var noticeH = notice ? notice.offsetHeight + 14 : 0; /* + its margin */
+    var available = vh - 56 - 72 - 44 - noticeH; /* header - bottom bar - hint+padding */
     var maxH = Math.min(548, available);  /* 520 + 28 stamp padding */
     var scale = maxH / 548;
     if (scale < 1) {

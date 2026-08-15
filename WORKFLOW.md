@@ -141,15 +141,21 @@ After modifying a template or icon-map:
 ```bash
 npm run build
 ```
-This regenerates all 36+ print cards AND mobile pages.
+This regenerates all print cards AND mobile pages.
 
 ## QR Code URLs
 
 Print cards contain QR codes pointing to:
 ```
-https://ailula.top/plant-care-signs/plants/{plant-id}/
+https://ailula.top/plant-care-signs/wildones/{plant-id}/
 ```
 The base URL is configurable in `tools/generate-print-cards.js` → `GITHUB_PAGES_BASE`.
+
+**These URLs are permanent.** The printed cards are already in gardens and
+cannot be reissued, so `wildones/` paths must keep resolving and must keep
+rendering the same page. Each one carries a `<link rel="canonical">` pointing at
+its `plants/` twin, which is invisible to visitors and consolidates search
+ranking onto the organization-neutral path.
 
 GitHub repo: https://github.com/luli-lula/plant-care-signs
 Custom domain: ailula.top

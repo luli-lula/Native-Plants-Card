@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#212a20">
+<title>Native Plant Care Signs</title>
+<meta name="description" content="A native plant care sign for the garden and a page for your phone: growing conditions, what the plant feeds, companions and planting steps.">
+<link rel="canonical" href="https://ailula.top/plant-care-signs/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Native Plant Care Signs">
+<meta property="og:title" content="Native Plant Care Signs">
+<meta property="og:description" content="A native plant care sign for the garden and a page for your phone: growing conditions, what the plant feeds, companions and planting steps.">
+<meta property="og:image" content="https://ailula.top/plant-care-signs/assets/og/plants/lobelia-cardinalis.jpg">
+<meta property="og:url" content="https://ailula.top/plant-care-signs/">
+<meta name="twitter:card" content="summary_large_image">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WMC06JHFDG"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-WMC06JHFDG');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Libre+Baskerville:ital@0;1&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bark:#212a20; --bark-2:#2b352a;
+    --moss:#3d5240; --sage:#6b8f71; --sage-lt:#a9c1a8;
+    --linen:#ece8de; --paper:#f6f3ea; --stone:#c6bfb2; --stone-d:#a89f8f;
+    --cardinal:#b3302c;
+    --ink:#20261f; --ink-soft:#5c6459;
+    --step:clamp(56px,7vw,104px);
+  }
+  *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--linen);color:var(--ink);
+    font-family:'DM Sans',system-ui,-apple-system,sans-serif;
+    font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;height:auto;display:block}
+  a{color:inherit}
+  :focus-visible{outline:2px solid var(--sage);outline-offset:3px;border-radius:2px}
+
+  .shell{max-width:1080px;margin:0 auto;padding:0 22px}
+
+  .eyebrow{font-family:'Oswald',sans-serif;font-size:11.5px;font-weight:500;
+    letter-spacing:.24em;text-transform:uppercase;color:var(--sage);
+    display:flex;align-items:center;gap:10px}
+  .eyebrow::after{content:'';flex:1;height:1px;background:currentColor;opacity:.32}
+
+  /* ---------- masthead ---------- */
+  .masthead{background:var(--bark);color:var(--paper)}
+  .masthead .shell{display:flex;align-items:center;justify-content:space-between;
+    gap:16px;padding-top:19px;padding-bottom:19px}
+  .wordmark{font-family:'Oswald',sans-serif;font-size:13px;font-weight:600;
+    letter-spacing:.2em;text-transform:uppercase;text-decoration:none}
+  .masthead nav{display:flex;gap:20px;font-size:13.5px}
+  .masthead nav a{color:var(--sage-lt);text-decoration:none}
+  .masthead nav a:hover{color:var(--paper)}
+
+  /* ---------- hero ---------- */
+  .hero{background:var(--bark);color:var(--paper);
+    padding-bottom:var(--step);position:relative;overflow:hidden}
+  .hero .shell{display:grid;gap:clamp(30px,4vw,52px);
+    grid-template-columns:minmax(0,1fr);align-items:center}
+  @media (min-width:900px){
+    .hero .shell{grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr)}
+  }
+  .hero h1{font-family:'Oswald',sans-serif;font-weight:600;
+    font-size:clamp(2.5rem,5.6vw,4.3rem);line-height:.98;letter-spacing:-.005em;
+    text-transform:uppercase;margin:20px 0 18px}
+  .hero h1 em{font-family:'Libre Baskerville',serif;font-style:italic;
+    font-weight:400;text-transform:none;letter-spacing:-.01em;
+    font-size:.74em;color:var(--sage-lt);display:block;margin-top:.12em}
+  .hero p{color:#cfd6cb;max-width:44ch;font-size:clamp(1rem,1.35vw,1.12rem)}
+  .hero-card{border-radius:6px;box-shadow:0 26px 60px rgba(0,0,0,.45);
+    transform:rotate(-1.1deg)}
+  @media (prefers-reduced-motion:no-preference){
+    .hero-card{animation:settle .9s cubic-bezier(.2,.7,.3,1) both}
+    @keyframes settle{from{opacity:0;transform:translateY(22px) rotate(-3deg)}
+      to{opacity:1;transform:translateY(0) rotate(-1.1deg)}}
+  }
+
+  /* ---------- generic band ---------- */
+  .band{padding:var(--step) 0}
+  .band h2{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;
+    font-size:clamp(1.6rem,3.1vw,2.3rem);line-height:1.06;margin:18px 0 14px}
+  .band p.lead{max-width:56ch;color:var(--ink-soft)}
+
+  /* ---------- the pairing (signature) ---------- */
+  .pair{display:grid;gap:clamp(26px,4vw,44px);align-items:center;margin-top:34px;
+    grid-template-columns:minmax(0,1fr)}
+  @media (min-width:860px){.pair{grid-template-columns:1fr auto 1fr}}
+  .pair figure{margin:0}
+  .pair figcaption{font-family:'Oswald',sans-serif;font-size:11px;font-weight:500;
+    letter-spacing:.2em;text-transform:uppercase;color:var(--stone-d);margin-top:12px}
+  .pair-card{margin-top:26px}
+  .pair-card img{border-radius:4px;border:1px solid var(--stone);
+    box-shadow:0 8px 22px rgba(33,42,32,.1)}
+
+  .trace{display:flex;align-items:center;justify-content:center;gap:9px;
+    flex-direction:row;color:var(--stone-d)}
+  @media (min-width:860px){.trace{flex-direction:column;height:100%}}
+  .trace .rule{background:repeating-linear-gradient(to right,
+      var(--stone-d) 0 4px,transparent 4px 9px);height:1px;width:64px}
+  @media (min-width:860px){
+    .trace .rule{background:repeating-linear-gradient(to bottom,
+      var(--stone-d) 0 4px,transparent 4px 9px);width:1px;height:64px}
+  }
+  .trace span{font-family:'Oswald',sans-serif;font-size:11px;font-weight:600;
+    letter-spacing:.2em;text-transform:uppercase;white-space:nowrap;color:var(--cardinal)}
+
+  .phone-fig{text-align:center}
+  .phone-fig figcaption{text-align:center}
+  .phone{perspective:1500px;width:100%;max-width:262px;margin:0 auto}
+  /* Device shell: a plain frame, not a photoreal handset — it only needs to
+     say "this is a phone screen" and get out of the way. */
+  .phone-screen{position:relative;aspect-ratio:390/844;border-radius:34px;
+    background:#181d17;padding:9px;
+    box-shadow:0 0 0 1px #303a2e,0 18px 40px rgba(33,42,32,.28)}
+  .phone-screen::after{content:'';position:absolute;top:15px;left:50%;
+    transform:translateX(-50%);width:62px;height:5px;border-radius:3px;
+    background:#000;opacity:.55;z-index:3;pointer-events:none}
+  /* No overflow on this element: any value but visible flattens the 3D
+     context, which silently kills backface-visibility and shows the front
+     face mirrored through the back. Clipping lives on .face instead. */
+  .phone-inner{position:relative;width:100%;height:100%;
+    transform-style:preserve-3d;
+    transition:transform .75s cubic-bezier(.3,.8,.3,1)}
+  .phone.is-flipped .phone-inner{transform:rotateY(180deg)}
+  .face{position:absolute;inset:0;backface-visibility:hidden;background:#ece8de;
+    border-radius:26px;overflow:hidden}
+  .face.back{transform:rotateY(180deg)}
+  .face img{width:100%;height:100%;object-fit:cover}
+  /* The scroll window sits exactly over the real page's scrolling region,
+     measured from plants/{id}/ at 390x844. The long image inside is that
+     region's full content, so scrolling it shows what the page really shows. */
+  .face.back .scrollwin{position:absolute;left:8.974%;top:30.130%;
+    width:82.051%;height:49.609%;overflow-y:auto;overflow-x:hidden;
+    -webkit-overflow-scrolling:touch;overscroll-behavior:contain;
+    border-radius:2px}
+  .face.back .scrollwin img{height:auto;object-fit:fill}
+  .face.back .scrollwin::-webkit-scrollbar{width:0;background:transparent}
+
+  .flip-btn{margin-top:16px;padding:9px 18px;border:1px solid var(--stone);
+    background:var(--paper);border-radius:20px;cursor:pointer;color:var(--moss);
+    font-family:'Oswald',sans-serif;font-size:12px;font-weight:500;
+    letter-spacing:.14em;text-transform:uppercase}
+  .flip-btn:hover{border-color:var(--sage);background:#fff}
+
+  @media (prefers-reduced-motion:reduce){
+    .phone-inner{transition:none}
+  }
+
+  /* ---------- contents ---------- */
+  .contents{background:var(--paper)}
+  .cols{display:grid;gap:clamp(28px,4vw,56px);margin-top:34px;
+    grid-template-columns:minmax(0,1fr)}
+  @media (min-width:760px){.cols{grid-template-columns:1fr 1fr}}
+  .cols h3{font-family:'Oswald',sans-serif;font-size:14px;font-weight:600;
+    letter-spacing:.16em;text-transform:uppercase;color:var(--moss);
+    padding-bottom:11px;border-bottom:2px solid var(--sage);margin-bottom:6px}
+  .cols ul{list-style:none}
+  .cols li{padding:11px 0 11px 22px;border-bottom:1px solid #ded9cc;
+    position:relative;font-size:15.5px;line-height:1.5}
+  .cols li::before{content:'';position:absolute;left:2px;top:19px;
+    width:7px;height:7px;border-radius:50%;background:var(--sage-lt)}
+
+  /* ---------- browse ---------- */
+  .browse .cta{display:inline-block;margin-top:22px;padding:14px 26px;
+    background:var(--moss);color:var(--paper);border-radius:3px;
+    text-decoration:none;font-family:'Oswald',sans-serif;font-weight:500;
+    font-size:14.5px;letter-spacing:.13em;text-transform:uppercase}
+  .browse .cta:hover{background:var(--bark)}
+  .tabs{list-style:none;display:flex;flex-wrap:wrap;gap:9px;margin-top:26px}
+  .tabs a{display:inline-block;padding:9px 15px;background:var(--paper);
+    border:1px solid var(--stone);border-radius:3px;text-decoration:none;
+    font-size:14px;color:var(--moss)}
+  .tabs a:hover{border-color:var(--sage);background:#fff}
+
+  /* ---------- groups ---------- */
+  .groups{background:var(--bark);color:var(--paper);scroll-margin-top:20px}
+  .groups .ask{margin-top:12px;color:#a9b3a5;font-size:15px}
+  /* Type selector included so this outranks the .groups a rule above, which
+     would otherwise repaint the label sage-on-sage at 1.9:1 contrast. */
+  .groups a.cta-light{display:inline-block;margin-top:22px;padding:14px 26px;
+    background:var(--sage);color:#12180f;border-radius:3px;text-decoration:none;
+    font-family:'Oswald',sans-serif;font-weight:500;font-size:14.5px;
+    letter-spacing:.13em;text-transform:uppercase}
+  .groups a.cta-light:hover{background:var(--sage-lt)}
+  .groups .aside{margin-top:26px;font-size:13.5px;color:#8b9488}
+  .groups h2{color:var(--paper)}
+  .groups p{color:#cfd6cb;max-width:58ch}
+  .groups a{color:var(--sage-lt)}
+
+  /* ---------- footer ---------- */
+  footer{background:var(--bark);color:#9aa397;padding-bottom:52px;text-align:center}
+  footer .rule{height:1px;background:#3a4538;margin-bottom:34px}
+  footer .label{font-family:'Oswald',sans-serif;font-size:11px;font-weight:500;
+    letter-spacing:.22em;text-transform:uppercase;margin-bottom:15px}
+  footer img{width:96px;margin:0 auto;filter:brightness(0) invert(1);opacity:.62}
+  footer .colophon{margin-top:26px;font-size:13.5px}
+  footer a{color:var(--sage-lt)}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="shell">
+    <a class="wordmark" href="./">Native Plant Care Signs</a>
+    <nav>
+      <a href="plants/">All plants</a>
+      <a href="guides/rain-garden/">Guides</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="shell">
+    <div>
+      <div class="eyebrow">In the garden</div>
+      <h1>Most plant labels stop at the name
+        <em>this one keeps going</em>
+      </h1>
+      <p>A card in the ground tells you what the plant needs, what it feeds, and
+        whether it would work where you garden. Scan the code and the rest of it
+        comes home with you.</p>
+    </div>
+    <img class="hero-card" src="assets/site/card-hero.jpg" width="1600" height="1086"
+      alt="A printed care sign for Cardinal Flower, showing a photograph, growing conditions and a QR code">
+  </div>
+</section>
+
+<section class="band">
+  <div class="shell">
+    <div class="eyebrow">In your hand</div>
+    <h2>The code opens the other half</h2>
+
+    <div class="pair">
+      <div>
+        <p class="lead">The card holds what you need standing in front of the
+          plant. The page holds what you want later — at home, deciding whether
+          to plant it, and where.</p>
+        <figure class="pair-card">
+          <img src="assets/site/card-hero.jpg" width="1600" height="1086"
+            alt="The printed care sign for Cardinal Flower, with its QR code at the lower right">
+          <figcaption>Printed &mdash; 6 &times; 4 in, weatherproof</figcaption>
+        </figure>
+      </div>
+
+      <div class="trace" aria-hidden="true">
+        <div class="rule"></div><span>Scan</span><div class="rule"></div>
+      </div>
+
+      <figure class="phone-fig">
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="phone-inner">
+              <div class="face front">
+                <img src="assets/site/phone-front.jpg" width="620" height="1342"
+                  alt="The plant page on a phone, showing the card front">
+              </div>
+              <div class="face back">
+                <img class="chrome" src="assets/site/phone-back-chrome.jpg"
+                  width="780" height="1688" alt="">
+                <div class="scrollwin">
+                  <img src="assets/site/phone-back-full.jpg" width="360" height="1485"
+                    alt="The page turned over: growing conditions, why grow it, wildlife value, companion plants and a planting guide">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="flip-btn" type="button" aria-pressed="false">Turn the card over</button>
+        <figcaption>Scroll the back &mdash; it is the real page</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="band contents">
+  <div class="shell">
+    <div class="eyebrow">What you get</div>
+    <h2>Two halves of one answer</h2>
+    <div class="cols">
+      <div>
+        <h3>On the card</h3>
+        <ul>
+            <li>A photograph of the plant in the ground, not in a pot</li>
+            <li>Common and scientific name</li>
+            <li>Light, water, soil, mature size, bloom colour and months</li>
+            <li>Why it is worth growing, in two to four points</li>
+            <li>Where it is native, and which pollinators it draws</li>
+        </ul>
+      </div>
+      <div>
+        <h3>On the phone</h3>
+        <ul>
+            <li>Everything printed on the card</li>
+            <li>What it feeds — birds, butterflies, specialist bees</li>
+            <li>Plants that grow well beside it</li>
+            <li>How to plant it, step by step</li>
+            <li>Detail photographs: leaf, seed head, bark, habit</li>
+            <li>A list you can save as you walk the garden</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band browse">
+  <div class="shell">
+    <div class="eyebrow">Browse</div>
+    <h2>Start with a plant, or with a problem</h2>
+    <p class="lead">Search the full collection by common or scientific name — or
+      begin from the corner of the garden that is giving you trouble.</p>
+    <a class="cta" href="plants/">Browse all plants</a>
+    <ul class="tabs">
+          <li><a href="guides/deer-resistant/">Deer-Resistant Native Plants</a></li>
+          <li><a href="guides/pollinator-plants/">Pollinator Plants</a></li>
+          <li><a href="guides/caterpillar-host-plants/">Caterpillar Host Plants</a></li>
+          <li><a href="guides/drought-tolerant/">Drought-Tolerant Native Plants</a></li>
+          <li><a href="guides/shade/">Native Plants for Shade</a></li>
+          <li><a href="guides/rain-garden/">Rain Garden Plants</a></li>
+          <li><a href="guides/bloom-season/">Extending the Bloom Season</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="band groups" id="contact">
+  <div class="shell">
+    <div class="eyebrow">Get in touch</div>
+    <h2>The same system, a different plant list</h2>
+    <p>Cards and pages are generated from one plant dataset, so a group with its
+      own species list can produce its own set. If yours is thinking about
+      something like this &mdash; or you have spotted something wrong on a plant
+      page &mdash; send a message.</p>
+    <p class="ask">It helps to say roughly how many species you have in mind and
+      when you would need them.</p>
+    <a class="cta-light" href="https://www.facebook.com/983120521557810">Message on Facebook</a>
+    <p class="aside">Developers: the project is on
+      <a href="https://github.com/luli-lula/plant-care-signs">GitHub</a>.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="shell">
+    <div class="rule"></div>
+    <div class="label">In partnership with</div>
+    <img src="assets/icons/LOGO.png" alt="Wild Ones Capital Region NY">
+    <div class="colophon">Plant photographs from research-grade
+      <a href="https://www.inaturalist.org/">iNaturalist</a> observations.</div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  // Click, not hover: the back scrolls, and a hover-driven flip would snap the
+  // card away the moment the pointer left to reach the scrollbar.
+  var phone = document.querySelector('.phone');
+  var btn   = document.querySelector('.flip-btn');
+  if (!phone || !btn) return;
+
+  function toggle() {
+    var flipped = phone.classList.toggle('is-flipped');
+    btn.setAttribute('aria-pressed', String(flipped));
+    btn.textContent = flipped ? 'Turn the card back' : 'Turn the card over';
+  }
+  btn.addEventListener('click', toggle);
+
+  // Tapping the screen flips too, except when the tap is a scroll of the back.
+  phone.addEventListener('click', function (e) {
+    if (e.target.closest('.scrollwin')) return;
+    toggle();
+  });
+})();
+</script>
+</body>
+</html>
