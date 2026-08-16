@@ -1,3 +1,6 @@
+# Only effective if this project is served from its own domain.
+# On ailula.top the file crawlers read is https://ailula.top/robots.txt,
+# which must carry the Sitemap line below.
 User-agent: *
 Allow: /
 
